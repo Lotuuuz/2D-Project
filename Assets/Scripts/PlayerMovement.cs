@@ -1,25 +1,38 @@
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
-
 {
-    public float moveSpeed = 5f;
+  [SerializeField]  private float moveSpeed = 7f;
     private Rigidbody2D rb;
     private Vector2 movement;
+    private Animator anim;
+    private SpriteRenderer sprite;
 
-    private void Start()
+
+
+
+    void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        sprite = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
     }
 
     private void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+      
+
+        
+
+        anim.SetFloat("Speed", Mathf.Abs(movement.x));
+        anim.SetFloat("Direction", movement.x);
+
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
-        Rigidbody.MovePosition (position + movement + moveSpeed * Time.fixedDeltaTime); 
+        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
+
 }
