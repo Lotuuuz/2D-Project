@@ -28,6 +28,14 @@ public class PlayerMovement : MonoBehaviour
         anim.SetFloat("Speed", Mathf.Abs(movement.x));
         anim.SetFloat("Direction", movement.x);
 
+        
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            bool current = anim.GetBool("IsInteracting");
+            anim.SetBool("IsInteracting", !current);
+        }
+
+
     }
 
     private void FixedUpdate()
