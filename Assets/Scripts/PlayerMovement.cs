@@ -8,8 +8,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim;
     private SpriteRenderer sprite;
 
-
-
+    public bool isDoorInteraction = true;
 
     void Start()
     {
@@ -31,10 +30,16 @@ public class PlayerMovement : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.E))
         {
-            bool current = anim.GetBool("IsInteracting");
-            anim.SetBool("IsInteracting", !current);
+            anim.SetBool("IsInteracting", true);
+            anim.SetBool("IsDoor", isDoorInteraction);
         }
 
+        if (Input.GetKeyUp(KeyCode.E))
+        {
+
+            anim.SetBool("IsInteracting", false);
+            anim.SetBool("IsDoor", false );
+        }
 
     }
 
