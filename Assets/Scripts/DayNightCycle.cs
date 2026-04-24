@@ -25,6 +25,7 @@ public class DayNightManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.T))
             SwitchToNight();
+        // || or 
 
         if (Input.GetKeyDown(KeyCode.Y))
             SwitchToDay();
