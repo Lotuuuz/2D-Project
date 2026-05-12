@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: e4336899d0cc96c4eafade710b33742e
+guid: a01afc85e4ab7b540b91269283fec98d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4772269987042410778
-    second: Final_Stairs-3_0
-  - first:
-      213: 7319169929711093207
-    second: Final_Stairs-3_1
+      213: 8194788199249606153
+    second: Full house layout_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -49,12 +46,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -78,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Final_Stairs-3_0
+      name: Full house layout_0
       rect:
         serializedVersion: 2
-        x: 851
-        y: 3
-        width: 15
-        height: 15
+        x: 0
+        y: 0
+        width: 1750
+        height: 636
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ee341a3bbd75cdb0800000000000000
-      internalID: -4772269987042410778
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Final_Stairs-3_1
-      rect:
-        serializedVersion: 2
-        x: 878
-        y: 3
-        width: 68
-        height: 1692
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7d5862fb54ae29560800000000000000
-      internalID: 7319169929711093207
+      spriteID: 906f5d9037cb9b170800000000000000
+      internalID: 8194788199249606153
       vertices: []
       indices: 
       edges: []
@@ -150,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Final_Stairs-3_0: -4772269987042410778
-      Final_Stairs-3_1: 7319169929711093207
+      Full house layout_0: 8194788199249606153
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
