@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\StairTeleport.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\ObjectFollowPoint.cs" />
+    <Compile Include="Assets\Scripts\JournalToggle.cs" />
     <Compile Include="Assets\Scripts\SoundEffectsManager.cs" />
   </ItemGroup>
   <ItemGroup>
