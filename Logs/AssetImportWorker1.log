@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.0/staging' branch; Version is '6000.0.69f1 (5f8607f5118b) revision 6260231'; Using compiler version '193933523'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-lanen" at "2026-05-13T10:17:54.9394848Z"
-OS: 'Windows 11  (10.0.26200) Core' Language: 'no' Physical Memory: 24283 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jonam" at "2026-05-14T18:20:55.0197427Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 48996 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-05-13T10:17:54Z
+Date: 2026-05-14T18:20:55Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.0.69f1\Editor\Unity.exe
@@ -15,23 +15,23 @@ C:\Program Files\Unity\Hub\Editor\6000.0.69f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Unity/Game Design 2/2D Project
+C:/Users/jonam/Kristiania/Projects/Games/2D-Project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-56674
+61355
 -licensingIpc
-LicenseClient-lanen
+LicenseClient-jonam
 -job-worker-count
-7
+5
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Unity/Game Design 2/2D Project
-C:/Unity/Game Design 2/2D Project
+Successfully changed project path to: C:/Users/jonam/Kristiania/Projects/Games/2D-Project
+C:/Users/jonam/Kristiania/Projects/Games/2D-Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -67,13 +67,13 @@ C:/Unity/Game Design 2/2D Project
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [29448]  Target information:
+Player connection [17924]  Target information:
 
-Player connection [29448]  * "[IP] 172.26.26.249 [Port] 0 [Flags] 2 [Guid] 707607330 [EditorId] 707607330 [Version] 1048832 [Id] WindowsEditor(7,Lane) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [17924]  * "[IP] 10.0.0.22 [Port] 0 [Flags] 2 [Guid] 1843466054 [EditorId] 1843466054 [Version] 1048832 [Id] WindowsEditor(7,jona_pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [29448] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [29448] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 7
+Player connection [17924] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17924] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -84,84 +84,72 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.77 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.62 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.69f1 (5f8607f5118b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.69f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Unity/Game Design 2/2D Project/Assets
+[Subsystems] Discovering subsystems at path C:/Users/jonam/Kristiania/Projects/Games/2D-Project/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 5050 Laptop GPU (ID=0x2dd8)
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
     Vendor:   NVIDIA
-    VRAM:     7822 MB
-    Driver:   32.0.15.8195
+    VRAM:     8018 MB
+    Driver:   32.0.15.8129
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.69f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.69f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.69f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.69f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.69f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-[Licensing::Module] Licensing is not yet initialized.
+Registered in 0.002581 seconds.
+- Loaded All Assemblies, in  0.407 seconds
+Native extension for WindowsStandalone target not found
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              bc4898224c2240e4b34b210591196d60
-  Correlation Id:          e3a932ff70eab9b5bb6900e5c3b80e8e
-  External correlation Id: 3388684722721427656
-  Machine Id:              r2jXKdTW+8m6dBmZFJoOAum/yC0=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-lanen" (connect: 0.00s, validation: 0.01s, handshake: 0.89s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-lanen-notifications" at "2026-05-13T10:17:55.8353049Z"
-[Licensing::Module] Licensing Background thread has ended after 0.90s
-[Licensing::Module] Licensing is initialized (took 0.18s).
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: 5773931882619-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.69f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.199054 seconds.
-- Loaded All Assemblies, in  0.533 seconds
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
+  Session Id:              6784e074a94f4a01a32a9f7e4603ae12
+  Correlation Id:          80a9b2293d78f797db9bdf10cda0bf53
+  External correlation Id: 6791635251627090539
+  Machine Id:              Sm2U1D8eh2AXTlTGhWFRxwZk49k=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-jonam" (connect: 0.00s, validation: 0.00s, handshake: 1.08s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jonam-notifications" at "2026-05-14T18:20:56.0999136Z"
+[Licensing::Module] Licensing Background thread has ended after 1.08s
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.276 seconds
-Domain Reload Profiling: 808ms
-	BeginReloadAssembly (125ms)
+- Finished resetting the current domain, in  0.351 seconds
+Domain Reload Profiling: 755ms
+	BeginReloadAssembly (138ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (237ms)
-	LoadAllAssembliesAndSetupDomain (129ms)
-		LoadAssemblies (123ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (163ms)
+		LoadAssemblies (135ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (127ms)
-			TypeCache.Refresh (125ms)
-				TypeCache.ScanAssembly (115ms)
+		AnalyzeDomain (160ms)
+			TypeCache.Refresh (158ms)
+				TypeCache.ScanAssembly (146ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (277ms)
+	FinalizeReload (351ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (250ms)
+		SetupLoadedEditorAssemblies (305ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (46ms)
-			ProcessInitializeOnLoadAttributes (129ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (156ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -171,11 +159,14 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.710 seconds
-Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
-Native extension for UWP target not found
+[Licensing::Module] License group:
+  Id: 5773940889020-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.849 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -183,120 +174,614 @@ Native extension for WebGL target not found
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.730 seconds
-Domain Reload Profiling: 1435ms
-	BeginReloadAssembly (160ms)
+- Finished resetting the current domain, in  0.786 seconds
+Domain Reload Profiling: 1630ms
+	BeginReloadAssembly (181ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (472ms)
-		LoadAssemblies (316ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (574ms)
+		LoadAssemblies (393ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (238ms)
-			TypeCache.Refresh (167ms)
-				TypeCache.ScanAssembly (154ms)
-			BuildScriptInfoCaches (58ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (730ms)
+		AnalyzeDomain (284ms)
+			TypeCache.Refresh (188ms)
+				TypeCache.ScanAssembly (173ms)
+			BuildScriptInfoCaches (82ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (786ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (542ms)
+		SetupLoadedEditorAssemblies (637ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
+			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (107ms)
-			ProcessInitializeOnLoadAttributes (337ms)
-			ProcessInitializeOnLoadMethodAttributes (85ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (384ms)
+			ProcessInitializeOnLoadMethodAttributes (101ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6754 unused Assets / (5.0 MB). Loaded Objects now: 7474.
+Memory consumption went from 145.1 MB to 140.2 MB.
+Total: 8.288800 ms (FindLiveObjects: 0.649600 ms CreateObjectMapping: 0.726000 ms MarkObjects: 4.434800 ms  DeleteObjects: 2.469100 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.817 seconds
+Refreshing native plugins compatible for Editor in 1.62 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.771 seconds
+Domain Reload Profiling: 1589ms
+	BeginReloadAssembly (237ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (508ms)
+		LoadAssemblies (398ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (189ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (772ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (608ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (137ms)
+			ProcessInitializeOnLoadAttributes (392ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.26 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 1.88 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6753 unused Assets / (4.6 MB). Loaded Objects now: 7474.
-Memory consumption went from 145.8 MB to 141.2 MB.
-Total: 7.582100 ms (FindLiveObjects: 0.590300 ms CreateObjectMapping: 0.557900 ms MarkObjects: 4.155000 ms  DeleteObjects: 2.273700 ms)
+Unloading 6752 unused Assets / (4.7 MB). Loaded Objects now: 7478.
+Memory consumption went from 146.2 MB to 141.5 MB.
+Total: 11.462100 ms (FindLiveObjects: 0.912400 ms CreateObjectMapping: 0.907400 ms MarkObjects: 5.838000 ms  DeleteObjects: 3.802300 ms)
 
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.734 seconds
+Refreshing native plugins compatible for Editor in 1.49 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.705 seconds
+Domain Reload Profiling: 1438ms
+	BeginReloadAssembly (201ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (456ms)
+		LoadAssemblies (346ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (201ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (180ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (705ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (565ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (136ms)
+			ProcessInitializeOnLoadAttributes (353ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 1.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6752 unused Assets / (4.7 MB). Loaded Objects now: 7481.
+Memory consumption went from 146.2 MB to 141.5 MB.
+Total: 9.112000 ms (FindLiveObjects: 0.830600 ms CreateObjectMapping: 0.707300 ms MarkObjects: 4.615900 ms  DeleteObjects: 2.956500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.726 seconds
+Refreshing native plugins compatible for Editor in 1.75 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.754 seconds
+Domain Reload Profiling: 1481ms
+	BeginReloadAssembly (198ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (462ms)
+		LoadAssemblies (339ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (215ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (191ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (755ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (605ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (394ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 1.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6752 unused Assets / (4.6 MB). Loaded Objects now: 7484.
+Memory consumption went from 146.2 MB to 141.6 MB.
+Total: 7.922000 ms (FindLiveObjects: 0.688500 ms CreateObjectMapping: 0.658600 ms MarkObjects: 4.158500 ms  DeleteObjects: 2.415400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.713 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.738 seconds
+Domain Reload Profiling: 1450ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (438ms)
+		LoadAssemblies (346ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (161ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (738ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (593ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (136ms)
+			ProcessInitializeOnLoadAttributes (385ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 1.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6752 unused Assets / (4.0 MB). Loaded Objects now: 7487.
+Memory consumption went from 146.3 MB to 142.3 MB.
+Total: 9.243300 ms (FindLiveObjects: 0.757500 ms CreateObjectMapping: 0.985200 ms MarkObjects: 4.680000 ms  DeleteObjects: 2.819400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 568336.365378 seconds.
-  path: Assets/MC-Animations/Idle/Idle-Night/Idle_Night_Animation.anim
-  artifactKey: Guid(90f4ebce4673bea4a86162143d54f917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MC-Animations/Idle/Idle-Night/Idle_Night_Animation.anim using Guid(90f4ebce4673bea4a86162143d54f917) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35651b920a06624b800d4803fab6d49e') in 0.0178073 seconds
+  Time since last request: 7094.724154 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Walk-right/Right-Day/Walk_Day_Right_Animation.anim
+  artifactKey: Guid(44e0db3894c3e8647944d411a23cf057) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Walk-right/Right-Day/Walk_Day_Right_Animation.anim using Guid(44e0db3894c3e8647944d411a23cf057) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94447fb98c1c721fc68ec76e60efb1b5') in 0.3059739 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 105.839029 seconds.
-  path: Assets/MC-Animations/Interact-W-Door/Int-W-Door-Night/Int_w_Door_Night_Animation.anim
-  artifactKey: Guid(331682faaab009646a04c36beddb8bcd) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MC-Animations/Interact-W-Door/Int-W-Door-Night/Int_w_Door_Night_Animation.anim using Guid(331682faaab009646a04c36beddb8bcd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b3f56d4249a4384826a367306171ae48') in 0.2053995 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Left-Animations/Interact-Left/Int-Night/Int_Night_Left_Animation.anim
+  artifactKey: Guid(5ff83d4944f21d44f87e51743e1998b7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Left-Animations/Interact-Left/Int-Night/Int_Night_Left_Animation.anim using Guid(5ff83d4944f21d44f87e51743e1998b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0a96a964339160b9c0aa09648f97890') in 0.0153822 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/MC-Animations/Right-Animations/Interact-right/Int-Day/Int_Day_Right_Animation.anim
-  artifactKey: Guid(447a1e506de8ea24bab7375a3a9daa42) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MC-Animations/Right-Animations/Interact-right/Int-Day/Int_Day_Right_Animation.anim using Guid(447a1e506de8ea24bab7375a3a9daa42) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f6c08dc40983a10ea6344d5c0ec1afdc') in 0.0217858 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000060 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Interact-W-Door/Int-W-Door-Day/Int-W-Door-Day-2.png
+  artifactKey: Guid(5c6cfcb989a7a6a4d9ab296b0f641a31) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Interact-W-Door/Int-W-Door-Day/Int-W-Door-Day-2.png using Guid(5c6cfcb989a7a6a4d9ab296b0f641a31) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a3a4f1affab00978c6556323c7ca0c2f') in 0.0730454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/MC-Animations/Right-Animations/Interact-right/Int-Night/Int_Night_Right_Animation.anim
-  artifactKey: Guid(4f56375bcf74fbd4c92468cac9943b0e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MC-Animations/Right-Animations/Interact-right/Int-Night/Int_Night_Right_Animation.anim using Guid(4f56375bcf74fbd4c92468cac9943b0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b10c11d25bbcdcabeb9716b7c9e62bc') in 0.0243726 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Scenes/JonaTest.unity
-  artifactKey: Guid(99a6dc81010d6da4e9f9bb6f830abf4f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/JonaTest.unity using Guid(99a6dc81010d6da4e9f9bb6f830abf4f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b6ed831812df8b346f7248f9b957290') in 0.0190536 seconds
+  Time since last request: 0.000027 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Idle/Idle-Night
+  artifactKey: Guid(8368d8119c5763c46b8d9dc62b6eff8d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Idle/Idle-Night using Guid(8368d8119c5763c46b8d9dc62b6eff8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43b17d8cfbdd97c37c7f487ee8bbd503') in 0.0132891 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/MC-Animations/Left-Animations/Walk-left/Walk-Night/Walk_Night_Left_Animation.anim
-  artifactKey: Guid(af180179c1087c74e90aff72908c8ff7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MC-Animations/Left-Animations/Walk-left/Walk-Night/Walk_Night_Left_Animation.anim using Guid(af180179c1087c74e90aff72908c8ff7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c05327fec90ede40781079295364779') in 0.0189846 seconds
+  path: Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Walk-right/Right-Day/Walk-Day-1.png
+  artifactKey: Guid(e4bfff8859973f84f9b047171df4ddc2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Walk-right/Right-Day/Walk-Day-1.png using Guid(e4bfff8859973f84f9b047171df4ddc2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '91d92775893a8fca58cadedfafc7a217') in 0.0204545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Left-Animations/Walk-left/Walk-Day
+  artifactKey: Guid(b8a3629a15541d14ba201bf7444644b1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Left-Animations/Walk-left/Walk-Day using Guid(b8a3629a15541d14ba201bf7444644b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0bad5500d527a569fb6df5859636c4b5') in 0.0138496 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/MC-Animations/Idle/Idle-Day/Idle_Day_Animation.anim
-  artifactKey: Guid(d8c5c979e6ec1474c9a8bfbdb881c2e1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MC-Animations/Idle/Idle-Day/Idle_Day_Animation.anim using Guid(d8c5c979e6ec1474c9a8bfbdb881c2e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eac83b36e540660d9886754e6a8bfa26') in 0.0189602 seconds
+  Time since last request: 0.000032 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Walk-right/Right-Day/Walk-Day-3.png
+  artifactKey: Guid(12b09b529ec005e4c8014a8639812a03) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Walk-right/Right-Day/Walk-Day-3.png using Guid(12b09b529ec005e4c8014a8639812a03) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'badf45e412a934e578d2bc03522e78d4') in 0.0222502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Left-Animations/Interact-Left/Int-Day/Int-Day-3.png
+  artifactKey: Guid(8a7d5c50c21b43e44b83bf5336133494) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Left-Animations/Interact-Left/Int-Day/Int-Day-3.png using Guid(8a7d5c50c21b43e44b83bf5336133494) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1922e84844edaec181d75e682d31d6a1') in 0.0199655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Left-Animations/Walk-left/Walk-Night/Walk-Night-Left-4.png
+  artifactKey: Guid(40a512be5bbf48742a5d8f62fb8460a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Left-Animations/Walk-left/Walk-Night/Walk-Night-Left-4.png using Guid(40a512be5bbf48742a5d8f62fb8460a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8ef25dc4b445a91c3afcd6944d3f8c0') in 0.0237957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Walk-right/Right-Day/Walk-Day-4.png
+  artifactKey: Guid(df83735f358ae5745b80a90031dcaf07) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Walk-right/Right-Day/Walk-Day-4.png using Guid(df83735f358ae5745b80a90031dcaf07) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c1a7ad5ce6f99bec77dce91861de808') in 0.0247888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scripts/JournalToggle.cs
+  artifactKey: Guid(af4d445fba531204ea39c0b57b622c28) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/JournalToggle.cs using Guid(af4d445fba531204ea39c0b57b622c28) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc534f2d845d373b539424a0a67a69c0') in 0.0142418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Interact-right/Int-Day/Int_Day_Right_Animation.anim
+  artifactKey: Guid(447a1e506de8ea24bab7375a3a9daa42) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Interact-right/Int-Day/Int_Day_Right_Animation.anim using Guid(447a1e506de8ea24bab7375a3a9daa42) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b9b9b709fb8d5d790a6ccb0c5ced02b') in 0.0133008 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/MC-Animations/Idle/Idle-Night/Idle_Night_Animation.anim
-  artifactKey: Guid(90f4ebce4673bea4a86162143d54f917) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MC-Animations/Idle/Idle-Night/Idle_Night_Animation.anim using Guid(90f4ebce4673bea4a86162143d54f917) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '00b592fa3cb93b69cb271e8437f162fd') in 0.0181439 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Interact-right/Int-Day/Int-Day-1.png
+  artifactKey: Guid(82598f46ec27b0344a757d078d607f81) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Interact-right/Int-Day/Int-Day-1.png using Guid(82598f46ec27b0344a757d078d607f81) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '144f929e4f219a7c033957d23758cd7c') in 0.0198903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Interact-right/Int-Night/Int_Night_Right_Animation.anim
+  artifactKey: Guid(4f56375bcf74fbd4c92468cac9943b0e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Interact-right/Int-Night/Int_Night_Right_Animation.anim using Guid(4f56375bcf74fbd4c92468cac9943b0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f1fdf60a97973cbaf06c5082c7631342') in 0.0157646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Left-Animations/Interact-Left/Int-Day/Int-Day-1.png
+  artifactKey: Guid(1becfb4107d68d7468964ac435d4f05d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Left-Animations/Interact-Left/Int-Day/Int-Day-1.png using Guid(1becfb4107d68d7468964ac435d4f05d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f759941e428849a6357178fc8785ddd7') in 0.0229973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Walk-right/Right-Night/Walk_Night_Right_Animation.anim
+  artifactKey: Guid(a1876f83f894fa247a5a38408db2e5e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Walk-right/Right-Night/Walk_Night_Right_Animation.anim using Guid(a1876f83f894fa247a5a38408db2e5e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c960a5c9efa428f2d530decbd9e01d1') in 0.0169342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Left-Animations/Interact-Left/Int-Day
+  artifactKey: Guid(2b138c490d2b7e243a00e13929e38232) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Left-Animations/Interact-Left/Int-Day using Guid(2b138c490d2b7e243a00e13929e38232) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '95ced25b34036e88429eaaa985aa168a') in 0.0162921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Left-Animations/Walk-left/Walk-Night/Walk-Night-Left-2.png
+  artifactKey: Guid(425d0f27f7f32d942b7de7dd4f9aaa53) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Left-Animations/Walk-left/Walk-Night/Walk-Night-Left-2.png using Guid(425d0f27f7f32d942b7de7dd4f9aaa53) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f1eaf189579d1484fc05c019bd73621') in 0.0203489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations
+  artifactKey: Guid(670ba111af05f154ba46257922d53599) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations using Guid(670ba111af05f154ba46257922d53599) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c482f29073764ce46632cbc0705cf30') in 0.0105696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Hide-Ani
+  artifactKey: Guid(d82a1ab7fcdcc9b44840dc69d7776085) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Hide-Ani using Guid(d82a1ab7fcdcc9b44840dc69d7776085) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c9ddf12c88709f3cfd144b05badedd32') in 0.0101585 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/MC-Animations/Left-Animations/Interact-Left/Int-Day/Int_Day_Left_Animation.anim
-  artifactKey: Guid(a1d3745a4deffd341b4bb5a6580957b6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/MC-Animations/Left-Animations/Interact-Left/Int-Day/Int_Day_Left_Animation.anim using Guid(a1d3745a4deffd341b4bb5a6580957b6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cddb5fd21fcddb96bfd5f79d67adb43f') in 0.0228816 seconds
+  path: Assets/Characters/MainCharacter/MC-Animations/Interact-W-Door/Int-W-Door-Day/Int-W-Door-Day-3.png
+  artifactKey: Guid(8caf51c08eaff874a93b6c9847baa7c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Interact-W-Door/Int-W-Door-Day/Int-W-Door-Day-3.png using Guid(8caf51c08eaff874a93b6c9847baa7c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '11f9ba2c1840de9f73713ec7177d06e9') in 0.0256388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Interact-W-Door/Int-W-Door-Night/Int-W-Door-Night-2.png
+  artifactKey: Guid(b471338c85b46294b9e36ebfd7cc18af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Interact-W-Door/Int-W-Door-Night/Int-W-Door-Night-2.png using Guid(b471338c85b46294b9e36ebfd7cc18af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf3831e8557aaea73e76e77567e9f99d') in 0.0201625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Interact-right/Int-Day
+  artifactKey: Guid(3ae312800aff9fe438471b39bb8e1251) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Interact-right/Int-Day using Guid(3ae312800aff9fe438471b39bb8e1251) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '63d178f7843bdd9aa1f46d493bb78be4') in 0.0127679 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Left-Animations/Walk-left/Walk-Night/Walk-Night-Left-1.png
+  artifactKey: Guid(39362f5ab6194de41a687d7267c9f322) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Left-Animations/Walk-left/Walk-Night/Walk-Night-Left-1.png using Guid(39362f5ab6194de41a687d7267c9f322) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e227d139d48c2afdadd6e4d6474521c') in 0.0236047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Walk-right/Right-Day
+  artifactKey: Guid(b57744a91fb152645b98d19629977dc5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Walk-right/Right-Day using Guid(b57744a91fb152645b98d19629977dc5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9bc68fff34aceb6f05860f43dfaf3a12') in 0.0141205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Interact-W-Door/Int-W-Door-Day/Int_w_Door_Day_Animation.anim
+  artifactKey: Guid(b545cb21523e5804aa7333660d9c5a6c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Interact-W-Door/Int-W-Door-Day/Int_w_Door_Day_Animation.anim using Guid(b545cb21523e5804aa7333660d9c5a6c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c69147bfae7a0ecb5db8ec42fcbf44a') in 0.0167479 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Hide-Ani/Hide_Behind_Back_Animation.anim
+  artifactKey: Guid(9ad04d2bc56d575458e0d7d13caa7e68) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Hide-Ani/Hide_Behind_Back_Animation.anim using Guid(9ad04d2bc56d575458e0d7d13caa7e68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e33f3070b215c39929789e9e68d6a3ed') in 0.0146308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Left-Animations/Walk-left/Walk-Day/Walk_Day_Left_Animation.anim
+  artifactKey: Guid(f45e5e706b36f60449d859984d0bba17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Left-Animations/Walk-left/Walk-Day/Walk_Day_Left_Animation.anim using Guid(f45e5e706b36f60449d859984d0bba17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c3b58cb2942804159ff70be673eddb4f') in 0.0155393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/Backgrounds/Full house layout 1.png
+  artifactKey: Guid(c7f47cdafacea1f418cb320115288ba2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Backgrounds/Backgrounds/Full house layout 1.png using Guid(c7f47cdafacea1f418cb320115288ba2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '58a7e97f1a47153707d9b4ad587399c8') in 0.0302005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Interact-right/Int-Night/Int-Night-2.png
+  artifactKey: Guid(07f3d719565074b419f657eef79d9136) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Interact-right/Int-Night/Int-Night-2.png using Guid(07f3d719565074b419f657eef79d9136) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bc7b45888a3b38a4e076bb8b619309cf') in 0.0225154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Idle/Idle-Day
+  artifactKey: Guid(2118bd980c8677f41aa92879d35304f6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Idle/Idle-Day using Guid(2118bd980c8677f41aa92879d35304f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '09e037005f86791d8c6797cc946265be') in 0.0162688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Interact-W-Door/Int-W-Door-Night/Int_w_Door_Night_Animation.anim
+  artifactKey: Guid(331682faaab009646a04c36beddb8bcd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Interact-W-Door/Int-W-Door-Night/Int_w_Door_Night_Animation.anim using Guid(331682faaab009646a04c36beddb8bcd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b801dc09a23b525ec96523bfa1d7774') in 0.0201049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Interact-W-Door
+  artifactKey: Guid(87858d8f752449d40b091fa163336773) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Interact-W-Door using Guid(87858d8f752449d40b091fa163336773) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '34b823ec964900e8a8e11e84c6d35afd') in 0.0136398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Idle/Idle-Night/Idle-Night-1.png
+  artifactKey: Guid(7da5abaf0c261404c932574ed7844022) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Idle/Idle-Night/Idle-Night-1.png using Guid(7da5abaf0c261404c932574ed7844022) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b97c34780bbdfb565b6aeda28bd29ad') in 0.0211254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Left-Animations/Interact-Left/Int-Night/Int-Night-1.png
+  artifactKey: Guid(b608f90a71fbc7c4ab1ee442cf6b57ed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Left-Animations/Interact-Left/Int-Night/Int-Night-1.png using Guid(b608f90a71fbc7c4ab1ee442cf6b57ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d2efc30aa60c9e6f90f5f3eb09c316b') in 0.0197881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Walk-right/Right-Night/Walk-Night-1.png
+  artifactKey: Guid(cce3f8eb79e8f4a4d83fb9d95a5a7bd0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Walk-right/Right-Night/Walk-Night-1.png using Guid(cce3f8eb79e8f4a4d83fb9d95a5a7bd0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '34d1dabd069435cb7ae43bf32a6f2595') in 0.0277618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Interact-right/Int-Day/Int-Day-2.png
+  artifactKey: Guid(ce240426f47b0314689bb3e20c50f36d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Interact-right/Int-Day/Int-Day-2.png using Guid(ce240426f47b0314689bb3e20c50f36d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af62cef648a0e31289e40f77b39fed9c') in 0.0303374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Interact-right/Int-Day/Int-Day-3.png
+  artifactKey: Guid(f6ca964cf9cdeab41a0f3b5c406d6890) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Right-Animations/Interact-right/Int-Day/Int-Day-3.png using Guid(f6ca964cf9cdeab41a0f3b5c406d6890) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '111553ef5d9a35d2fd79400c3eaf2bfa') in 0.0196878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Idle/Idle-Day/Idle_Day_Animation.anim
+  artifactKey: Guid(d8c5c979e6ec1474c9a8bfbdb881c2e1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Idle/Idle-Day/Idle_Day_Animation.anim using Guid(d8c5c979e6ec1474c9a8bfbdb881c2e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89b1d228d2dd4aa6902749012602dc26') in 0.0168923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Idle/Idle-Night/Idle_Night_Animation.anim
+  artifactKey: Guid(90f4ebce4673bea4a86162143d54f917) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Idle/Idle-Night/Idle_Night_Animation.anim using Guid(90f4ebce4673bea4a86162143d54f917) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f2088bc926ec0a64dc7835a35dea46a') in 0.0171775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Left-Animations/Walk-left/Walk-Day/Walk-Day-1.png
+  artifactKey: Guid(b9840afab51174c4480a021a94c555eb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Left-Animations/Walk-left/Walk-Day/Walk-Day-1.png using Guid(b9840afab51174c4480a021a94c555eb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cfaedb8e4ad6b47933aeaf37f6f7f96c') in 0.0208622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Backgrounds/Backgrounds/Full house layout Night.png
+  artifactKey: Guid(0cb01ad1ff653d8458e0005c263be5c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Backgrounds/Backgrounds/Full house layout Night.png using Guid(0cb01ad1ff653d8458e0005c263be5c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa0377131932873c15694f16c3955f87') in 0.0263873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Characters/MainCharacter/MC-Animations/Left-Animations/Interact-Left/Int-Day/Int_Day_Left_Animation.anim
+  artifactKey: Guid(a1d3745a4deffd341b4bb5a6580957b6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Characters/MainCharacter/MC-Animations/Left-Animations/Interact-Left/Int-Day/Int_Day_Left_Animation.anim using Guid(a1d3745a4deffd341b4bb5a6580957b6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba846f497dabfc1abeef3a0e1d6bc94f') in 0.0145937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/Backgrounds/Wood detailing 1.png
+  artifactKey: Guid(c73096d9a572c6645b0710f95cc1e9b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Backgrounds/Backgrounds/Wood detailing 1.png using Guid(c73096d9a572c6645b0710f95cc1e9b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd38163d793ec7ec7a2cb2eb4c226ac9b') in 0.0201178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+

@@ -1905,7 +1905,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &581335264
 Transform:
   m_ObjectHideFlags: 0
@@ -2166,7 +2166,7 @@ Transform:
   m_GameObject: {fileID: 906944947}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.0999999, y: 2.74, z: -8.9}
+  m_LocalPosition: {x: -0.036, y: 2.932, z: -8.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3251,7 +3251,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a01afc85e4ab7b540b91269283fec98d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c7f47cdafacea1f418cb320115288ba2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4085,10 +4085,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 615e3934284feda43a64015034d1e3c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnim: {fileID: 0}
+  playerAnim: {fileID: 2106205420}
   dayLight: {fileID: 1644028592}
-  candleLight: {fileID: 0}
-  isNight: 0
+  candleLight: {fileID: 906944947}
+  isNight: 1
 --- !u!4 &2063185712
 Transform:
   m_ObjectHideFlags: 0
@@ -4244,7 +4244,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 7
-  isDoorInteraction: 1
 --- !u!4 &2106205417
 Transform:
   m_ObjectHideFlags: 0
@@ -4437,7 +4436,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 6855659baaddf3c4dabf397ab39fa31e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c73096d9a572c6645b0710f95cc1e9b8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
