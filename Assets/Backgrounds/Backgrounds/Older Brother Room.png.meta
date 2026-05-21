@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c7f47cdafacea1f418cb320115288ba2
+guid: c909cfd4047f9e94b914f82e365fc530
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5633487155429245956
-    second: Full house layout 1_0
+      213: 261870432208928279
+    second: Older Brother Room_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Full house layout 1_0
+      name: Older Brother Room_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1750
-        height: 636
+        width: 266
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cfbf9e59745d1d1b0800000000000000
-      internalID: -5633487155429245956
+      spriteID: 71ebdf845c952a300800000000000000
+      internalID: 261870432208928279
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Full house layout 1_0: -5633487155429245956
+      Older Brother Room_0: 261870432208928279
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

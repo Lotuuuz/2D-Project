@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: 6855659baaddf3c4dabf397ab39fa31e
+guid: c86a057c4afd8d94eae43616aa2cdd64
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4243431128812346239
-    second: Wood detailing_0
+      213: 1462466651826365631
+    second: Wood Details_0
   - first:
-      213: 3708204939357266548
-    second: Wood detailing_1
+      213: -6349186089544879678
+    second: Wood Details_1
   - first:
-      213: 3359022232656000530
-    second: Wood detailing_2
+      213: -4992708756826610087
+    second: Wood Details_2
   - first:
-      213: -9075015924350312730
-    second: Wood detailing_3
+      213: 7599154587272143897
+    second: Wood Details_3
   - first:
-      213: -1949928966130787494
-    second: Wood detailing_4
+      213: 4147866790625634782
+    second: Wood Details_4
   - first:
-      213: 9218675515637826603
-    second: Wood detailing_5
+      213: -4806050008925982243
+    second: Wood Details_5
   - first:
-      213: -288764153680800784
-    second: Wood detailing_6
+      213: 7816457299424992173
+    second: Wood Details_6
   - first:
-      213: -3329225743438059537
-    second: Wood detailing_7
+      213: -6993620600482685229
+    second: Wood Details_7
   - first:
-      213: -7178283677779327098
-    second: Wood detailing_8
+      213: 7034720439482454379
+    second: Wood Details_8
   - first:
-      213: 2060198233935063803
-    second: Wood detailing_9
+      213: 2546957319550190101
+    second: Wood Details_9
   - first:
-      213: 7938776895279313473
-    second: Wood detailing_10
+      213: 7456727363825617078
+    second: Wood Details_10
   - first:
-      213: 2843113896444582430
-    second: Wood detailing_11
+      213: -5568557148955370661
+    second: Wood Details_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -129,37 +129,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wood detailing_0
+      name: Wood Details_0
       rect:
         serializedVersion: 2
         x: 0
@@ -174,14 +148,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1842e4afedd4c15c0800000000000000
-      internalID: -4243431128812346239
+      spriteID: fb427fddba9bb4410800000000000000
+      internalID: 1462466651826365631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood detailing_1
+      name: Wood Details_1
       rect:
         serializedVersion: 2
         x: 163
@@ -196,14 +170,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4722db4deb0367330800000000000000
-      internalID: 3708204939357266548
+      spriteID: 2c173d714e823e7a0800000000000000
+      internalID: -6349186089544879678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood detailing_2
+      name: Wood Details_2
       rect:
         serializedVersion: 2
         x: 695
@@ -218,14 +192,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 216b91a7ce4ad9e20800000000000000
-      internalID: 3359022232656000530
+      spriteID: 9562e5296d556bab0800000000000000
+      internalID: -4992708756826610087
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood detailing_3
+      name: Wood Details_3
       rect:
         serializedVersion: 2
         x: 764
@@ -240,14 +214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ee161a29111f0280800000000000000
-      internalID: -9075015924350312730
+      spriteID: 914e2a7c5de957960800000000000000
+      internalID: 7599154587272143897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood detailing_4
+      name: Wood Details_4
       rect:
         serializedVersion: 2
         x: 939
@@ -262,14 +236,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5b978cbfe570f4e0800000000000000
-      internalID: -1949928966130787494
+      spriteID: ed961e6aede209930800000000000000
+      internalID: 4147866790625634782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood detailing_5
+      name: Wood Details_5
       rect:
         serializedVersion: 2
         x: 1248
@@ -284,19 +258,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b240f21f9805fef70800000000000000
-      internalID: 9218675515637826603
+      spriteID: dd1343dfafa7d4db0800000000000000
+      internalID: -4806050008925982243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood detailing_6
+      name: Wood Details_6
       rect:
         serializedVersion: 2
         x: 354
         y: 0
-        width: 77
+        width: 8
         height: 129
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -306,14 +280,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0f35dfb388a1efbf0800000000000000
-      internalID: -288764153680800784
+      spriteID: dab5c3e1082a97c60800000000000000
+      internalID: 7816457299424992173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood detailing_7
+      name: Wood Details_7
       rect:
         serializedVersion: 2
         x: 546
@@ -328,14 +302,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe7e94943d63cc1d0800000000000000
-      internalID: -3329225743438059537
+      spriteID: 3de106e1e1ba1fe90800000000000000
+      internalID: -6993620600482685229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood detailing_8
+      name: Wood Details_8
       rect:
         serializedVersion: 2
         x: 806
@@ -350,14 +324,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6878af8f60d916c90800000000000000
-      internalID: -7178283677779327098
+      spriteID: b611889d7f850a160800000000000000
+      internalID: 7034720439482454379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood detailing_9
+      name: Wood Details_9
       rect:
         serializedVersion: 2
         x: 842
@@ -372,14 +346,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bfa269cd06b479c10800000000000000
-      internalID: 2060198233935063803
+      spriteID: 512ced1103c985320800000000000000
+      internalID: 2546957319550190101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood detailing_10
+      name: Wood Details_10
       rect:
         serializedVersion: 2
         x: 1070
@@ -394,14 +368,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 142b33a56833c2e60800000000000000
-      internalID: 7938776895279313473
+      spriteID: 6b8c2cba70e9b7760800000000000000
+      internalID: 7456727363825617078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wood detailing_11
+      name: Wood Details_11
       rect:
         serializedVersion: 2
         x: 1381
@@ -416,8 +390,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e1a5e8d7605c47720800000000000000
-      internalID: 2843113896444582430
+      spriteID: b5b9d09c6c288b2b0800000000000000
+      internalID: -5568557148955370661
       vertices: []
       indices: 
       edges: []
@@ -436,18 +410,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Wood detailing_0: -4243431128812346239
-      Wood detailing_1: 3708204939357266548
-      Wood detailing_10: 7938776895279313473
-      Wood detailing_11: 2843113896444582430
-      Wood detailing_2: 3359022232656000530
-      Wood detailing_3: -9075015924350312730
-      Wood detailing_4: -1949928966130787494
-      Wood detailing_5: 9218675515637826603
-      Wood detailing_6: -288764153680800784
-      Wood detailing_7: -3329225743438059537
-      Wood detailing_8: -7178283677779327098
-      Wood detailing_9: 2060198233935063803
+      Wood Details_0: 1462466651826365631
+      Wood Details_1: -6349186089544879678
+      Wood Details_10: 7456727363825617078
+      Wood Details_11: -5568557148955370661
+      Wood Details_2: -4992708756826610087
+      Wood Details_3: 7599154587272143897
+      Wood Details_4: 4147866790625634782
+      Wood Details_5: -4806050008925982243
+      Wood Details_6: 7816457299424992173
+      Wood Details_7: -6993620600482685229
+      Wood Details_8: 7034720439482454379
+      Wood Details_9: 2546957319550190101
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
