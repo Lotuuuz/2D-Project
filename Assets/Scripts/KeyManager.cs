@@ -4,15 +4,15 @@ using JetBrains.Annotations;
 
 public class KeyManager : MonoBehaviour
 {
-  public static KeyManager instance;
+  public static KeyManager Instance;
   
   private HashSet<string> keys = new HashSet<string>();
   
   private void Awake()
   {
-        if (instance == null)
+        if (Instance == null)
         {
-            instance = this;
+            Instance = this;
         }
         else
         {

@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\PlayerInteraction.cs" />
     <Compile Include="Assets\Scripts\JournalToggle.cs" />
     <Compile Include="Assets\Scripts\SoundEffectsManager.cs" />
+    <Compile Include="Assets\Scripts\DialogueSystem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
