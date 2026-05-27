@@ -15496,6 +15496,8 @@ MonoBehaviour:
   dialogueText: {fileID: 1050342964}
   portraitImage: {fileID: 688976983}
   keyIndicator: {fileID: 589084532}
+  typingSpeed: 0.02
+  movementPlayer: {fileID: 2106205422}
   speaker:
   - Mother
   - Little Girl

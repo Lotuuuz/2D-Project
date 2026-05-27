@@ -3,6 +3,7 @@ using TMPro;
 using UnityEngine.UI;
 using System.Runtime.CompilerServices;
 using UnityEditor.Tilemaps;
+using System.Collections;
 
 public class DialogueSystem : MonoBehaviour
 {
@@ -19,7 +20,18 @@ public class DialogueSystem : MonoBehaviour
 
     //Indicator variable
     [SerializeField] private SpriteRenderer keyIndicator;
-    
+
+
+    //Typewriter effect variable (how fast the text appears)
+    [SerializeField] private float typingSpeed = 0.02f;
+
+    private Coroutine typeWriterRoutine;
+
+    private bool canContinueText = true;
+
+    //Freeze player movement variables
+    [SerializeField] private MovementPlayer movementPlayer;
+
 
     //The dialogue text, type in inspector
     [SerializeField] private string[] speaker;
@@ -38,20 +50,32 @@ public class DialogueSystem : MonoBehaviour
     // When you press the interact button (V), either activate the dialogue, or go to next line
     void Update()
     {
-        if (Input.GetButtonDown("Interact") && dialogueActiviated == true)
+        if (Input.GetButtonDown("Interact") && dialogueActiviated == true && canContinueText)
         {
+            movementPlayer.enabled = false;
+            
             if (step >= speaker.Length)
             {
                 dialogueCanvas.SetActive(false);
+
+                movementPlayer.enabled = true;
+
+                step = 0;
             }
             else
             {
                 dialogueCanvas.SetActive(true);
 
                 speakerText.text = speaker[step];
-                dialogueText.text = dialogue[step];
+                
                 portraitImage.sprite = portrait[step];
+                
+                if (typeWriterRoutine  != null)
+                {
+                    StopCoroutine(typeWriterRoutine);
+                }
 
+                typeWriterRoutine = StartCoroutine(TypeWriterEffect(dialogue[step]));
                 step += 1;
             }
 
@@ -78,6 +102,37 @@ public class DialogueSystem : MonoBehaviour
         dialogueCanvas.SetActive(false);
 
         keyIndicator.enabled = false;
+
+        movementPlayer.enabled = true;
+
+        step = 0;
+    }
+
+
+    //Typewriter effect, where letter appear one at a time
+    private IEnumerator TypeWriterEffect(string line)
+    {
+        dialogueText.text = "";
+
+        canContinueText = false;
+
+        yield return new WaitForSeconds(0.5f);
+
+        foreach (char letter in line.ToCharArray())
+        {
+            if (Input.GetButtonDown("Interact"))
+            {
+                dialogueText.text = line;
+                break;
+            }
+
+            dialogueText.text += letter;
+
+            yield return new WaitForSeconds(typingSpeed);
+        }
+
+        canContinueText = true;
+
     }
 
 }
