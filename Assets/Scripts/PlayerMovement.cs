@@ -3,10 +3,10 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 7f;
-    private Rigidbody2D rb;
+    public Rigidbody2D rb;
     private Vector2 movement;
     private Animator anim;
-
+    public bool isFrozen = false;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -37,6 +37,12 @@ public class PlayerMovement : MonoBehaviour
         if (state.IsName("Interact_Door_Night") && state.normalizedTime >= 1f)
         {
             anim.SetBool("IsDoor", false);
+        }
+
+        if (isFrozen)
+        {
+            movement = Vector2.zero;
+            return;
         }
     }
 
