@@ -23,6 +23,8 @@ public class MovementPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        movement = Vector2.zero;
+
         movement.x = Input.GetAxisRaw("Horizontal");
 
         animator.SetFloat("Speed", Mathf.Abs(movement.x));

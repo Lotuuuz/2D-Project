@@ -1,27 +1,46 @@
+using System.Collections;
 using UnityEngine;
 
 public class StairTeleport : MonoBehaviour
 {
     [SerializeField] private Transform teleportTarget;
-    [SerializeField] private GameObject promptUI; //So a prompt shows, asking if they want to go upstairs
-    
+    //[SerializeField] private GameObject promptUI; //So a prompt shows, asking if they want to go upstairs
+
+    [SerializeField] private SpriteRenderer keyIndicator;
+
+
+    [SerializeField] private float teleportDelay = 1.35f;
+
+
     private bool playerInRange = false;
     private GameObject player; 
+
+    private Animator playerAnimator;
+
+    private bool isTeleporting = false;
     
     
     // If the player is in the the trigger zone and presses e, they teleport
     void Update()
     {
-        if (playerInRange && Input.GetKeyDown(KeyCode.E))
+        if (playerInRange && Input.GetKeyDown(KeyCode.E) && !isTeleporting)
         {
-            TeleportPlayer();
+            StartCoroutine(TeleportSequence());
         }
     }
 
     //When this method runs, move the player position, to the teleport target position (drag in in inspector)
-    void TeleportPlayer()
+    IEnumerator TeleportSequence()
     {
+        isTeleporting = true;
+
+        playerAnimator.SetTrigger("DoorInteract");
+
+        yield return new WaitForSeconds(teleportDelay);
+
         player.transform.position = teleportTarget.position;
+
+        isTeleporting = false;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -31,8 +50,10 @@ public class StairTeleport : MonoBehaviour
             playerInRange = true;
             player = collision.gameObject;
 
-            if (promptUI != null)
-                promptUI.SetActive(true);
+            playerAnimator = player.GetComponent<Animator>();
+
+            if (keyIndicator != null)
+                keyIndicator.enabled = true;
         }
     }
 
@@ -42,8 +63,8 @@ public class StairTeleport : MonoBehaviour
         {
             playerInRange = false;
 
-            if (promptUI != null)
-                promptUI.SetActive(false);
+            if (keyIndicator != null)
+                keyIndicator.enabled = false;
         }
     }
 }

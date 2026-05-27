@@ -4,7 +4,7 @@ public class KeyPickup : MonoBehaviour
 {
     public string keyName;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
