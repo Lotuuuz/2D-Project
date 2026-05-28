@@ -7,21 +7,18 @@ using System.Collections;
 
 public class DialogueSystem : MonoBehaviour
 {
-
+    [Header(" Dialogue UI References")]
     //Dialogue UI variables
     [SerializeField] private GameObject dialogueCanvas;
-
     [SerializeField] private TMP_Text speakerText;
-
     [SerializeField] private TMP_Text dialogueText;
-
     [SerializeField] private Image portraitImage;
-    
 
+    [Header("Key Indicator reference")]
     //Indicator variable
     [SerializeField] private SpriteRenderer keyIndicator;
 
-
+    [Header("Typewriter effect speed")]
     //Typewriter effect variable (how fast the text appears)
     [SerializeField] private float typingSpeed = 0.02f;
 
@@ -29,15 +26,14 @@ public class DialogueSystem : MonoBehaviour
 
     private bool canContinueText = true;
 
+    [Header("Player Reference")]
     //Freeze player movement variables
     [SerializeField] private MovementPlayer movementPlayer;
 
-
+    [Header("Dialogue speaker names, lines and portaits")]
     //The dialogue text, type in inspector
     [SerializeField] private string[] speaker;
-
     [SerializeField] [TextArea] private string[] dialogue;
-
     [SerializeField] private Sprite[] portrait;
 
 

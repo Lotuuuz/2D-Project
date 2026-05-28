@@ -9358,7 +9358,7 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.441
-  m_Color: {r: 0.8415094, g: 0.81123906, b: 0.29055887, a: 1}
+  m_Color: {r: 0.84313726, g: 0.5529412, b: 0.29019606, a: 1}
   m_Intensity: 0.6
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
@@ -13787,7 +13787,7 @@ MonoBehaviour:
   playerAnim: {fileID: 2106205420}
   dayLight: {fileID: 1644028592}
   candleLight: {fileID: 906944947}
-  isNight: 0
+  isNight: 1
 --- !u!4 &2063185712
 Transform:
   m_ObjectHideFlags: 0
