@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 43af88c6cb73f5a41a2565dd76b9cc0b
+guid: daa34e3e460515a438beeed9314a6b5a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 929898597149232596
-    second: Mother Eyes Open_0
+      213: 720765414803502515
+    second: Idle-1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -101,7 +101,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -114,7 +114,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mother Eyes Open_0
+      name: Idle-1_0
       rect:
         serializedVersion: 2
-        x: 3
+        x: 32
         y: 0
-        width: 55
-        height: 63
+        width: 13
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4ddc638e8d9a7ec00800000000000000
-      internalID: 929898597149232596
+      spriteID: 3b5ffb3735ca00a00800000000000000
+      internalID: 720765414803502515
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Mother Eyes Open_0: 929898597149232596
+      Idle-1_0: 720765414803502515
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

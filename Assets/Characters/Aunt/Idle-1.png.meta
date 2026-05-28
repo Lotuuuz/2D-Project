@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: eb58fa884ce8c7244b7334b2ef5925c7
+guid: 941142f4dedaae842a027772c68fae79
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7036390505727337973
-    second: Grandma-1_0
+      213: 720765414803502515
+    second: Idle-1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 25
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Grandma-1_0
+      name: Idle-1_0
       rect:
         serializedVersion: 2
-        x: 19
+        x: 31
         y: 0
-        width: 29
-        height: 45
+        width: 19
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b0ad03d8d18b95e90800000000000000
-      internalID: -7036390505727337973
+      spriteID: 3b5ffb3735ca00a00800000000000000
+      internalID: 720765414803502515
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Grandma-1_0: -7036390505727337973
+      Idle-1_0: 720765414803502515
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: db8791d6c0e15c24c9d1a55492f6a7ee
+guid: 85dd85a57900a19408cfa8f18f155db6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1360218556820659547
-    second: Grandma-2_0
+      213: 8459362907865353653
+    second: Grandma-LookUp-Loop_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 25
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Grandma-2_0
+      name: Grandma-LookUp-Loop_0
       rect:
         serializedVersion: 2
-        x: 19
+        x: 21
         y: 0
-        width: 29
-        height: 45
+        width: 26
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5a26fc7ed688f1de0800000000000000
-      internalID: -1360218556820659547
+      spriteID: 5bd0e6dbeb1b56570800000000000000
+      internalID: 8459362907865353653
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Grandma-2_0: -1360218556820659547
+      Grandma-LookUp-Loop_0: 8459362907865353653
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
