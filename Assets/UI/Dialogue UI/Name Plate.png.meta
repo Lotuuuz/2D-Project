@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 235ccd6eaf325904c927c9893845460a
+guid: 677ee0c0dd337f948b8a8e6a76fe68b9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2489180403443784714
-    second: Mother Walking Pose_0
+      213: 6946320216230220249
+    second: Name Plate_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mother Walking Pose_0
+      name: Name Plate_0
       rect:
         serializedVersion: 2
-        x: 49
-        y: 0
-        width: 22
-        height: 63
+        x: 427
+        y: 196
+        width: 286
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a0c512183685b8220800000000000000
-      internalID: 2489180403443784714
+      spriteID: 9d15488fe69466060800000000000000
+      internalID: 6946320216230220249
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Mother Walking Pose_0: 2489180403443784714
+      Name Plate_0: 6946320216230220249
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
