@@ -3,8 +3,9 @@ using UnityEngine;
 public class RedLightGreenLightManager : MonoBehaviour
 {
     public GrandmaController grandma;
-    public PlayerMovement player;
+    public MovementPlayer player;
     public Transform failResetPoint;
+    
 
     private Vector3 lastPosition;
 

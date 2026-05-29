@@ -150,9 +150,6 @@ AnimatorStateTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: IsNight
     m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: IsInteracting
-    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 878483731974780308}
   m_Solo: 0
