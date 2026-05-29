@@ -349,7 +349,7 @@ GameObject:
   - component: {fileID: 22857987}
   - component: {fileID: 22857990}
   - component: {fileID: 22857989}
-  - component: {fileID: 22857988}
+  - component: {fileID: 22857991}
   m_Layer: 0
   m_Name: Teleport trigger Outside
   m_TagString: Untagged
@@ -373,20 +373,6 @@ Transform:
   - {fileID: 1449289968}
   m_Father: {fileID: 1685975169}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &22857988
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 22857986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8608eb6fe257664f8c087981d1afe66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  teleportTarget: {fileID: 1589696179}
-  promptUI: {fileID: 1449289967}
 --- !u!61 &22857989
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -488,6 +474,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &22857991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22857986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e025de75d22bdd341bc8424461d559f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredKey: Key2
+  teleportPoint: {fileID: 1589696179}
 --- !u!1 &29018739
 GameObject:
   m_ObjectHideFlags: 0
@@ -681,7 +681,7 @@ GameObject:
   - component: {fileID: 33606569}
   - component: {fileID: 33606568}
   m_Layer: 0
-  m_Name: Key2
+  m_Name: YoungerBrotherRoomKey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -745,6 +745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f29659fa38a92849910f9201eb860a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  keyName: Key2
 --- !u!212 &33606570
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -808,12 +809,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 33606567}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 31.28, y: 15.06, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.3144855, y: -1.9629602, z: 1}
   m_LocalScale: {x: 2.9563, y: 2.9563, z: 2.9563}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1915132687}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &42994612
 GameObject:
@@ -1377,7 +1378,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 1234504557}
-  promptUI: {fileID: 1680152310}
+  keyIndicator: {fileID: 0}
+  teleportDelay: 1.35
 --- !u!61 &196800949
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2016,6 +2018,99 @@ Transform:
   m_Children: []
   m_Father: {fileID: 188048767}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &332736746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 332736747}
+  - component: {fileID: 332736749}
+  - component: {fileID: 332736748}
+  m_Layer: 0
+  m_Name: MasterBedroomDoorInside
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &332736747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332736746}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.19, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 493261810}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &332736748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332736746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e025de75d22bdd341bc8424461d559f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredKey: Key6
+  teleportPoint: {fileID: 890079106}
+--- !u!61 &332736749
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332736746}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &337829345
 GameObject:
   m_ObjectHideFlags: 0
@@ -2394,7 +2489,7 @@ GameObject:
   - component: {fileID: 353456900}
   - component: {fileID: 353456903}
   - component: {fileID: 353456902}
-  - component: {fileID: 353456901}
+  - component: {fileID: 353456904}
   m_Layer: 0
   m_Name: Teleport trigger Outside
   m_TagString: Untagged
@@ -2418,20 +2513,6 @@ Transform:
   - {fileID: 1498381435}
   m_Father: {fileID: 1232734067}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &353456901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 353456899}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8608eb6fe257664f8c087981d1afe66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  teleportTarget: {fileID: 945872498}
-  promptUI: {fileID: 1498381434}
 --- !u!61 &353456902
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2533,6 +2614,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &353456904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353456899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e025de75d22bdd341bc8424461d559f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredKey: Key3
+  teleportPoint: {fileID: 945872498}
 --- !u!1 &355542491
 GameObject:
   m_ObjectHideFlags: 0
@@ -2895,7 +2990,7 @@ GameObject:
   - component: {fileID: 395398253}
   - component: {fileID: 395398252}
   m_Layer: 0
-  m_Name: StudyKey
+  m_Name: StudyRoomKey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2959,6 +3054,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f29659fa38a92849910f9201eb860a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  keyName: Key7
 --- !u!212 &395398254
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3022,12 +3118,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 395398251}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.8, y: 15.9, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -31.765514, y: -1.122961, z: 1}
   m_LocalScale: {x: 4.002625, y: 4.002625, z: 4.002625}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1915132687}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &404685842
 GameObject:
@@ -3265,7 +3361,7 @@ Transform:
   m_GameObject: {fileID: 408004075}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.4, z: 0}
+  m_LocalPosition: {x: 13.83, y: 17.46, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3648,7 +3744,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 647932310}
-  promptUI: {fileID: 646647993}
+  keyIndicator: {fileID: 0}
+  teleportDelay: 1.35
 --- !u!61 &488177678
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3750,6 +3847,103 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &493261807
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 493261810}
+  - component: {fileID: 493261809}
+  - component: {fileID: 493261808}
+  m_Layer: 0
+  m_Name: MasterBedroomDoorLocked
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &493261808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493261807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e025de75d22bdd341bc8424461d559f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredKey: Key6
+  teleportPoint: {fileID: 1255276879}
+--- !u!61 &493261809
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493261807}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!4 &493261810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493261807}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.76, y: 16.92, z: -1.0479093}
+  m_LocalScale: {x: 1.75, y: 3.3913152, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1255276879}
+  - {fileID: 332736747}
+  - {fileID: 890079106}
+  - {fileID: 2143953526}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &493769675
 GameObject:
   m_ObjectHideFlags: 0
@@ -4445,7 +4639,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 539418754}
-  promptUI: {fileID: 1008173127}
+  keyIndicator: {fileID: 0}
+  teleportDelay: 1.35
 --- !u!61 &566451537
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4558,7 +4753,7 @@ GameObject:
   - component: {fileID: 576183955}
   - component: {fileID: 576183958}
   - component: {fileID: 576183957}
-  - component: {fileID: 576183956}
+  - component: {fileID: 576183959}
   m_Layer: 0
   m_Name: Teleport trigger Outside
   m_TagString: Untagged
@@ -4582,20 +4777,6 @@ Transform:
   - {fileID: 1164796083}
   m_Father: {fileID: 981884181}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &576183956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 576183954}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8608eb6fe257664f8c087981d1afe66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  teleportTarget: {fileID: 1253717748}
-  promptUI: {fileID: 1164796082}
 --- !u!61 &576183957
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4697,6 +4878,116 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &576183959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576183954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e025de75d22bdd341bc8424461d559f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredKey: Key1
+  teleportPoint: {fileID: 1253717748}
+--- !u!1 &580869892
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 580869894}
+  - component: {fileID: 580869893}
+  - component: {fileID: 580869895}
+  m_Layer: 0
+  m_Name: BasementHatchLocked
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &580869893
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580869892}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!4 &580869894
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580869892}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 92.82, y: -3.52, z: -1.0479093}
+  m_LocalScale: {x: 2.9483433, y: 2.5762792, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1360861517}
+  - {fileID: 591879636}
+  - {fileID: 1854660100}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &580869895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580869892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e025de75d22bdd341bc8424461d559f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredKey: Key8
+  teleportPoint: {fileID: 1360861517}
 --- !u!1 &586876719
 GameObject:
   m_ObjectHideFlags: 0
@@ -4775,6 +5066,99 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &591879635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 591879636}
+  - component: {fileID: 591879638}
+  - component: {fileID: 591879637}
+  m_Layer: 0
+  m_Name: BasementTeleport
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &591879636
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591879635}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.22, y: -3.7599998, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 580869894}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &591879637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591879635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e025de75d22bdd341bc8424461d559f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredKey: Key8
+  teleportPoint: {fileID: 1854660100}
+--- !u!61 &591879638
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591879635}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &609772091
 GameObject:
   m_ObjectHideFlags: 0
@@ -4823,7 +5207,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 219453764}
-  promptUI: {fileID: 1827481250}
+  keyIndicator: {fileID: 0}
+  teleportDelay: 1.35
 --- !u!61 &609772094
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5890,6 +6275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f29659fa38a92849910f9201eb860a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  keyName: Key8
 --- !u!212 &708121196
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5953,12 +6339,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 708121193}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.9, y: 24.96, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -23.065516, y: 7.9370384, z: 1}
   m_LocalScale: {x: 4.002625, y: 4.002625, z: 4.002625}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1915132687}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &730791225
 GameObject:
@@ -6294,7 +6680,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 2016029504}
-  promptUI: {fileID: 685061916}
+  keyIndicator: {fileID: 0}
+  teleportDelay: 1.35
 --- !u!61 &774411218
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6506,7 +6893,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 1150697588}
-  promptUI: {fileID: 1174073898}
+  keyIndicator: {fileID: 0}
+  teleportDelay: 1.35
 --- !u!61 &799451060
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6809,7 +7197,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 1552962636}
-  promptUI: {fileID: 1092357770}
+  keyIndicator: {fileID: 0}
+  teleportDelay: 1.35
 --- !u!61 &842087943
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6959,7 +7348,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 441601819}
-  promptUI: {fileID: 29018739}
+  keyIndicator: {fileID: 0}
+  teleportDelay: 1.35
 --- !u!61 &866835927
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7134,6 +7524,84 @@ BoxCollider2D:
     oldSize: {x: 1, y: 1}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!1 &890079105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 890079106}
+  - component: {fileID: 890079107}
+  m_Layer: 0
+  m_Name: MasterBedroomTeleportPointOutside
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &890079106
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890079105}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.03, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 493261810}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &890079107
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890079105}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
@@ -8573,7 +9041,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 19936745}
-  promptUI: {fileID: 1582069600}
+  keyIndicator: {fileID: 0}
+  teleportDelay: 1.35
 --- !u!61 &1030120741
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8723,7 +9192,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 325687632}
-  promptUI: {fileID: 462362827}
+  keyIndicator: {fileID: 0}
+  teleportDelay: 1.35
 --- !u!61 &1030840965
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9324,7 +9794,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 621398719}
-  promptUI: {fileID: 1399493556}
+  keyIndicator: {fileID: 0}
+  teleportDelay: 1.35
 --- !u!61 &1100173396
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9657,7 +10128,7 @@ GameObject:
   - component: {fileID: 1146816963}
   - component: {fileID: 1146816966}
   - component: {fileID: 1146816965}
-  - component: {fileID: 1146816964}
+  - component: {fileID: 1146816967}
   m_Layer: 0
   m_Name: Teleport trigger Outside
   m_TagString: Untagged
@@ -9681,20 +10152,6 @@ Transform:
   - {fileID: 1704080293}
   m_Father: {fileID: 2141310548}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1146816964
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1146816962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8608eb6fe257664f8c087981d1afe66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  teleportTarget: {fileID: 1006504605}
-  promptUI: {fileID: 1704080292}
 --- !u!61 &1146816965
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9796,6 +10253,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1146816967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146816962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e025de75d22bdd341bc8424461d559f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredKey: Key7
+  teleportPoint: {fileID: 1006504605}
 --- !u!1 &1150697587
 GameObject:
   m_ObjectHideFlags: 0
@@ -9840,7 +10311,7 @@ GameObject:
   - component: {fileID: 1158676939}
   - component: {fileID: 1158676938}
   m_Layer: 0
-  m_Name: Key5
+  m_Name: ExtraRoomKey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9904,6 +10375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f29659fa38a92849910f9201eb860a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  keyName: Key5
 --- !u!212 &1158676940
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9967,12 +10439,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1158676937}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 38.89, y: -4.72, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 13.924484, y: -21.74296, z: 1}
   m_LocalScale: {x: 2.5615, y: 2.5615, z: 2.5615}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1915132687}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1164796082
 GameObject:
@@ -10604,7 +11076,7 @@ GameObject:
   - component: {fileID: 1203041626}
   - component: {fileID: 1203041625}
   m_Layer: 0
-  m_Name: Key4
+  m_Name: AuntRoomKey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10668,6 +11140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f29659fa38a92849910f9201eb860a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  keyName: Key4
 --- !u!212 &1203041627
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10731,12 +11204,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1203041624}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 42.49, y: 4.97, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 17.524487, y: -12.052961, z: 1}
   m_LocalScale: {x: 3.0555317, y: 3.0555317, z: 3.0555317}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1915132687}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1205574759
 GameObject:
@@ -10751,7 +11224,7 @@ GameObject:
   - component: {fileID: 1205574761}
   - component: {fileID: 1205574760}
   m_Layer: 0
-  m_Name: Key1
+  m_Name: OlderBrotherRoomkey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10815,6 +11288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f29659fa38a92849910f9201eb860a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  keyName: Key1
 --- !u!212 &1205574762
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10878,12 +11352,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1205574759}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.64, y: 15.11, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.3255157, y: -1.912961, z: 1}
   m_LocalScale: {x: 4.002625, y: 4.002625, z: 4.002625}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1915132687}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1232734066
 GameObject:
@@ -11170,6 +11644,84 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1255276878
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1255276879}
+  - component: {fileID: 1255276880}
+  m_Layer: 0
+  m_Name: MasterBedroomTeleportPointInside
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1255276879
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255276878}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.19, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 493261810}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1255276880
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255276878}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1262049450
 GameObject:
   m_ObjectHideFlags: 0
@@ -11378,6 +11930,84 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1360861515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1360861517}
+  - component: {fileID: 1360861516}
+  m_Layer: 0
+  m_Name: BasementTeleportPointInside
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1360861516
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360861515}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!4 &1360861517
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360861515}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.22, y: -3.76, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 580869894}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1367792486
 GameObject:
   m_ObjectHideFlags: 0
@@ -12152,7 +12782,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 799281042}
-  promptUI: {fileID: 1367792486}
+  keyIndicator: {fileID: 0}
+  teleportDelay: 1.35
 --- !u!61 &1455021573
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12446,7 +13077,7 @@ GameObject:
   - component: {fileID: 1515920339}
   - component: {fileID: 1515920338}
   m_Layer: 0
-  m_Name: Key3
+  m_Name: GrandParentsRoomKey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12510,6 +13141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f29659fa38a92849910f9201eb860a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  keyName: Key3
 --- !u!212 &1515920340
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12573,12 +13205,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1515920337}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 45.02, y: 14.96, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 20.054485, y: -2.0629606, z: 1}
   m_LocalScale: {x: 2.8974, y: 2.8974, z: 2.8974}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1915132687}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1518810329
 GameObject:
@@ -12628,7 +13260,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 2012625757}
-  promptUI: {fileID: 611841590}
+  keyIndicator: {fileID: 0}
+  teleportDelay: 1.35
 --- !u!61 &1518810332
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13013,7 +13646,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 1073998053}
-  promptUI: {fileID: 1173735752}
+  keyIndicator: {fileID: 0}
+  teleportDelay: 1.35
 --- !u!61 &1564913979
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13593,7 +14227,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 793766939}
-  promptUI: {fileID: 2087670403}
+  keyIndicator: {fileID: 0}
+  teleportDelay: 1.35
 --- !u!61 &1631865955
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14581,7 +15216,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 807768332}
-  promptUI: {fileID: 936723336}
+  keyIndicator: {fileID: 0}
+  teleportDelay: 1.35
 --- !u!61 &1822399742
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15118,6 +15754,84 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1854660099
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1854660100}
+  - component: {fileID: 1854660101}
+  m_Layer: 0
+  m_Name: BasementHatchOutside
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1854660100
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854660099}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 580869894}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1854660101
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854660099}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1899488256
 GameObject:
   m_ObjectHideFlags: 0
@@ -15196,6 +15910,45 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1915132686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1915132687}
+  m_Layer: 0
+  m_Name: KeyObjects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1915132687
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1915132686}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 24.965515, y: 17.02296, z: -0.9999995}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1205574763}
+  - {fileID: 33606571}
+  - {fileID: 1515920341}
+  - {fileID: 1203041628}
+  - {fileID: 1158676941}
+  - {fileID: 2139418857}
+  - {fileID: 395398255}
+  - {fileID: 708121197}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1917480856
 GameObject:
   m_ObjectHideFlags: 0
@@ -15207,7 +15960,7 @@ GameObject:
   - component: {fileID: 1917480857}
   - component: {fileID: 1917480860}
   - component: {fileID: 1917480859}
-  - component: {fileID: 1917480858}
+  - component: {fileID: 1917480861}
   m_Layer: 0
   m_Name: Teleport trigger Outside
   m_TagString: Untagged
@@ -15231,20 +15984,6 @@ Transform:
   - {fileID: 1998036975}
   m_Father: {fileID: 358912593}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1917480858
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1917480856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8608eb6fe257664f8c087981d1afe66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  teleportTarget: {fileID: 1583401953}
-  promptUI: {fileID: 1998036974}
 --- !u!61 &1917480859
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15346,6 +16085,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1917480861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917480856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e025de75d22bdd341bc8424461d559f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredKey: Key5
+  teleportPoint: {fileID: 1583401953}
 --- !u!1 &1989112419
 GameObject:
   m_ObjectHideFlags: 0
@@ -16255,7 +17008,7 @@ GameObject:
   - component: {fileID: 2138499493}
   - component: {fileID: 2138499496}
   - component: {fileID: 2138499495}
-  - component: {fileID: 2138499494}
+  - component: {fileID: 2138499497}
   m_Layer: 0
   m_Name: Teleport trigger Outside
   m_TagString: Untagged
@@ -16279,20 +17032,6 @@ Transform:
   - {fileID: 337829346}
   m_Father: {fileID: 391202820}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2138499494
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2138499492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8608eb6fe257664f8c087981d1afe66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  teleportTarget: {fileID: 1262049451}
-  promptUI: {fileID: 337829345}
 --- !u!61 &2138499495
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16394,6 +17133,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2138499497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138499492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e025de75d22bdd341bc8424461d559f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredKey: Key4
+  teleportPoint: {fileID: 1262049451}
 --- !u!1 &2139418853
 GameObject:
   m_ObjectHideFlags: 0
@@ -16407,7 +17160,7 @@ GameObject:
   - component: {fileID: 2139418855}
   - component: {fileID: 2139418854}
   m_Layer: 0
-  m_Name: Key6
+  m_Name: MasterBedroomKey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16471,6 +17224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f29659fa38a92849910f9201eb860a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  keyName: Key6
 --- !u!212 &2139418856
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16534,12 +17288,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2139418853}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 43.9, y: -4.83, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.934486, y: -21.85296, z: 1}
   m_LocalScale: {x: 2.5615, y: 2.5615, z: 2.5615}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1915132687}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2141310547
 GameObject:
@@ -16576,19 +17330,92 @@ Transform:
   - {fileID: 1552962636}
   m_Father: {fileID: 1546821411}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2143953525
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2143953526}
+  - component: {fileID: 2143953527}
+  m_Layer: 0
+  m_Name: Block
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2143953526
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143953525}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.59, y: 0.36, z: 0}
+  m_LocalScale: {x: 0.2, y: 1.95626, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 493261810}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2143953527
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143953525}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 656781299}
   - {fileID: 408004082}
   - {fileID: 411898981}
   - {fileID: 458249468}
-  - {fileID: 656781299}
-  - {fileID: 1205574763}
-  - {fileID: 33606571}
-  - {fileID: 1515920341}
-  - {fileID: 1203041628}
-  - {fileID: 1158676941}
-  - {fileID: 2139418857}
-  - {fileID: 395398255}
-  - {fileID: 708121197}
+  - {fileID: 1915132687}
+  - {fileID: 493261810}
+  - {fileID: 580869894}
