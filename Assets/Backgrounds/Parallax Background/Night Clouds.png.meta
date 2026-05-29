@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: c45631c4983f867458ec6f070d79bd0c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6037009050639370392
+    second: Night Clouds_0
+  - first:
+      213: -5921677981731637295
+    second: Night Clouds_1
+  - first:
+      213: 3094467977026325481
+    second: Night Clouds_2
+  - first:
+      213: -3472764886089584007
+    second: Night Clouds_3
+  - first:
+      213: -4306981510340399587
+    second: Night Clouds_4
+  - first:
+      213: 7066699063634082492
+    second: Night Clouds_5
+  - first:
+      213: -5232712034393441010
+    second: Night Clouds_6
+  - first:
+      213: -3669580962546631803
+    second: Night Clouds_7
+  - first:
+      213: -6301429243449189618
+    second: Night Clouds_8
+  - first:
+      213: 2837660303067773921
+    second: Night Clouds_9
+  - first:
+      213: 7776346036810278618
+    second: Night Clouds_10
+  - first:
+      213: 6901621971221816941
+    second: Night Clouds_11
+  - first:
+      213: 8291340947022610282
+    second: Night Clouds_12
+  - first:
+      213: 2251367382696050739
+    second: Night Clouds_13
+  - first:
+      213: -178533721464844905
+    second: Night Clouds_14
+  - first:
+      213: 4502474218133644132
+    second: Night Clouds_15
+  - first:
+      213: -3157064212840035096
+    second: Night Clouds_16
+  - first:
+      213: -5039541669418360256
+    second: Night Clouds_17
+  - first:
+      213: -6483457405361696199
+    second: Night Clouds_18
+  - first:
+      213: -7711238900905690822
+    second: Night Clouds_19
+  - first:
+      213: 9156059392626084484
+    second: Night Clouds_20
+  - first:
+      213: -1777344938341367252
+    second: Night Clouds_21
+  - first:
+      213: 5423818542761029431
+    second: Night Clouds_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Night Clouds_0
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 548
+        width: 80
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8988d210fb3c7c350800000000000000
+      internalID: 6037009050639370392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night Clouds_1
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 574
+        width: 80
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d732a00049f1dda0800000000000000
+      internalID: -5921677981731637295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night Clouds_2
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 539
+        width: 302
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ebc97bda32c1fa20800000000000000
+      internalID: 3094467977026325481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night Clouds_3
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 552
+        width: 80
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9723e205cb24ecfc0800000000000000
+      internalID: -3472764886089584007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night Clouds_4
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 520
+        width: 302
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e2cfdb2278a34c0800000000000000
+      internalID: -4306981510340399587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night Clouds_5
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 567
+        width: 80
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbabe7e7b55f11260800000000000000
+      internalID: 7066699063634082492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night Clouds_6
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 448
+        width: 302
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d311af02ca167b0800000000000000
+      internalID: -5232712034393441010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night Clouds_7
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 486
+        width: 80
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b3fdc8e87031dc0800000000000000
+      internalID: -3669580962546631803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night Clouds_8
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 448
+        width: 302
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0bd3fe4d73dc88a0800000000000000
+      internalID: -6301429243449189618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night Clouds_9
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 480
+        width: 302
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ebf495d205616720800000000000000
+      internalID: 2837660303067773921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night Clouds_10
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 408
+        width: 80
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad6e79605812beb60800000000000000
+      internalID: 7776346036810278618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night Clouds_11
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 439
+        width: 80
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6625b0dd9c77cf50800000000000000
+      internalID: 6901621971221816941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night Clouds_12
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 399
+        width: 302
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ffee279a2c01370800000000000000
+      internalID: 8291340947022610282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night Clouds_13
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 373
+        width: 80
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330cf70d4b67e3f10800000000000000
+      internalID: 2251367382696050739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night Clouds_14
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 321
+        width: 302
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79dc8a7b688b58df0800000000000000
+      internalID: -178533721464844905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night Clouds_15
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 364
+        width: 80
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463e53e32700c7e30800000000000000
+      internalID: 4502474218133644132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night Clouds_16
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 385
+        width: 80
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec429443dadf24d0800000000000000
+      internalID: -3157064212840035096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night Clouds_17
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 396
+        width: 80
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0422a836d83ff0ab0800000000000000
+      internalID: -5039541669418360256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night Clouds_18
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 280
+        width: 302
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9325a0537d12606a0800000000000000
+      internalID: -6483457405361696199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night Clouds_19
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 318
+        width: 302
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39b755531d2cf490800000000000000
+      internalID: -7711238900905690822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night Clouds_20
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 347
+        width: 80
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a4bd7b18bd01f70800000000000000
+      internalID: 9156059392626084484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night Clouds_21
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 307
+        width: 80
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2203d2023a9557e0800000000000000
+      internalID: -1777344938341367252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night Clouds_22
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 263
+        width: 302
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73fa27f5a36454b40800000000000000
+      internalID: 5423818542761029431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Night Clouds_0: 6037009050639370392
+      Night Clouds_1: -5921677981731637295
+      Night Clouds_10: 7776346036810278618
+      Night Clouds_11: 6901621971221816941
+      Night Clouds_12: 8291340947022610282
+      Night Clouds_13: 2251367382696050739
+      Night Clouds_14: -178533721464844905
+      Night Clouds_15: 4502474218133644132
+      Night Clouds_16: -3157064212840035096
+      Night Clouds_17: -5039541669418360256
+      Night Clouds_18: -6483457405361696199
+      Night Clouds_19: -7711238900905690822
+      Night Clouds_2: 3094467977026325481
+      Night Clouds_20: 9156059392626084484
+      Night Clouds_21: -1777344938341367252
+      Night Clouds_22: 5423818542761029431
+      Night Clouds_3: -3472764886089584007
+      Night Clouds_4: -4306981510340399587
+      Night Clouds_5: 7066699063634082492
+      Night Clouds_6: -5232712034393441010
+      Night Clouds_7: -3669580962546631803
+      Night Clouds_8: -6301429243449189618
+      Night Clouds_9: 2837660303067773921
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
