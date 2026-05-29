@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f1edd4753930c564491b46a5cf6f12c0
+guid: 7c00cfaf19012e646823cf44e371969a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3376429084335335161
-    second: Grandma_Chair_0
+      213: 3117081837953276340
+    second: Grandma-Idle-Knitting-3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Grandma_Chair_0
+      name: Grandma-Idle-Knitting-3_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 5
-        width: 38
-        height: 54
+        x: 19
+        y: 0
+        width: 29
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 70915ea03a38421d0800000000000000
-      internalID: -3376429084335335161
+      spriteID: 4b9d607aa69124b20800000000000000
+      internalID: 3117081837953276340
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Grandma_Chair_0: -3376429084335335161
+      Grandma-Idle-Knitting-3_0: 3117081837953276340
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
