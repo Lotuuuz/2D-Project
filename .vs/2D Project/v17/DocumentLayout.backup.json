@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Unity\\Game Design 2\\2D Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|c:\\unity\\game design 2\\2d project\\assets\\scripts\\puzzlestarttrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puzzlestarttrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|c:\\unity\\game design 2\\2d project\\assets\\scripts\\grandmacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grandmacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|c:\\unity\\game design 2\\2d project\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\redlightgreenlightmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\redlightgreenlightmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|c:\\unity\\game design 2\\2d project\\assets\\scripts\\movementplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movementplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\puzzlestarttrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puzzlestarttrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\grandmacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grandmacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\daynightcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "MovementPlayer.cs",
+              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\MovementPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MovementPlayer.cs",
+              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\MovementPlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MovementPlayer.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T08:58:24.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "PuzzleStartTrigger.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\PuzzleStartTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PuzzleStartTrigger.cs",
@@ -42,37 +59,24 @@
               "RelativeToolTip": "Assets\\Scripts\\PuzzleStartTrigger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T18:07:38.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T18:07:38.472Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "RedLightGreenLightManager.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\RedLightGreenLightManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RedLightGreenLightManager.cs",
               "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\RedLightGreenLightManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\RedLightGreenLightManager.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBEAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAA3wCgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T16:15:49.376Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GrandmaController.cs",
-              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\GrandmaController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GrandmaController.cs",
-              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\GrandmaController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GrandmaController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwCoAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T15:33:43.166Z",
+              "WhenOpened": "2026-05-27T16:15:49.376Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DayNightCycle.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\DayNightCycle.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DayNightCycle.cs",
@@ -84,15 +88,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
               "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAwCwAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T12:11:42.781Z"
+              "WhenOpened": "2026-04-10T12:11:42.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GrandmaController.cs",
+              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\GrandmaController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GrandmaController.cs",
+              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\GrandmaController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GrandmaController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T15:33:43.166Z"
             }
           ]
         }

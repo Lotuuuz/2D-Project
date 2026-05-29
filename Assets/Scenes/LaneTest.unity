@@ -1543,7 +1543,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grandma: {fileID: 2032244537}
-  player: {fileID: 1226233762}
+  player: {fileID: 0}
   failResetPoint: {fileID: 1645090262}
 --- !u!4 &826350525
 Transform:
@@ -1917,10 +1917,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1226233760}
   - component: {fileID: 1226233759}
-  - component: {fileID: 1226233762}
   - component: {fileID: 1226233761}
   - component: {fileID: 1226233763}
   - component: {fileID: 1226233764}
+  - component: {fileID: 1226233765}
   m_Layer: 0
   m_Name: MainCharacter
   m_TagString: Untagged
@@ -2022,21 +2022,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1226233762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1226233758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b9dfaf7c87109c48b304565324ea6b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 7
-  rb: {fileID: 0}
-  isFrozen: 0
 --- !u!50 &1226233763
 Rigidbody2D:
   serializedVersion: 5
@@ -2077,8 +2062,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grandma: {fileID: 2032244537}
-  player: {fileID: 1226233762}
+  player: {fileID: 1226233765}
   failResetPoint: {fileID: 1645090262}
+--- !u!114 &1226233765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226233758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7aa00170ef7dc844b33f6b665262725, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 7
+  rb: {fileID: 0}
+  isFrozen: 0
 --- !u!1 &1260239009
 GameObject:
   m_ObjectHideFlags: 0
@@ -2660,7 +2660,7 @@ Transform:
   m_GameObject: {fileID: 1645090261}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -25.365322, y: 10.540837, z: 0.5695245}
+  m_LocalPosition: {x: -44.96, y: 10.540837, z: 0.5695245}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2863,7 +2863,7 @@ Transform:
   m_GameObject: {fileID: 1753830448}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -32.155323, y: 12.030838, z: -0.44560367}
+  m_LocalPosition: {x: -47.83, y: 12.030838, z: -0.44560367}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3342,10 +3342,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isLooking: 0
-  minLookTime: 2
-  maxLookTime: 4
-  minIdleTime: 2
-  maxIdleTime: 4
+  isWarning: 0
+  warningTime: 1.5
+  lookTime: 2
+  idleTime: 3
   animator: {fileID: 2032244536}
 --- !u!212 &2032244538
 SpriteRenderer:

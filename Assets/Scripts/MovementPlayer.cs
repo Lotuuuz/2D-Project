@@ -5,11 +5,12 @@ public class MovementPlayer : MonoBehaviour
     [SerializeField] private float moveSpeed = 7.0f;
 
 
-    private Rigidbody2D rb;
+    public Rigidbody2D rb;
 
     private Vector2 movement;
 
     private Animator animator;
+    public bool isFrozen = false;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -30,6 +31,12 @@ public class MovementPlayer : MonoBehaviour
         animator.SetFloat("Speed", Mathf.Abs(movement.x));
 
         animator.SetFloat("Direction", movement.x);
+
+        if (isFrozen)
+        {
+            movement = Vector2.zero;
+            return;
+        }
     }
 
     private void FixedUpdate()

@@ -17,8 +17,6 @@ public class PlayerInteraction : MonoBehaviour
             if (currentTrigger.CompareTag("Interactable"))
             {
                 animator.SetTrigger("DoorInteract");
-
-                animator.SetBool("IsInteracting", true);
             }
         }
     }

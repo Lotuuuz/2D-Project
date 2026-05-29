@@ -72,7 +72,6 @@
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\KeyManager.cs" />
     <Compile Include="Assets\Scripts\KeyPickup.cs" />
-    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerInteraction.cs" />
     <Compile Include="Assets\Scripts\JournalToggle.cs" />
     <Compile Include="Assets\Scripts\SoundEffectsManager.cs" />
