@@ -2660,7 +2660,7 @@ Transform:
   m_GameObject: {fileID: 1645090261}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -25.365322, y: 10.540837, z: 0.5695245}
+  m_LocalPosition: {x: -44.96, y: 10.540837, z: 0.5695245}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2863,7 +2863,7 @@ Transform:
   m_GameObject: {fileID: 1753830448}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -32.155323, y: 12.030838, z: -0.44560367}
+  m_LocalPosition: {x: -47.83, y: 12.030838, z: -0.44560367}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3342,10 +3342,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isLooking: 0
-  minLookTime: 2
-  maxLookTime: 4
-  minIdleTime: 2
-  maxIdleTime: 4
+  isWarning: 0
+  warningTime: 1.5
+  lookTime: 2
+  idleTime: 3
   animator: {fileID: 2032244536}
 --- !u!212 &2032244538
 SpriteRenderer:

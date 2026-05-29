@@ -1,57 +1,73 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 public class GrandmaController : MonoBehaviour
 {
-    //isLooking = bestemoren ser på spilleren (red light)
-    //Når isLooking == false -> green light (spilleren kan gå)
-    public bool isLooking = false;
-   
-    // hvor lenge hun ser på deg
-    public float minLookTime = 2f;
-    public float maxLookTime = 4f;
- 
-    // hvor lenge hun ser bort 
-    public float minIdleTime = 2f;
-    public float maxIdleTime = 4f;
+    public bool isLooking = false;   // red light
+    public bool isWarning = false;   // lookup-start
 
-    // timer teller ned til neste state-skifte 
+    public float warningTime = 1.5f; // hvor lenge hun er i lookup-start
+    public float lookTime = 2f;      // hvor lenge hun er i lookup-loop
+    public float idleTime = 3f;      // hvor lenge hun strikker
+
     private float timer;
-
-    public Animator animator;   
+    public Animator animator;
 
     void Start()
     {
-        // setter første timer basert på om hun ser eller ikke
-        SetNewTimer();
-
-        animator.SetBool("isLooking", isLooking);
+        StartIdlePhase();
     }
 
     void Update()
     {
-
-        //timer teller ned hver frame 
         timer -= Time.deltaTime;
 
-
-        //når timer == 0 -> bytt mellom å se og ikke 
         if (timer <= 0)
         {
-            isLooking = !isLooking;  //bytter state mellom rød og grønn
-
-
-            animator.SetBool("isLooking", isLooking);
-
-            SetNewTimer();  // random variasjon mellom se opp og ned 
-
-
- 
+            if (!isWarning && !isLooking)
+            {
+                StartWarningPhase();   // Idle â†’ Warning
+            }
+            else if (isWarning)
+            {
+                StartLookingPhase();   // Warning â†’ Looking
+            }
+            else if (isLooking)
+            {
+                StartIdlePhase();      // Looking â†’ Idle
+            }
         }
     }
 
-    void SetNewTimer()
+    void StartIdlePhase()
     {
-        timer = isLooking ? Random.Range(minLookTime, maxLookTime)
-                          : Random.Range(minIdleTime, maxIdleTime);
+        isWarning = false;
+        isLooking = false;
+
+        animator.SetBool("isLooking", false);
+        animator.SetBool("isWarning", false);
+
+        timer = idleTime;
+    }
+
+    void StartWarningPhase()
+    {
+        isWarning = true;
+        isLooking = false;
+
+        animator.SetBool("isWarning", true);
+        animator.SetBool("isLooking", false);
+
+        timer = warningTime;
+    }
+
+    void StartLookingPhase()
+    {
+        isWarning = false;
+        isLooking = true;
+
+        animator.SetBool("isWarning", false);
+        animator.SetBool("isLooking", true);
+
+        timer = lookTime;
     }
 }
