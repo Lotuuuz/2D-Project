@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Unity\\Game Design 2\\2D Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\grandmacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|c:\\unity\\game design 2\\2d project\\assets\\scripts\\journalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\journalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|c:\\unity\\game design 2\\2d project\\assets\\scripts\\grandmacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grandmacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "JournalManager.cs",
+              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\JournalManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\JournalManager.cs",
+              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\JournalManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\JournalManager.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAIwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T12:29:04.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MovementPlayer.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\MovementPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MovementPlayer.cs",
@@ -50,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PuzzleStartTrigger.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\PuzzleStartTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PuzzleStartTrigger.cs",
@@ -62,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "RedLightGreenLightManager.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\RedLightGreenLightManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RedLightGreenLightManager.cs",
@@ -74,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DayNightCycle.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\DayNightCycle.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DayNightCycle.cs",
@@ -86,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
@@ -97,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GrandmaController.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\GrandmaController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GrandmaController.cs",
