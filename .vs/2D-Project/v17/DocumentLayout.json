@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|c:\\users\\jonam\\kristiania\\projects\\games\\2d-project\\assets\\scripts\\lockedteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\assets\\scripts\\movementplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movementplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\assets\\scripts\\soundfxmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundfxmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|c:\\users\\jonam\\kristiania\\projects\\games\\2d-project\\assets\\scripts\\soundmixermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundmixermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\assets\\scripts\\keymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\assets\\scripts\\lockedteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lockedteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\assets\\scripts\\keypickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keypickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\assets\\scripts\\keymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\assets\\scripts\\stairteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,14 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\assets\\scripts\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\assets\\scripts\\movementplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movementplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\assets\\scripts\\soundeffectsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundeffectsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\assets\\scripts\\parallaxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,11 +61,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SoundMixerManager.cs",
+              "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\SoundMixerManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SoundMixerManager.cs",
+              "ToolTip": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\SoundMixerManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SoundMixerManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T11:02:17.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SoundFXManager.cs",
+              "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\SoundFXManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SoundFXManager.cs",
+              "ToolTip": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\SoundFXManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SoundFXManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwCoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T10:48:44.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MovementPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\MovementPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MovementPlayer.cs",
+              "ToolTip": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\MovementPlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MovementPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T14:23:32.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "LockedTeleport.cs",
               "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\LockedTeleport.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LockedTeleport.cs",
@@ -69,12 +112,11 @@
               "RelativeToolTip": "Assets\\Scripts\\LockedTeleport.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T17:03:26.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T17:03:26.306Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "KeyPickup.cs",
               "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\KeyPickup.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\KeyPickup.cs",
@@ -86,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "KeyManager.cs",
               "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\KeyManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\KeyManager.cs",
@@ -98,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "DialogueSystem.cs",
               "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\DialogueSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueSystem.cs",
@@ -110,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "StairTeleport.cs",
               "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\StairTeleport.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StairTeleport.cs",
@@ -122,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "PlayerInteraction.cs",
               "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\PlayerInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInteraction.cs",
@@ -134,31 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MovementPlayer.cs",
-              "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\MovementPlayer.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MovementPlayer.cs",
-              "ToolTip": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\MovementPlayer.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MovementPlayer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T14:23:32.552Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SoundEffectsManager.cs",
-              "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\SoundEffectsManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SoundEffectsManager.cs",
-              "ToolTip": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\SoundEffectsManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SoundEffectsManager.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwCUAAACdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T11:39:49.021Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\PlayerMovement.cs",
@@ -170,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ParallaxController.cs",
               "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\ParallaxController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ParallaxController.cs",
@@ -182,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "DayNightCycle.cs",
               "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\DayNightCycle.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DayNightCycle.cs",
@@ -194,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ObjectFollowPoint.cs",
               "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\ObjectFollowPoint.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectFollowPoint.cs",
