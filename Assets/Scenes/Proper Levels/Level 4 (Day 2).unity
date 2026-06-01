@@ -1677,25 +1677,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 000c0a7734c0b79448a6039460d38aec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueCanvas: {fileID: 0}
-  speakerText: {fileID: 0}
-  dialogueText: {fileID: 0}
-  portraitImage: {fileID: 0}
+  dialogueCanvas: {fileID: 685421502}
+  speakerText: {fileID: 143588686}
+  dialogueText: {fileID: 1546816593}
+  portraitImage: {fileID: 946649264}
   keyIndicator: {fileID: 1797889484}
   typingSpeed: 0.02
-  movementPlayer: {fileID: 0}
+  movementPlayer: {fileID: 2106205422}
   speaker:
-  - Mother
   - Little Girl
-  - Mother
+  - Brother
+  - Little Girl
+  - Brother
+  - Little Girl
+  - Little Girl
+  - Brother
+  - Little Girl
+  - Brother
   dialogue:
-  - Good morning, sweetie!
-  - Good morning, Mother.
-  - How are you today?.
+  - What are you doing?
+  - Reading.
+  - Without a book?
+  - No, I'm not reading.
+  - Okay...
+  - I found Casper.
+  - Alright.
+  - Don't you want to know where he is, or go see him?
+  - Not that's fine. I'll just go down there when I want to see him.
   portrait:
-  - {fileID: 21300000, guid: 43af88c6cb73f5a41a2565dd76b9cc0b, type: 3}
   - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
-  - {fileID: 21300000, guid: 878610c89d7224641a5ada4d5315acb6, type: 3}
+  - {fileID: 21300000, guid: ced08b871f2540646bea88cbdf920a22, type: 3}
+  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 5e6e3c7480652ea439fe46e29397bce1, type: 3}
+  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 0bb0ff42f8b789c40994cd47d63c7260, type: 3}
+  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 0bb0ff42f8b789c40994cd47d63c7260, type: 3}
 --- !u!61 &215869437
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7970,25 +7988,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 000c0a7734c0b79448a6039460d38aec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueCanvas: {fileID: 0}
-  speakerText: {fileID: 0}
-  dialogueText: {fileID: 0}
-  portraitImage: {fileID: 0}
+  dialogueCanvas: {fileID: 685421502}
+  speakerText: {fileID: 143588686}
+  dialogueText: {fileID: 1546816593}
+  portraitImage: {fileID: 946649264}
   keyIndicator: {fileID: 773591629}
   typingSpeed: 0.02
-  movementPlayer: {fileID: 0}
+  movementPlayer: {fileID: 2106205422}
   speaker:
-  - Mother
   - Little Girl
-  - Mother
+  - Aunt
+  - Little Girl
+  - Aunt
   dialogue:
-  - Good morning, sweetie!
-  - Good morning, Mother.
-  - How are you today?.
+  - Good Morning.
+  - Good morning. Your Mother wants to see you again.
+  - Did she say why?
+  - She wants to talk about tomorrow.
   portrait:
-  - {fileID: 21300000, guid: 43af88c6cb73f5a41a2565dd76b9cc0b, type: 3}
   - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
-  - {fileID: 21300000, guid: 878610c89d7224641a5ada4d5315acb6, type: 3}
+  - {fileID: 21300000, guid: 5c33659e767f2b7419999502d98c9a14, type: 3}
+  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 1795c99d8cdbcc04d94cdc20719a90ef, type: 3}
 --- !u!61 &923446607
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10933,17 +10954,35 @@ MonoBehaviour:
   typingSpeed: 0.02
   movementPlayer: {fileID: 2106205422}
   speaker:
-  - Mother
   - Little Girl
-  - Mother
+  - Father
+  - Little Girl
+  - Father
+  - Father
+  - Little Girl
+  - Father
+  - Father
+  - Father
   dialogue:
-  - Good morning, sweetie!
-  - Good morning, Mother.
-  - How are you today?.
+  - Good morning, Father.
+  - Did you go into the study?
+  - ...No, Father.
+  - ...You did.
+  - What did you find in there?
+  - Nothing, Father!
+  - I think you're lying.
+  - I don't like you snooping around.
+  - Don't do it again, you might find something you don't like...
   portrait:
-  - {fileID: 21300000, guid: 43af88c6cb73f5a41a2565dd76b9cc0b, type: 3}
   - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
-  - {fileID: 21300000, guid: 878610c89d7224641a5ada4d5315acb6, type: 3}
+  - {fileID: 21300000, guid: a6a32367a2307404691050a38b70e3eb, type: 3}
+  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: a6a32367a2307404691050a38b70e3eb, type: 3}
+  - {fileID: 21300000, guid: d4b5ed4f0c683e74a8bed0bd574376e2, type: 3}
+  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: a6a32367a2307404691050a38b70e3eb, type: 3}
+  - {fileID: 21300000, guid: d4b5ed4f0c683e74a8bed0bd574376e2, type: 3}
+  - {fileID: 21300000, guid: 85662ddea8cb12a41a0b01d931e9fed2, type: 3}
 --- !u!61 &1259274432
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13136,7 +13175,7 @@ GameObject:
   - component: {fileID: 1503620214}
   - component: {fileID: 1503620217}
   - component: {fileID: 1503620216}
-  - component: {fileID: 1503620215}
+  - component: {fileID: 1503620218}
   m_Layer: 0
   m_Name: Teleport trigger Upstairs
   m_TagString: Untagged
@@ -13160,21 +13199,6 @@ Transform:
   - {fileID: 349882718}
   m_Father: {fileID: 1436269822}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1503620215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1503620213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8608eb6fe257664f8c087981d1afe66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  teleportTarget: {fileID: 436327628}
-  keyIndicator: {fileID: 349882719}
-  teleportDelay: 1.35
 --- !u!61 &1503620216
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13276,6 +13300,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1503620218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503620213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 000c0a7734c0b79448a6039460d38aec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueCanvas: {fileID: 685421502}
+  speakerText: {fileID: 143588686}
+  dialogueText: {fileID: 1546816593}
+  portraitImage: {fileID: 946649264}
+  keyIndicator: {fileID: 349882719}
+  typingSpeed: 0.02
+  movementPlayer: {fileID: 2106205422}
+  speaker:
+  - Aunt
+  - Little Girl
+  - Little Girl
+  dialogue:
+  - Hey! Didn't I already tell you not to go down there?
+  - Sorry, I forgot.
+  - '*Thinking* I''ll go down tonight.'
+  portrait:
+  - {fileID: 21300000, guid: 1795c99d8cdbcc04d94cdc20719a90ef, type: 3}
+  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
 --- !u!1 &1546816591
 GameObject:
   m_ObjectHideFlags: 0
@@ -14362,25 +14417,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 000c0a7734c0b79448a6039460d38aec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueCanvas: {fileID: 0}
-  speakerText: {fileID: 0}
-  dialogueText: {fileID: 0}
-  portraitImage: {fileID: 0}
+  dialogueCanvas: {fileID: 685421502}
+  speakerText: {fileID: 143588686}
+  dialogueText: {fileID: 1546816593}
+  portraitImage: {fileID: 946649264}
   keyIndicator: {fileID: 1871748383}
   typingSpeed: 0.02
-  movementPlayer: {fileID: 0}
+  movementPlayer: {fileID: 2106205422}
   speaker:
-  - Mother
+  - LIttle Girl
+  - Grandpa
   - Little Girl
-  - Mother
+  - Grandpa
+  - Little Girl
+  - Grandpa
+  - Little Girl
   dialogue:
-  - Good morning, sweetie!
-  - Good morning, Mother.
-  - How are you today?.
+  - Good morning, Grandpa. Where is Grandma?
+  - She's taking a walk.
+  - 'Should she be doing that? '
+  - Why shouldn't she?
+  - Because of her back... which is injured?
+  - Right... Guess I'll go find her then, soon.
+  - Okay...
   portrait:
-  - {fileID: 21300000, guid: 43af88c6cb73f5a41a2565dd76b9cc0b, type: 3}
   - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
-  - {fileID: 21300000, guid: 878610c89d7224641a5ada4d5315acb6, type: 3}
+  - {fileID: 21300000, guid: 2ae1832daee64b44ca3c737f1c8b6092, type: 3}
+  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 2d2d8eb13efb8654e958d57a098fe5dd, type: 3}
+  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: ec96fc63863b1054d96c74c38e8ba5e0, type: 3}
+  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
 --- !u!61 &1675342693
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16700,7 +16767,7 @@ Transform:
   m_GameObject: {fileID: 1984586664}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 121.21, y: 0.04, z: 0}
+  m_LocalPosition: {x: 114.71, y: 0.04, z: 0}
   m_LocalScale: {x: 0.3938781, y: 9.785439, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17126,17 +17193,36 @@ MonoBehaviour:
   typingSpeed: 0.02
   movementPlayer: {fileID: 2106205422}
   speaker:
+  - Little Girl
+  - Mother
   - Mother
   - Little Girl
   - Mother
+  - Mother
+  - Mother
+  - Little Girl
+  - Little Girl
   dialogue:
-  - Good morning, sweetie!
-  - Good morning, Mother.
-  - How are you today?.
+  - Good morning, Mother. You wanted to see me?
+  - Yes, honey.
+  - Your... Father tells me you went into his study without permission.
+  - No, Mother I-
+  - I don't want to hear it!
+  - Tonight you will think about the lies you've told, and tomorrow, at dinner, we
+    will give you your punishment!
+  - Understood?!
+  - Yes, Mother...
+  - '*Thinking* I need to get down to the safehouse tonight, before I''m grounded.'
   portrait:
-  - {fileID: 21300000, guid: 43af88c6cb73f5a41a2565dd76b9cc0b, type: 3}
   - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
   - {fileID: 21300000, guid: 878610c89d7224641a5ada4d5315acb6, type: 3}
+  - {fileID: 21300000, guid: 43af88c6cb73f5a41a2565dd76b9cc0b, type: 3}
+  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 43af88c6cb73f5a41a2565dd76b9cc0b, type: 3}
+  - {fileID: 21300000, guid: 332523c4f96d5f34c80bcec1e1ce3211, type: 3}
+  - {fileID: 21300000, guid: 332523c4f96d5f34c80bcec1e1ce3211, type: 3}
+  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
 --- !u!1 &2051726899
 GameObject:
   m_ObjectHideFlags: 0
@@ -17381,25 +17467,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 000c0a7734c0b79448a6039460d38aec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueCanvas: {fileID: 0}
-  speakerText: {fileID: 0}
-  dialogueText: {fileID: 0}
-  portraitImage: {fileID: 0}
+  dialogueCanvas: {fileID: 685421502}
+  speakerText: {fileID: 143588686}
+  dialogueText: {fileID: 1546816593}
+  portraitImage: {fileID: 946649264}
   keyIndicator: {fileID: 1324867630}
   typingSpeed: 0.02
-  movementPlayer: {fileID: 0}
+  movementPlayer: {fileID: 2106205422}
   speaker:
-  - Mother
   - Little Girl
-  - Mother
+  - Brother
+  - Little Girl
+  - Brother
+  - Little Girl
+  - Brother
   dialogue:
-  - Good morning, sweetie!
-  - Good morning, Mother.
-  - How are you today?.
+  - You're still walking without your cane.
+  - Yes.
+  - Do you remember why you need a cane?
+  - Of course! It's for my back!
+  - It's for your leg...
+  - That's what I said.
   portrait:
-  - {fileID: 21300000, guid: 43af88c6cb73f5a41a2565dd76b9cc0b, type: 3}
   - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
-  - {fileID: 21300000, guid: 878610c89d7224641a5ada4d5315acb6, type: 3}
+  - {fileID: 21300000, guid: f3bfdca4525a391469ec300b6f7beccb, type: 3}
+  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: f3bfdca4525a391469ec300b6f7beccb, type: 3}
+  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 06a5c796bc5962743bba30c049f6dcc9, type: 3}
 --- !u!61 &2057076824
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18093,6 +18188,8 @@ MonoBehaviour:
   moveSpeed: 7
   rb: {fileID: 0}
   isFrozen: 0
+  footstepSoundClips: []
+  footstepInterval: 1
 --- !u!1 &2119645247
 GameObject:
   m_ObjectHideFlags: 0

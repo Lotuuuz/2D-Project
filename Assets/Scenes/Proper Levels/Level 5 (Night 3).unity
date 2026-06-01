@@ -16765,7 +16765,7 @@ Transform:
   m_GameObject: {fileID: 1984586664}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 121.21, y: 0.04, z: 0}
+  m_LocalPosition: {x: 114.28, y: 0.04, z: 0}
   m_LocalScale: {x: 0.3938781, y: 9.785439, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18056,6 +18056,8 @@ MonoBehaviour:
   moveSpeed: 7
   rb: {fileID: 0}
   isFrozen: 0
+  footstepSoundClips: []
+  footstepInterval: 1
 --- !u!1 &2119645247
 GameObject:
   m_ObjectHideFlags: 0

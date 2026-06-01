@@ -3330,7 +3330,7 @@ Transform:
   m_GameObject: {fileID: 430993402}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 45.48, y: 7.95, z: 0}
+  m_LocalPosition: {x: 48.21, y: 7.95, z: 0}
   m_LocalScale: {x: -5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3682,6 +3682,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1262426676}
+  - {fileID: 1269785146}
   - {fileID: 1415583462}
   - {fileID: 108836875}
   - {fileID: 2119656017}
@@ -11132,6 +11133,109 @@ Transform:
   - {fileID: 455561664}
   m_Father: {fileID: 471267160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1269785145
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1269785146}
+  - component: {fileID: 1269785148}
+  - component: {fileID: 1269785147}
+  m_Layer: 0
+  m_Name: DialogueTrigger (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1269785146
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269785145}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -47.04, y: -59.55, z: -1.4255617}
+  m_LocalScale: {x: 5.13236, y: 3.5827699, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 471267160}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1269785147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269785145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f023e9261528145afe0364dd1af948, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueUICanvas: {fileID: 685421502}
+  speakerTextObject: {fileID: 143588686}
+  dialogueTextObject: {fileID: 1546816593}
+  portraitImageObject: {fileID: 946649264}
+  typingEffectSpeed: 0.02
+  playerMovementScript: {fileID: 2106205422}
+  speakerName:
+  - Little Girl
+  dialogueLines:
+  - I have to ask Mother what happened last night.
+  portraitImages:
+  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+--- !u!61 &1269785148
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269785145}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1289666577
 GameObject:
   m_ObjectHideFlags: 0
@@ -13157,7 +13261,6 @@ GameObject:
   - component: {fileID: 1503620214}
   - component: {fileID: 1503620217}
   - component: {fileID: 1503620216}
-  - component: {fileID: 1503620215}
   - component: {fileID: 1503620218}
   m_Layer: 0
   m_Name: Teleport trigger Upstairs
@@ -13182,21 +13285,6 @@ Transform:
   - {fileID: 349882718}
   m_Father: {fileID: 1436269822}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1503620215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1503620213}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8608eb6fe257664f8c087981d1afe66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  teleportTarget: {fileID: 436327628}
-  keyIndicator: {fileID: 349882719}
-  teleportDelay: 1.35
 --- !u!61 &1503620216
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13326,7 +13414,7 @@ MonoBehaviour:
   - What are you doing?!
   - I want to go down to the pantry.
   - No, don't go down there!
-  - '*Fine, I''ll sneak in at night.*'
+  - '*Thinking* Fine, I''ll sneak in at night.'
   portrait:
   - {fileID: 21300000, guid: 5c33659e767f2b7419999502d98c9a14, type: 3}
   - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
@@ -16759,7 +16847,7 @@ Transform:
   m_GameObject: {fileID: 1984586664}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 121.21, y: 0.04, z: 0}
+  m_LocalPosition: {x: 114.15, y: 0.04, z: 0}
   m_LocalScale: {x: 0.3938781, y: 9.785439, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17198,6 +17286,8 @@ MonoBehaviour:
   - Little Girl
   - Little Girl
   - Mother
+  - Little Girl
+  - Little Girl
   dialogue:
   - Mother, what happened last night?
   - Did something happen last night?
@@ -17212,6 +17302,8 @@ MonoBehaviour:
   - Yes, Mother.
   - What is wrong with the rest of the family?
   - Nothing. Nothing is wrong with them.
+  - '*Thinking* Maybe Father knows what happened.'
+  - '*Thinking* I did hear his showtgun last night.'
   portrait:
   - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
   - {fileID: 21300000, guid: 878610c89d7224641a5ada4d5315acb6, type: 3}
@@ -17226,6 +17318,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
   - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
   - {fileID: 21300000, guid: 43af88c6cb73f5a41a2565dd76b9cc0b, type: 3}
+  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
 --- !u!1 &2051726899
 GameObject:
   m_ObjectHideFlags: 0
@@ -18182,6 +18276,8 @@ MonoBehaviour:
   moveSpeed: 7
   rb: {fileID: 0}
   isFrozen: 0
+  footstepSoundClips: []
+  footstepInterval: 1
 --- !u!1 &2119645247
 GameObject:
   m_ObjectHideFlags: 0
