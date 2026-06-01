@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\SoundMixerManager.cs" />
     <Compile Include="Assets\Scripts\MovementPlayer.cs" />
     <Compile Include="Assets\Scripts\RedLightGreenLightManager.cs" />
+    <Compile Include="Assets\Scripts\CSE_Test.cs" />
     <Compile Include="Assets\Scripts\BoxMover.cs" />
     <Compile Include="Assets\Scripts\StairTeleport.cs" />
     <Compile Include="Assets\Scripts\PuzzleStartTrigger.cs" />
@@ -74,7 +75,10 @@
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\SoundFXManager.cs" />
     <Compile Include="Assets\Scripts\KeyManager.cs" />
+    <Compile Include="Assets\Scripts\CutsceneElementBase.cs" />
     <Compile Include="Assets\Scripts\KeyPickup.cs" />
+    <Compile Include="Assets\Scripts\CutsceneHandler.cs" />
+    <Compile Include="Assets\Scripts\CutsceneInitiator.cs" />
     <Compile Include="Assets\Scripts\PlayerInteraction.cs" />
     <Compile Include="Assets\Scripts\JournalManager.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem.cs" />

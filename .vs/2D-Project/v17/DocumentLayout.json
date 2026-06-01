@@ -3,11 +3,27 @@
   "WorkspaceRootPath": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|c:\\unity prosjekter\\game design 2\\2d-project\\assets\\scripts\\boxmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|C:\\Unity prosjekter\\Game Design 2\\2D-Project\\assets\\scripts\\cutsceneinitiator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cutsceneinitiator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|C:\\Unity prosjekter\\Game Design 2\\2D-Project\\assets\\scripts\\cutscenehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cutscenehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|c:\\unity prosjekter\\game design 2\\2d-project\\assets\\scripts\\cutsceneelementbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cutsceneelementbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|c:\\unity prosjekter\\game design 2\\2d-project\\assets\\scripts\\cse_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cse_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|C:\\Unity prosjekter\\Game Design 2\\2D-Project\\assets\\scripts\\boxmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\boxmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|c:\\unity prosjekter\\game design 2\\2d-project\\assets\\scripts\\movementplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|C:\\Unity prosjekter\\Game Design 2\\2D-Project\\assets\\scripts\\movementplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movementplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -65,11 +81,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CSE_Test.cs",
+              "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\CSE_Test.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CSE_Test.cs",
+              "ToolTip": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\CSE_Test.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CSE_Test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T07:45:49.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CutsceneElementBase.cs",
+              "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\CutsceneElementBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CutsceneElementBase.cs",
+              "ToolTip": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\CutsceneElementBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CutsceneElementBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T07:44:11.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CutsceneHandler.cs",
+              "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\CutsceneHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CutsceneHandler.cs",
+              "ToolTip": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\CutsceneHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CutsceneHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T07:43:26.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CutsceneInitiator.cs",
+              "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\CutsceneInitiator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CutsceneInitiator.cs",
+              "ToolTip": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\CutsceneInitiator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CutsceneInitiator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T07:43:11.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "BoxMover.cs",
               "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\BoxMover.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BoxMover.cs",
@@ -77,12 +145,11 @@
               "RelativeToolTip": "Assets\\Scripts\\BoxMover.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwBoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-31T17:05:21.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-31T17:05:21.746Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "SoundMixerManager.cs",
               "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\SoundMixerManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SoundMixerManager.cs",
@@ -94,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "SoundFXManager.cs",
               "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\SoundFXManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SoundFXManager.cs",
@@ -106,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "MovementPlayer.cs",
               "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\MovementPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MovementPlayer.cs",
@@ -114,12 +181,11 @@
               "RelativeToolTip": "Assets\\Scripts\\MovementPlayer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T14:23:32.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T14:23:32.552Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "LockedTeleport.cs",
               "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\LockedTeleport.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LockedTeleport.cs",
@@ -131,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "KeyPickup.cs",
               "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\KeyPickup.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\KeyPickup.cs",
@@ -143,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "KeyManager.cs",
               "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\KeyManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\KeyManager.cs",
@@ -155,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "DialogueSystem.cs",
               "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\DialogueSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueSystem.cs",
@@ -167,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "StairTeleport.cs",
               "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\StairTeleport.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StairTeleport.cs",
@@ -179,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "PlayerInteraction.cs",
               "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\PlayerInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInteraction.cs",
@@ -191,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
@@ -203,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "ParallaxController.cs",
               "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\ParallaxController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ParallaxController.cs",
@@ -215,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "DayNightCycle.cs",
               "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\DayNightCycle.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DayNightCycle.cs",
@@ -227,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "ObjectFollowPoint.cs",
               "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\ObjectFollowPoint.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\ObjectFollowPoint.cs",
