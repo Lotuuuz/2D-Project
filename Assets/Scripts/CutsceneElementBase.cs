@@ -4,7 +4,7 @@ using UnityEngine;
 public class CutsceneElementBase : MonoBehaviour
 {
     public float duration;
-    private CutsceneHandler cutsceneHandler;
+    public CutsceneHandler cutsceneHandler { get; private set; }
 
     public void Start()
     {

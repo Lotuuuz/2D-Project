@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class CutsceneHandler : MonoBehaviour
 {
+    public Camera cam;
     private CutsceneElementBase[] cutsceneElements;
     private int index = -1;
 

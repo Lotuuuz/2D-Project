@@ -7223,7 +7223,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &783477135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10371,8 +10371,7 @@ GameObject:
   - component: {fileID: 1093695585}
   - component: {fileID: 1093695584}
   - component: {fileID: 1093695583}
-  - component: {fileID: 1093695589}
-  - component: {fileID: 1093695588}
+  - component: {fileID: 1093695590}
   - component: {fileID: 1093695587}
   m_Layer: 0
   m_Name: CS_Base
@@ -10418,6 +10417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 806d6ba457a3e4a49bb81f3bb2995456, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cam: {fileID: 1697602113}
 --- !u!4 &1093695586
 Transform:
   m_ObjectHideFlags: 0
@@ -10428,7 +10428,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 29.8, y: -10.2, z: -0.235842}
-  m_LocalScale: {x: 28.634893, y: 10.050928, z: 9.3497}
+  m_LocalScale: {x: 28.644363, y: 10.050928, z: 9.3497}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -10479,7 +10479,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1093695588
+--- !u!114 &1093695590
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10488,23 +10488,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1093695582}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4466451e77f5fae41a1ddacdaf72e115, type: 3}
+  m_Script: {fileID: 11500000, guid: 3105be0b36488f4449c728554ff4fc0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 1
---- !u!114 &1093695589
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1093695582}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4466451e77f5fae41a1ddacdaf72e115, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  duration: 1
+  duration: 3
+  distanceToMove: {x: 18, y: 0}
 --- !u!1 &1100173393
 GameObject:
   m_ObjectHideFlags: 0

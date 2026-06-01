@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\StairTeleport.cs" />
     <Compile Include="Assets\Scripts\PuzzleStartTrigger.cs" />
     <Compile Include="Assets\Scripts\ParallaxController.cs" />
+    <Compile Include="Assets\Scripts\CSE_CameraPan.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\SoundFXManager.cs" />
     <Compile Include="Assets\Scripts\KeyManager.cs" />
