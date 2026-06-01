@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\KeyPickup.cs" />
     <Compile Include="Assets\Scripts\CutsceneHandler.cs" />
     <Compile Include="Assets\Scripts\CutsceneInitiator.cs" />
+    <Compile Include="Assets\Scripts\ObjectToggler.cs" />
     <Compile Include="Assets\Scripts\PlayerInteraction.cs" />
     <Compile Include="Assets\Scripts\JournalManager.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem.cs" />
