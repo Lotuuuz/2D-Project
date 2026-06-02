@@ -1,0 +1,2301 @@
+fileFormatVersion: 2
+guid: bc2202e13efa7f9479948d236eb6be34
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1290301065674440337
+    second: Window Shine_0
+  - first:
+      213: -1396816420479385175
+    second: Window Shine_1
+  - first:
+      213: 1879899167294146555
+    second: Window Shine_2
+  - first:
+      213: 9089879808221362479
+    second: Window Shine_3
+  - first:
+      213: -8190666049235315130
+    second: Window Shine_4
+  - first:
+      213: -7747888623893803930
+    second: Window Shine_5
+  - first:
+      213: 7390279249737331840
+    second: Window Shine_6
+  - first:
+      213: -6006434683983460430
+    second: Window Shine_7
+  - first:
+      213: 4247065114956855536
+    second: Window Shine_8
+  - first:
+      213: 5597273993373933032
+    second: Window Shine_9
+  - first:
+      213: -305732523444626528
+    second: Window Shine_10
+  - first:
+      213: -769092708489964157
+    second: Window Shine_11
+  - first:
+      213: -8703145565403797506
+    second: Window Shine_12
+  - first:
+      213: 1318034674841178310
+    second: Window Shine_13
+  - first:
+      213: 7504117305820835351
+    second: Window Shine_14
+  - first:
+      213: -48599837124621997
+    second: Window Shine_15
+  - first:
+      213: -7292826272343679790
+    second: Window Shine_16
+  - first:
+      213: -6330659539959648745
+    second: Window Shine_17
+  - first:
+      213: 3420686605944422948
+    second: Window Shine_18
+  - first:
+      213: -1762963490019361176
+    second: Window Shine_19
+  - first:
+      213: 854268985660259675
+    second: Window Shine_20
+  - first:
+      213: 167276874705201577
+    second: Window Shine_21
+  - first:
+      213: 3665475488985385073
+    second: Window Shine_22
+  - first:
+      213: 1521696609618003983
+    second: Window Shine_23
+  - first:
+      213: 2886948150602688797
+    second: Window Shine_24
+  - first:
+      213: -5367711131203454577
+    second: Window Shine_25
+  - first:
+      213: -2555232599903714678
+    second: Window Shine_26
+  - first:
+      213: -4856108274127341440
+    second: Window Shine_27
+  - first:
+      213: -3868733003415218635
+    second: Window Shine_28
+  - first:
+      213: -5177512459701113549
+    second: Window Shine_29
+  - first:
+      213: 1119137322859337732
+    second: Window Shine_30
+  - first:
+      213: -3724572367927481587
+    second: Window Shine_31
+  - first:
+      213: -3009908101042024692
+    second: Window Shine_32
+  - first:
+      213: -6975136227318570039
+    second: Window Shine_33
+  - first:
+      213: 8115632086848577734
+    second: Window Shine_34
+  - first:
+      213: -7190935570110163257
+    second: Window Shine_35
+  - first:
+      213: 9040447042027623548
+    second: Window Shine_36
+  - first:
+      213: 2860497504487970724
+    second: Window Shine_37
+  - first:
+      213: -571459445038827416
+    second: Window Shine_38
+  - first:
+      213: 1895980346901762463
+    second: Window Shine_39
+  - first:
+      213: 8916238055832649161
+    second: Window Shine_40
+  - first:
+      213: -4354239761295020494
+    second: Window Shine_41
+  - first:
+      213: 2454016778487582406
+    second: Window Shine_42
+  - first:
+      213: -5485938412810711079
+    second: Window Shine_43
+  - first:
+      213: -6626993372383969042
+    second: Window Shine_44
+  - first:
+      213: 1835649470992375307
+    second: Window Shine_45
+  - first:
+      213: 209408017406862169
+    second: Window Shine_46
+  - first:
+      213: -692882628541390993
+    second: Window Shine_47
+  - first:
+      213: -7157080918228092217
+    second: Window Shine_48
+  - first:
+      213: 3847506408848547969
+    second: Window Shine_49
+  - first:
+      213: -8400561793435702095
+    second: Window Shine_50
+  - first:
+      213: -8234992627907279879
+    second: Window Shine_51
+  - first:
+      213: 3915549644156403277
+    second: Window Shine_52
+  - first:
+      213: -5088857124342419092
+    second: Window Shine_53
+  - first:
+      213: 3172997589552982803
+    second: Window Shine_54
+  - first:
+      213: -3812410319355263272
+    second: Window Shine_55
+  - first:
+      213: -904879805147328047
+    second: Window Shine_56
+  - first:
+      213: 3771509239824751483
+    second: Window Shine_57
+  - first:
+      213: -423209713448271084
+    second: Window Shine_58
+  - first:
+      213: 5718547816439712888
+    second: Window Shine_59
+  - first:
+      213: 4505479105757406861
+    second: Window Shine_60
+  - first:
+      213: 1660526361708925006
+    second: Window Shine_61
+  - first:
+      213: 5395931659461030768
+    second: Window Shine_62
+  - first:
+      213: -6831230884620133943
+    second: Window Shine_63
+  - first:
+      213: -3995589142381646275
+    second: Window Shine_64
+  - first:
+      213: 188475404703816596
+    second: Window Shine_65
+  - first:
+      213: -7996736401334104086
+    second: Window Shine_66
+  - first:
+      213: -6893313672156236798
+    second: Window Shine_67
+  - first:
+      213: -7402531394803371888
+    second: Window Shine_68
+  - first:
+      213: -2465594429961692650
+    second: Window Shine_69
+  - first:
+      213: 8444880083221704763
+    second: Window Shine_70
+  - first:
+      213: 6948438112387084695
+    second: Window Shine_71
+  - first:
+      213: 7808807291216500800
+    second: Window Shine_72
+  - first:
+      213: 1130390525182334825
+    second: Window Shine_73
+  - first:
+      213: 8124180627017796990
+    second: Window Shine_74
+  - first:
+      213: 2187548699504309156
+    second: Window Shine_75
+  - first:
+      213: -7874937296353185184
+    second: Window Shine_76
+  - first:
+      213: 2641159272229213206
+    second: Window Shine_77
+  - first:
+      213: -5290548531594579100
+    second: Window Shine_78
+  - first:
+      213: -8383484598477280777
+    second: Window Shine_79
+  - first:
+      213: -2459464313485963802
+    second: Window Shine_80
+  - first:
+      213: -14298326848107873
+    second: Window Shine_81
+  - first:
+      213: 5587788541743488457
+    second: Window Shine_82
+  - first:
+      213: 4511730223996743862
+    second: Window Shine_83
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Window Shine_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 605
+        width: 233
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61ca2f540ee71ee0800000000000000
+      internalID: -1290301065674440337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_1
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 605
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1c4e0cdd28d9ce0800000000000000
+      internalID: -1396816420479385175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_2
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 0
+        width: 533
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7ce10255eb61a10800000000000000
+      internalID: 1879899167294146555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_3
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 591
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29b70c768db52e70800000000000000
+      internalID: 9089879808221362479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_4
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 589
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6461a7dcf98e45e80800000000000000
+      internalID: -8190666049235315130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_5
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 585
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c058db858f97490800000000000000
+      internalID: -7747888623893803930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_6
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 585
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084b88f72db8f8660800000000000000
+      internalID: 7390279249737331840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_7
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 469
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b784967a7bd4aca0800000000000000
+      internalID: -6006434683983460430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_8
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 469
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8f4fa583b90fa30800000000000000
+      internalID: 4247065114956855536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_9
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 469
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8edd5959a038dad40800000000000000
+      internalID: 5597273993373933032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_10
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 469
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab9cc7c3e1d1cbf0800000000000000
+      internalID: -305732523444626528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_11
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 469
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385dc17a142a355f0800000000000000
+      internalID: -769092708489964157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_12
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 449
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef727913837383780800000000000000
+      internalID: -8703145565403797506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_13
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 449
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c05e83bd899a4210800000000000000
+      internalID: 1318034674841178310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_14
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 449
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71eef4e5eeaf32860800000000000000
+      internalID: 7504117305820835351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_15
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 449
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3598b04a4b6535ff0800000000000000
+      internalID: -48599837124621997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_16
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 449
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc9154f42daaca90800000000000000
+      internalID: -7292826272343679790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_17
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 449
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e64ce80baf428a0800000000000000
+      internalID: -6330659539959648745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_18
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 428
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42201433858b87f20800000000000000
+      internalID: 3420686605944422948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_19
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 428
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86eb961eb02b887e0800000000000000
+      internalID: -1762963490019361176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_20
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 428
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5db9e8cd19fadb00800000000000000
+      internalID: 854268985660259675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_21
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 428
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9e0f76e69425200800000000000000
+      internalID: 167276874705201577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_22
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 428
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17800e569826ed230800000000000000
+      internalID: 3665475488985385073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_23
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 428
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08823011072e1510800000000000000
+      internalID: 1521696609618003983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_24
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 344
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19e4a91c00801820800000000000000
+      internalID: 2886948150602688797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_25
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 344
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8935bf5a2f0285b0800000000000000
+      internalID: -5367711131203454577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_26
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 344
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a82cd341d7df98cd0800000000000000
+      internalID: -2555232599903714678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_27
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 344
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 088fdc1e043ab9cb0800000000000000
+      internalID: -4856108274127341440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_28
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 344
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5361b90b4df7f4ac0800000000000000
+      internalID: -3868733003415218635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_29
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 344
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d2b5b79d7c528b0800000000000000
+      internalID: -5177512459701113549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_30
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 344
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40899e73779f78f00800000000000000
+      internalID: 1119137322859337732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_31
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 344
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b627d3a29af4cc0800000000000000
+      internalID: -3724572367927481587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_32
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 324
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0fc1de7788aa36d0800000000000000
+      internalID: -3009908101042024692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_33
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 324
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c3e7be9e86533f90800000000000000
+      internalID: -6975136227318570039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_34
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 324
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c02f50726480a070800000000000000
+      internalID: 8115632086848577734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_35
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 324
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6dcdcb23aa43c90800000000000000
+      internalID: -7190935570110163257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_36
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 324
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7499c6bfae167d70800000000000000
+      internalID: 9040447042027623548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_37
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 324
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a795e3235782b720800000000000000
+      internalID: 2860497504487970724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_38
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 324
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8683be699a4c118f0800000000000000
+      internalID: -571459445038827416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_39
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 324
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9193368410ef4a10800000000000000
+      internalID: 1895980346901762463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 107
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd79b28547dcbb70800000000000000
+      internalID: 8916238055832649161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_41
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 303
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ee021c102a293c0800000000000000
+      internalID: -4354239761295020494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_42
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 303
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cec992124b6e0220800000000000000
+      internalID: 2454016778487582406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_43
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 303
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df4fbc44180ed3b0800000000000000
+      internalID: -5485938412810711079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_44
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 303
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee08f2e93a03804a0800000000000000
+      internalID: -6626993372383969042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_45
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 303
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e52aad779897910800000000000000
+      internalID: 1835649470992375307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_46
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 303
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953a7aa7b77f7e200800000000000000
+      internalID: 209408017406862169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_47
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 303
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f50ce9be26266f0800000000000000
+      internalID: -692882628541390993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_48
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 216
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cab94023d0fcac90800000000000000
+      internalID: -7157080918228092217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_49
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 216
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180e472a1b6156530800000000000000
+      internalID: 3847506408848547969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_50
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 216
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bceb849e853b6b80800000000000000
+      internalID: -8400561793435702095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_51
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 216
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f340a5f5dd67bd80800000000000000
+      internalID: -8234992627907279879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_52
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 216
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e7958e7a3d65630800000000000000
+      internalID: 3915549644156403277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_53
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 216
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61bad6486fb069b0800000000000000
+      internalID: -5088857124342419092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_54
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 216
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31be9761f70c80c20800000000000000
+      internalID: 3172997589552982803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_55
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 216
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6cbc87309971bc0800000000000000
+      internalID: -3812410319355263272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_56
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 216
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1d4c98c983173f0800000000000000
+      internalID: -904879805147328047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_57
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 216
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b9bdadba7175430800000000000000
+      internalID: 3771509239824751483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_58
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 216
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413cb640205702af0800000000000000
+      internalID: -423209713448271084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_59
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 216
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c89fdd0fc5c5f40800000000000000
+      internalID: 5718547816439712888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_60
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 196
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d866d99206da68e30800000000000000
+      internalID: 4505479105757406861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_61
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 196
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4015d99def5b0710800000000000000
+      internalID: 1660526361708925006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_62
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 196
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0737572614332ea40800000000000000
+      internalID: 5395931659461030768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_63
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 196
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c91a8f24b79231a0800000000000000
+      internalID: -6831230884620133943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_64
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 196
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e2fe338d0dc88c0800000000000000
+      internalID: -3995589142381646275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_65
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 196
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49bd44ac1699d9200800000000000000
+      internalID: 188475404703816596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_66
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 196
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef8b0c8c92e50190800000000000000
+      internalID: -7996736401334104086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_67
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 196
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204b8cdccb70650a0800000000000000
+      internalID: -6893313672156236798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_68
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 196
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 090711eaaece44990800000000000000
+      internalID: -7402531394803371888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_69
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 196
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a93f1ede278cdd0800000000000000
+      internalID: -2465594429961692650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_70
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 196
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b30733b51bd323570800000000000000
+      internalID: 8444880083221704763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_71
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 196
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7913e9816afcd6060800000000000000
+      internalID: 6948438112387084695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_72
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 175
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0489078cbd47e5c60800000000000000
+      internalID: 7808807291216500800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_73
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 175
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967d5fe8134ffaf00800000000000000
+      internalID: 1130390525182334825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_74
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 175
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d818c8c33eeb070800000000000000
+      internalID: 8124180627017796990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_75
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 175
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a372dab3fbbb5e10800000000000000
+      internalID: 2187548699504309156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_76
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 175
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062b46e804a96b290800000000000000
+      internalID: -7874937296353185184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_77
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 175
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61493785d5847a420800000000000000
+      internalID: 2641159272229213206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_78
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 175
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463375b14223496b0800000000000000
+      internalID: -5290548531594579100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_79
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 175
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9adcfdc21e7ab80800000000000000
+      internalID: -8383484598477280777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_80
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 175
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed4be8dc3a3eddd0800000000000000
+      internalID: -2459464313485963802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_81
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 175
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a065b5fb33dcff0800000000000000
+      internalID: -14298326848107873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_82
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 175
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd5e96c210db8d40800000000000000
+      internalID: 5587788541743488457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window Shine_83
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 175
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b038bb0cb2ec9e30800000000000000
+      internalID: 4511730223996743862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Window Shine_0: -1290301065674440337
+      Window Shine_1: -1396816420479385175
+      Window Shine_10: -305732523444626528
+      Window Shine_11: -769092708489964157
+      Window Shine_12: -8703145565403797506
+      Window Shine_13: 1318034674841178310
+      Window Shine_14: 7504117305820835351
+      Window Shine_15: -48599837124621997
+      Window Shine_16: -7292826272343679790
+      Window Shine_17: -6330659539959648745
+      Window Shine_18: 3420686605944422948
+      Window Shine_19: -1762963490019361176
+      Window Shine_2: 1879899167294146555
+      Window Shine_20: 854268985660259675
+      Window Shine_21: 167276874705201577
+      Window Shine_22: 3665475488985385073
+      Window Shine_23: 1521696609618003983
+      Window Shine_24: 2886948150602688797
+      Window Shine_25: -5367711131203454577
+      Window Shine_26: -2555232599903714678
+      Window Shine_27: -4856108274127341440
+      Window Shine_28: -3868733003415218635
+      Window Shine_29: -5177512459701113549
+      Window Shine_3: 9089879808221362479
+      Window Shine_30: 1119137322859337732
+      Window Shine_31: -3724572367927481587
+      Window Shine_32: -3009908101042024692
+      Window Shine_33: -6975136227318570039
+      Window Shine_34: 8115632086848577734
+      Window Shine_35: -7190935570110163257
+      Window Shine_36: 9040447042027623548
+      Window Shine_37: 2860497504487970724
+      Window Shine_38: -571459445038827416
+      Window Shine_39: 1895980346901762463
+      Window Shine_4: -8190666049235315130
+      Window Shine_40: 8916238055832649161
+      Window Shine_41: -4354239761295020494
+      Window Shine_42: 2454016778487582406
+      Window Shine_43: -5485938412810711079
+      Window Shine_44: -6626993372383969042
+      Window Shine_45: 1835649470992375307
+      Window Shine_46: 209408017406862169
+      Window Shine_47: -692882628541390993
+      Window Shine_48: -7157080918228092217
+      Window Shine_49: 3847506408848547969
+      Window Shine_5: -7747888623893803930
+      Window Shine_50: -8400561793435702095
+      Window Shine_51: -8234992627907279879
+      Window Shine_52: 3915549644156403277
+      Window Shine_53: -5088857124342419092
+      Window Shine_54: 3172997589552982803
+      Window Shine_55: -3812410319355263272
+      Window Shine_56: -904879805147328047
+      Window Shine_57: 3771509239824751483
+      Window Shine_58: -423209713448271084
+      Window Shine_59: 5718547816439712888
+      Window Shine_6: 7390279249737331840
+      Window Shine_60: 4505479105757406861
+      Window Shine_61: 1660526361708925006
+      Window Shine_62: 5395931659461030768
+      Window Shine_63: -6831230884620133943
+      Window Shine_64: -3995589142381646275
+      Window Shine_65: 188475404703816596
+      Window Shine_66: -7996736401334104086
+      Window Shine_67: -6893313672156236798
+      Window Shine_68: -7402531394803371888
+      Window Shine_69: -2465594429961692650
+      Window Shine_7: -6006434683983460430
+      Window Shine_70: 8444880083221704763
+      Window Shine_71: 6948438112387084695
+      Window Shine_72: 7808807291216500800
+      Window Shine_73: 1130390525182334825
+      Window Shine_74: 8124180627017796990
+      Window Shine_75: 2187548699504309156
+      Window Shine_76: -7874937296353185184
+      Window Shine_77: 2641159272229213206
+      Window Shine_78: -5290548531594579100
+      Window Shine_79: -8383484598477280777
+      Window Shine_8: 4247065114956855536
+      Window Shine_80: -2459464313485963802
+      Window Shine_81: -14298326848107873
+      Window Shine_82: 5587788541743488457
+      Window Shine_83: 4511730223996743862
+      Window Shine_9: 5597273993373933032
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

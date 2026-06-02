@@ -121,7 +121,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 145
+  controlID: 134
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -225,8 +225,8 @@ MonoBehaviour:
     y: 0
     width: 382
     height: 1453
-  m_MinSize: {x: 202, y: 226}
-  m_MaxSize: {x: 4002, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -1154,9 +1154,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 25.446405, y: 8.139521, z: -0.24575111}
+    m_Target: {x: 29.188297, y: 11.4265995, z: -0.35104203}
     speed: 2
-    m_Value: {x: 25.446405, y: 8.139521, z: -0.24575111}
+    m_Value: {x: 29.188297, y: 11.4265995, z: -0.35104203}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1206,9 +1206,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 25.282139
+    m_Target: 49.17466
     speed: 2
-    m_Value: 25.282139
+    m_Value: 49.17466
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1495,21 +1495,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 184cffff0254ffff7658ffff8e59ffffaa5affffc45bffffdc5cffffa45dffffb262ffffd863fffffe64ffff2466fffffe66ffff3072fffff872ffff7474ffff3c75ffff9076ffffc877ffffd278fffff879ffff547effffdc82ffffa483ffff6c84ffff3e85ffff1886ffff0287ffff6a9dffff6c9fffffc0a0ffff04a3ffff60b6ffffc8b7ffff28b9ffff7ebaffff88bbffffdebcffff74cfffff94d0ffffb2d1ffffd4d2ffffaed3ffffd0d4ffff94d9ffff10dbffffbedfffff42e1ffff90e6ffff84eaffff84ecffff4eedffff34efffff54f0ffff5ef2ffff86f4ffff08fbffff1eb3000010b40000e4b5000062b8000088c300003cc40000e2c500008ac800001ccf0000d0cf000070d1000020d400004cda00003edb000002e00000f4e00000c2e2000042e500005ef1000012f200009ef3000068f600008efd0000780e0100b20e0100d00e0100240f01002a0f0100b010010072110100ee110100081201001e120100e8120100181301008c47010096520100d0520100ee52010048530100d45401009655010012560100425601000a5701006e800100f214020016170200c6710200fe730200847c0200387d0200767f0200a687020038880200488802004c88020094880200ac880200be880200da880200f4880200f88802002689020062890200ae890200cc890200d0890200e0890200268a0200728a0200dc8a0200448b02008a8b0200328c0200308d0200388d0200668d0200708d0200748d0200e4c60200c0cc020084ec0200def7020052f8020020f90200
+      m_ExpandedIDs: 3e9affffbca0ffff1aa4ffffe2a9ffff4cd2ffff36d4ffff26d6ffff62dcffff38e0ffff96e3ffff4ce9ffff6aeaffff96ebffff72ecffff3cedffff5aeeffff4af3ffff08fbffff7e0701001a1e01005c200100583a0100ec490100e05a0100f85a0100025f0100325f0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Hitbox Pile
-        m_OriginalName: Hitbox Pile
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 165994
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 9}
@@ -1586,7 +1586,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: b0230000
     m_LastClickedID: 9136
-    m_ExpandedIDs: 000000005eb9000072b90000c2ba0000c4ba0000c6ba0000c8ba0000caba0000ccba0000ceba0000d0ba0000d2ba0000d4ba0000d6ba0000d8ba0000daba0000dcba0000deba0000e0ba0000e2ba0000e4ba0000e6ba0000e8ba0000eaba0000ecba0000eeba0000f0ba0000f2ba0000f4ba0000f6ba0000f8ba0000faba0000fcba0000feba000000bb000002bb0000
+    m_ExpandedIDs: 000000002eb9000036b9000054ba000056ba000058ba00005aba00005cba00005eba000060ba000062ba000064ba000066ba000068ba00006aba00006cba00006eba000070ba000072ba000074ba000076ba000078ba00007aba00007cba00007eba000080ba000082ba000084ba000086ba000088ba00008aba00008cba00008eba000090ba000092ba0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1615,21 +1615,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff000000005eb9000072b90000c2ba0000c4ba0000c6ba0000c8ba0000ccba0000ceba0000d0ba0000d2ba0000d4ba0000d6ba0000d8ba0000daba0000dcba0000deba0000e0ba0000e2ba0000e4ba0000e6ba0000e8ba0000eaba0000ecba0000eeba0000f0ba0000f2ba0000f4ba0000f6ba0000f8ba0000faba0000fcba0000feba000002bb000026020100
+    m_ExpandedIDs: ffffffff000000002eb9000036b9000054ba000056ba000058ba00005aba00005cba00005eba000060ba000062ba000064ba000066ba000068ba00006aba00006cba00006eba000070ba000072ba000074ba000076ba000078ba00007aba00007cba00007eba000080ba000082ba000084ba000086ba000088ba00008aba00008cba00008eba000090ba000092ba0000babc00009a050100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Level 2 (Day 1)
-      m_OriginalName: Level 2 (Day 1)
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 47796
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 10}
