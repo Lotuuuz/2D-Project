@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\MovementPlayer.cs" />
     <Compile Include="Assets\Scripts\RedLightGreenLightManager.cs" />
     <Compile Include="Assets\Scripts\CSE_Test.cs" />
+    <Compile Include="Assets\Scripts\SoundFXTrigger.cs" />
     <Compile Include="Assets\Scripts\BoxMover.cs" />
     <Compile Include="Assets\Scripts\StairTeleport.cs" />
     <Compile Include="Assets\Scripts\PuzzleStartTrigger.cs" />

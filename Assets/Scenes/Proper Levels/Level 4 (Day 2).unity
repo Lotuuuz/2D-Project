@@ -526,6 +526,8 @@ MonoBehaviour:
   teleportTarget: {fileID: 644871509}
   keyIndicator: {fileID: 1873445769}
   teleportDelay: 1.35
+  doorSoundClips: []
+  stairSoundClips: []
 --- !u!61 &74924923
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -830,6 +832,8 @@ MonoBehaviour:
   teleportTarget: {fileID: 1219687804}
   keyIndicator: {fileID: 1082836917}
   teleportDelay: 1.35
+  doorSoundClips: []
+  stairSoundClips: []
 --- !u!61 &89195418
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1705,14 +1709,14 @@ MonoBehaviour:
   - Don't you want to know where he is, or go see him?
   - Not that's fine. I'll just go down there when I want to see him.
   portrait:
-  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
   - {fileID: 21300000, guid: ced08b871f2540646bea88cbdf920a22, type: 3}
-  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
   - {fileID: 21300000, guid: 5e6e3c7480652ea439fe46e29397bce1, type: 3}
-  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
-  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
+  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
   - {fileID: 21300000, guid: 0bb0ff42f8b789c40994cd47d63c7260, type: 3}
-  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
   - {fileID: 21300000, guid: 0bb0ff42f8b789c40994cd47d63c7260, type: 3}
 --- !u!61 &215869437
 BoxCollider2D:
@@ -1999,6 +2003,8 @@ MonoBehaviour:
   teleportTarget: {fileID: 1162409015}
   keyIndicator: {fileID: 1241416688}
   teleportDelay: 1.35
+  doorSoundClips: []
+  stairSoundClips: []
 --- !u!61 &266209890
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2315,6 +2321,8 @@ MonoBehaviour:
   teleportTarget: {fileID: 1104104054}
   keyIndicator: {fileID: 1911911922}
   teleportDelay: 1.35
+  doorSoundClips: []
+  stairSoundClips: []
 --- !u!61 &368650544
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2689,6 +2697,8 @@ MonoBehaviour:
   teleportTarget: {fileID: 1136889548}
   keyIndicator: {fileID: 1693461098}
   teleportDelay: 1.35
+  doorSoundClips: []
+  stairSoundClips: []
 --- !u!1 &397671904
 GameObject:
   m_ObjectHideFlags: 0
@@ -2739,6 +2749,8 @@ MonoBehaviour:
   teleportTarget: {fileID: 2057177920}
   keyIndicator: {fileID: 1858686603}
   teleportDelay: 1.35
+  doorSoundClips: []
+  stairSoundClips: []
 --- !u!61 &397671907
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2867,8 +2879,8 @@ Transform:
   m_GameObject: {fileID: 398804304}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.100002, y: 3.9100003, z: -1.4255617}
-  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_LocalPosition: {x: 14.100002, y: 10.438, z: -1.4255617}
+  m_LocalScale: {x: 5, y: 6.314, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 36816635}
@@ -3748,6 +3760,8 @@ MonoBehaviour:
   teleportTarget: {fileID: 2093613415}
   keyIndicator: {fileID: 1466040858}
   teleportDelay: 1.35
+  doorSoundClips: []
+  stairSoundClips: []
 --- !u!61 &488367353
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4103,6 +4117,8 @@ MonoBehaviour:
   teleportTarget: {fileID: 698984065}
   keyIndicator: {fileID: 1107505206}
   teleportDelay: 1.35
+  doorSoundClips: []
+  stairSoundClips: []
 --- !u!61 &556583749
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4486,6 +4502,8 @@ MonoBehaviour:
   teleportTarget: {fileID: 399416747}
   keyIndicator: {fileID: 2001599294}
   teleportDelay: 1.35
+  doorSoundClips: []
+  stairSoundClips: []
 --- !u!61 &586923788
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4717,93 +4735,6 @@ Transform:
   - {fileID: 1810747942}
   m_Father: {fileID: 1262426676}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &644558495
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 644558496}
-  - component: {fileID: 644558497}
-  m_Layer: 0
-  m_Name: Cover up (9)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &644558496
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 644558495}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 84.7422, y: 39.7, z: 0}
-  m_LocalScale: {x: 236.42374, y: 12.9924965, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1100488392}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &644558497
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 644558495}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -1
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.7058824, g: 0.8078432, b: 0.9686275, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &644871508
 GameObject:
   m_ObjectHideFlags: 0
@@ -5088,6 +5019,8 @@ MonoBehaviour:
   teleportTarget: {fileID: 16910518}
   keyIndicator: {fileID: 462999209}
   teleportDelay: 1.35
+  doorSoundClips: []
+  stairSoundClips: []
 --- !u!61 &653828821
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6633,7 +6566,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: f1711945f0df6c54d8b29484e3333f63, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -7060,6 +6993,8 @@ MonoBehaviour:
   teleportTarget: {fileID: 789861924}
   keyIndicator: {fileID: 437726758}
   teleportDelay: 1.35
+  doorSoundClips: []
+  stairSoundClips: []
 --- !u!61 &814388484
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7690,6 +7625,8 @@ MonoBehaviour:
   teleportTarget: {fileID: 1343804376}
   keyIndicator: {fileID: 678200621}
   teleportDelay: 1.35
+  doorSoundClips: []
+  stairSoundClips: []
 --- !u!61 &873927659
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8136,9 +8073,9 @@ MonoBehaviour:
   - Did she say why?
   - She wants to talk about tomorrow.
   portrait:
-  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
   - {fileID: 21300000, guid: 5c33659e767f2b7419999502d98c9a14, type: 3}
-  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
   - {fileID: 21300000, guid: 1795c99d8cdbcc04d94cdc20719a90ef, type: 3}
 --- !u!61 &923446607
 BoxCollider2D:
@@ -9407,6 +9344,8 @@ MonoBehaviour:
   teleportTarget: {fileID: 1127482218}
   keyIndicator: {fileID: 193608698}
   teleportDelay: 1.35
+  doorSoundClips: []
+  stairSoundClips: []
 --- !u!61 &1097652883
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9739,7 +9678,6 @@ Transform:
   - {fileID: 1838136803}
   - {fileID: 1223142595}
   - {fileID: 741090542}
-  - {fileID: 644558496}
   - {fileID: 1582642943}
   - {fileID: 744679170}
   - {fileID: 1766105369}
@@ -10167,6 +10105,8 @@ MonoBehaviour:
   teleportTarget: {fileID: 3246542}
   keyIndicator: {fileID: 905925423}
   teleportDelay: 1.35
+  doorSoundClips: []
+  stairSoundClips: []
 --- !u!61 &1130132789
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11149,12 +11089,12 @@ MonoBehaviour:
   - I don't like you snooping around.
   - Don't do it again, you might find something you don't like...
   portrait:
-  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
   - {fileID: 21300000, guid: a6a32367a2307404691050a38b70e3eb, type: 3}
-  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
   - {fileID: 21300000, guid: a6a32367a2307404691050a38b70e3eb, type: 3}
   - {fileID: 21300000, guid: d4b5ed4f0c683e74a8bed0bd574376e2, type: 3}
-  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
   - {fileID: 21300000, guid: a6a32367a2307404691050a38b70e3eb, type: 3}
   - {fileID: 21300000, guid: d4b5ed4f0c683e74a8bed0bd574376e2, type: 3}
   - {fileID: 21300000, guid: 85662ddea8cb12a41a0b01d931e9fed2, type: 3}
@@ -11520,6 +11460,8 @@ MonoBehaviour:
   teleportTarget: {fileID: 1795234511}
   keyIndicator: {fileID: 382344397}
   teleportDelay: 1.35
+  doorSoundClips: []
+  stairSoundClips: []
 --- !u!61 &1299700432
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11983,8 +11925,8 @@ MonoBehaviour:
   - I have the key!
   - Now I need to go down to the pantry!
   portraitImages:
-  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
-  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
+  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
 --- !u!61 &1357086679
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12081,6 +12023,8 @@ MonoBehaviour:
   teleportTarget: {fileID: 1260200612}
   keyIndicator: {fileID: 0}
   teleportDelay: 1.35
+  doorSoundClips: []
+  stairSoundClips: []
 --- !u!61 &1370635316
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12935,6 +12879,8 @@ MonoBehaviour:
   teleportTarget: {fileID: 755429352}
   keyIndicator: {fileID: 1376869656}
   teleportDelay: 1.35
+  doorSoundClips: []
+  stairSoundClips: []
 --- !u!61 &1450049482
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13610,8 +13556,8 @@ MonoBehaviour:
   - '*Thinking* I''ll go down tonight.'
   portrait:
   - {fileID: 21300000, guid: 1795c99d8cdbcc04d94cdc20719a90ef, type: 3}
-  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
-  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
+  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
 --- !u!1 &1546816591
 GameObject:
   m_ObjectHideFlags: 0
@@ -13853,51 +13799,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1560775558
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1560775560}
-  - component: {fileID: 1560775559}
-  m_Layer: 0
-  m_Name: JournalSystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1560775559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1560775558}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af4d445fba531204ea39c0b57b622c28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  journalUI: {fileID: 80206568}
---- !u!4 &1560775560
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1560775558}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 152.07506, y: 294.21783, z: -21.144154}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1560856059
 GameObject:
   m_ObjectHideFlags: 0
@@ -14323,6 +14224,8 @@ MonoBehaviour:
   teleportTarget: {fileID: 975082277}
   keyIndicator: {fileID: 1718423149}
   teleportDelay: 1.35
+  doorSoundClips: []
+  stairSoundClips: []
 --- !u!61 &1616623800
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14722,13 +14625,13 @@ MonoBehaviour:
   - Right... Guess I'll go find her then, soon.
   - Okay...
   portrait:
-  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
   - {fileID: 21300000, guid: 2ae1832daee64b44ca3c737f1c8b6092, type: 3}
-  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
   - {fileID: 21300000, guid: 2d2d8eb13efb8654e958d57a098fe5dd, type: 3}
-  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
   - {fileID: 21300000, guid: ec96fc63863b1054d96c74c38e8ba5e0, type: 3}
-  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
 --- !u!61 &1675342693
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15602,6 +15505,8 @@ MonoBehaviour:
   teleportTarget: {fileID: 1109658021}
   keyIndicator: {fileID: 1770063340}
   teleportDelay: 1.35
+  doorSoundClips: []
+  stairSoundClips: []
 --- !u!61 &1783915386
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16709,6 +16614,8 @@ MonoBehaviour:
   teleportTarget: {fileID: 1564995568}
   keyIndicator: {fileID: 1250554174}
   teleportDelay: 1.35
+  doorSoundClips: []
+  stairSoundClips: []
 --- !u!61 &1912422542
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17495,15 +17402,15 @@ MonoBehaviour:
   - Yes, Mother...
   - '*Thinking* I need to get down to the safehouse tonight, before I''m grounded.'
   portrait:
-  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
   - {fileID: 21300000, guid: 878610c89d7224641a5ada4d5315acb6, type: 3}
   - {fileID: 21300000, guid: 43af88c6cb73f5a41a2565dd76b9cc0b, type: 3}
-  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
   - {fileID: 21300000, guid: 43af88c6cb73f5a41a2565dd76b9cc0b, type: 3}
   - {fileID: 21300000, guid: 332523c4f96d5f34c80bcec1e1ce3211, type: 3}
   - {fileID: 21300000, guid: 332523c4f96d5f34c80bcec1e1ce3211, type: 3}
-  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
-  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
+  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
 --- !u!1 &2051726899
 GameObject:
   m_ObjectHideFlags: 0
@@ -17770,11 +17677,11 @@ MonoBehaviour:
   - It's for your leg...
   - That's what I said.
   portrait:
-  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
   - {fileID: 21300000, guid: f3bfdca4525a391469ec300b6f7beccb, type: 3}
-  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
   - {fileID: 21300000, guid: f3bfdca4525a391469ec300b6f7beccb, type: 3}
-  - {fileID: 21300000, guid: be4fb4e6e388d914fae1a09686b0a2a3, type: 3}
+  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
   - {fileID: 21300000, guid: 06a5c796bc5962743bba30c049f6dcc9, type: 3}
 --- !u!61 &2057076824
 BoxCollider2D:
@@ -18511,7 +18418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7aa00170ef7dc844b33f6b665262725, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 7
+  moveSpeed: 5
   rb: {fileID: 2106205413}
   isFrozen: 0
   footstepSoundClips:
@@ -18519,7 +18426,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 62ed25722e5de9a42a14efefc916cf78, type: 3}
   - {fileID: 8300000, guid: 18a5644e13bc2654ea43b1c4fb1e0d3e, type: 3}
   - {fileID: 8300000, guid: baca66c00d7ad1249b143d71e397cffc, type: 3}
-  footstepInterval: 1
+  footstepInterval: 0.8
 --- !u!1 &2119645247
 GameObject:
   m_ObjectHideFlags: 0
@@ -18949,6 +18856,8 @@ MonoBehaviour:
   teleportTarget: {fileID: 1070117346}
   keyIndicator: {fileID: 1100133963}
   teleportDelay: 1.35
+  doorSoundClips: []
+  stairSoundClips: []
 --- !u!61 &2127205997
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19130,7 +19039,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 2063732284}
   - {fileID: 1644028594}
-  - {fileID: 1560775560}
   - {fileID: 2063185712}
   - {fileID: 2104949421}
   - {fileID: 1052246444}

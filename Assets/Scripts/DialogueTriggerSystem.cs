@@ -163,7 +163,10 @@ public class DialogueTriggerSystem : MonoBehaviour
 
         canContinueDialogue = false;
 
-        dialogueUICanvas.SetActive(false);
+        if (dialogueUICanvas != null)
+        {
+            dialogueUICanvas.SetActive(false);
+        }
 
         playerMovementScript.enabled = true;
 

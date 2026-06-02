@@ -11,6 +11,10 @@ public class StairTeleport : MonoBehaviour
 
     [SerializeField] private float teleportDelay = 1.35f;
 
+    [SerializeField] private AudioClip[] doorSoundClips;
+
+    [SerializeField] private AudioClip[] stairSoundClips;
+
 
     private bool playerInRange = false;
     private GameObject player; 
@@ -18,8 +22,8 @@ public class StairTeleport : MonoBehaviour
     private Animator playerAnimator;
 
     private bool isTeleporting = false;
-    
-    
+
+
     // If the player is in the the trigger zone and presses e, they teleport
     void Update()
     {
