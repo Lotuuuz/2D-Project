@@ -1,17 +1,18 @@
-using UnityEngine;
-using TMPro;
+﻿using UnityEngine;
 
 public class KeyPickup : MonoBehaviour
 {
     public string keyName;
 
     [SerializeField] private GameObject pickupPrompt;
+    [SerializeField] private GameObject keyObject; // nøkkelen
 
     private bool playerInRange = false;
 
     private void Start()
     {
-        pickupPrompt.SetActive(false);
+        if (pickupPrompt != null)
+            pickupPrompt.SetActive(false);
     }
 
     private void Update()
@@ -20,11 +21,15 @@ public class KeyPickup : MonoBehaviour
         {
             KeyManager.Instance.AddKey(keyName);
 
-            Debug.Log("Picked up:" + keyName);
+            // Fortell bestemoren at nøkkelen er plukket opp
+            Object.FindFirstObjectByType<GrandmaController>().keyCollected = true;
 
-            pickupPrompt.SetActive(false);
+            // Skjul E-indikatoren
+            if (pickupPrompt != null)
+                pickupPrompt.SetActive(false);
 
-            Destroy(gameObject);
+            // Ødelegg nøkkelen
+            Destroy(keyObject);
         }
     }
 
@@ -34,9 +39,8 @@ public class KeyPickup : MonoBehaviour
         {
             playerInRange = true;
 
-            pickupPrompt.SetActive(true);
-
-            Debug.Log("Press E to pick up key");
+            if (pickupPrompt != null)
+                pickupPrompt.SetActive(true);
         }
     }
 
@@ -46,7 +50,8 @@ public class KeyPickup : MonoBehaviour
         {
             playerInRange = false;
 
-            pickupPrompt.SetActive(false);
+            if (pickupPrompt != null)
+                pickupPrompt.SetActive(false);
         }
     }
 }

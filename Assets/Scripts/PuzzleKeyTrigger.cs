@@ -16,8 +16,6 @@ public class PuzzleKeyTrigger : MonoBehaviour
             // spilleren har nådd nøkkelen uten å bli tatt
             puzzleManager.puzzleCompleted = true;
 
-            // aktiver nøkkelen slik at KeyPickup kan ta den
-            keyObject.SetActive(true);
 
             // fjern triggeren
             gameObject.SetActive(false);

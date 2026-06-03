@@ -9,6 +9,7 @@ public class GrandmaController : MonoBehaviour
     public float lookTime = 2f;      // hvor lenge hun er i lookup-loop
     public float idleTime = 3f;      // hvor lenge hun strikker
 
+    public bool keyCollected = false;
     private float timer;
     public Animator animator;
 
@@ -35,6 +36,15 @@ public class GrandmaController : MonoBehaviour
             {
                 StartIdlePhase();      // Looking → Idle
             }
+        }
+
+        if (keyCollected)
+
+        {
+            //bestemor er i safe mode 
+            animator.Play("Idle-Knitting");
+            return; // stopper all annen logikk 
+
         }
     }
 
