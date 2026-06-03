@@ -5,7 +5,8 @@ public class RedLightGreenLightManager : MonoBehaviour
     public GrandmaController grandma;
     public MovementPlayer player;
     public Transform failResetPoint;
-    
+
+    public bool puzzleCompleted = false;
 
     private Vector3 lastPosition;
 
