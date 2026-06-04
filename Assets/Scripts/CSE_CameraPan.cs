@@ -34,6 +34,7 @@ public class CSE_CameraPan : CutsceneElementBase
         cam.transform.position = targetPosition;
 
         cutsceneHandler.PlayNextElement();
+
     }
 
     private void OnDestroy()
