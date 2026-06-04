@@ -20,32 +20,41 @@ public class GrandmaController : MonoBehaviour
 
     void Update()
     {
+        //stopp alt hvis nøkkelen er plukket opp 
+        if (keyCollected)
+
+        {
+            isLooking = false;
+            isWarning = false;
+
+            animator.SetBool("isLooking", false);
+            animator.SetBool("isWarning", false);
+
+            animator.Play("Idle-Knitting");
+            return; // stopper all annen logikk 
+
+        }
+
+
         timer -= Time.deltaTime;
 
         if (timer <= 0)
         {
             if (!isWarning && !isLooking)
             {
-                StartWarningPhase();   // Idle → Warning
+                StartWarningPhase();   // idle → Warning
             }
             else if (isWarning)
             {
-                StartLookingPhase();   // Warning → Looking
+                StartLookingPhase();   // warning → Looking
             }
             else if (isLooking)
             {
-                StartIdlePhase();      // Looking → Idle
+                StartIdlePhase();      // looking → Idle
             }
         }
 
-        if (keyCollected)
-
-        {
-            //bestemor er i safe mode 
-            animator.Play("Idle-Knitting");
-            return; // stopper all annen logikk 
-
-        }
+     
     }
 
     void StartIdlePhase()
