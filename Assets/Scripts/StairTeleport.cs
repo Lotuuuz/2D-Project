@@ -21,7 +21,7 @@ public class StairTeleport : MonoBehaviour
 
     private Animator playerAnimator;
 
-    private bool isTeleporting = false;
+    [HideInInspector] public bool isTeleporting = false;
 
     public bool isDoor;
 

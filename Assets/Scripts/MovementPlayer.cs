@@ -2,7 +2,9 @@ using UnityEngine;
 
 public class MovementPlayer : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed = 7.0f;
+    [SerializeField] private float moveSpeed = 5.0f;
+
+    [SerializeField] private float runSpeed = 8.0f;
 
     public Rigidbody2D rb;
 
@@ -16,6 +18,8 @@ public class MovementPlayer : MonoBehaviour
     [SerializeField] private float footstepInterval = 1.0f;
 
     private float footstepTimer;
+
+    [HideInInspector] public bool isRunning = false;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -46,7 +50,15 @@ public class MovementPlayer : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        if (isRunning == false)
+        {
+            rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        }
+
+        if (isRunning == true)
+        {
+            rb.MovePosition(rb.position + movement * runSpeed * Time.fixedDeltaTime);
+        }
 
         if (Mathf.Abs(movement.x) > 0.01f)
         {

@@ -7,7 +7,9 @@ using System.Collections;
 
 public class DialogueTriggerSystem : MonoBehaviour
 {
-    [Header(" Dialogue UI References")]
+    [SerializeField] private bool destroyAfterTriggering = true;
+
+    [Header("Dialogue UI References")]
     //Dialogue UI variables
     [SerializeField] private GameObject dialogueUICanvas;
     [SerializeField] private TMP_Text speakerTextObject;
@@ -30,6 +32,7 @@ public class DialogueTriggerSystem : MonoBehaviour
 
     private Coroutine typeWriterSequence;
 
+    public System.Action OnDialogueFinished;
 
     //Internal variables
     private bool dialogueActive = false;
@@ -105,6 +108,19 @@ public class DialogueTriggerSystem : MonoBehaviour
         EndDialogue();
     }
 
+    public void TriggerDialogue()
+    {
+        dialogueActive = true;
+
+        playerMovementScript.enabled = false;
+
+        dialogueUICanvas.SetActive(true);
+
+        line = 0;
+
+        ShowLine();
+    }
+
     private void ShowLine()
     {
         speakerTextObject.text = speakerName[line];
@@ -172,7 +188,12 @@ public class DialogueTriggerSystem : MonoBehaviour
 
         line = 0;
 
-        gameObject.SetActive(false);
+        if (destroyAfterTriggering == true)
+        {
+            gameObject.SetActive(false);
+        }
+
+        OnDialogueFinished?.Invoke();
 
     }
 

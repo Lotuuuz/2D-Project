@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0234739E-46F0-BC40-E736-2B55143FFF1E}</ProjectGuid>
+    <ProjectGuid>{07BE06AF-E083-05B8-C495-929DCA2CDC7A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,6 +61,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.69f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\MonsterDeath.cs" />
     <Compile Include="Assets\Scripts\PuzzleKeyTrigger.cs" />
     <Compile Include="Assets\Scripts\DayNightCycle.cs" />
     <Compile Include="Assets\Scripts\GrandmaController.cs" />
@@ -71,6 +72,7 @@
     <Compile Include="Assets\Scripts\RedLightGreenLightManager.cs" />
     <Compile Include="Assets\Scripts\CSE_Test.cs" />
     <Compile Include="Assets\Scripts\SoundFXTrigger.cs" />
+    <Compile Include="Assets\Scripts\CheckpointTrigger.cs" />
     <Compile Include="Assets\Scripts\BoxMover.cs" />
     <Compile Include="Assets\Scripts\ObjectiveItem.cs" />
     <Compile Include="Assets\Scripts\ObjectiveManager.cs" />
@@ -82,14 +84,20 @@
     <Compile Include="Assets\Scripts\DialogueTriggerSystem.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\SoundFXManager.cs" />
+    <Compile Include="Assets\Scripts\MonsterMovement.cs" />
     <Compile Include="Assets\Scripts\KeyManager.cs" />
+    <Compile Include="Assets\Scripts\CheckpointManager.cs" />
     <Compile Include="Assets\Scripts\CutsceneElementBase.cs" />
     <Compile Include="Assets\Scripts\KeyPickup.cs" />
+    <Compile Include="Assets\Scripts\CutsceneDialogueEvent.cs" />
+    <Compile Include="Assets\Scripts\MusicManager.cs" />
+    <Compile Include="Assets\Scripts\PlayerDeath.cs" />
     <Compile Include="Assets\Scripts\CutsceneHandler.cs" />
     <Compile Include="Assets\Scripts\CutsceneInitiator.cs" />
     <Compile Include="Assets\Scripts\ObjectToggler.cs" />
     <Compile Include="Assets\Scripts\PlayerInteraction.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\ChangeMusicTrigger.cs" />
     <Compile Include="Assets\Scripts\JournalManager.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem.cs" />
   </ItemGroup>

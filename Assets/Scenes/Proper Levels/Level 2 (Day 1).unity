@@ -658,6 +658,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
+  isTeleporting: 0
   isDoor: 0
   isStair: 1
 --- !u!61 &74924923
@@ -2239,6 +2240,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  isTeleporting: 0
   isDoor: 1
   isStair: 0
 --- !u!61 &266209890
@@ -2560,6 +2562,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
+  isTeleporting: 0
   isDoor: 0
   isStair: 1
 --- !u!61 &368650544
@@ -2939,6 +2942,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
+  isTeleporting: 0
   isDoor: 0
   isStair: 1
 --- !u!1 &397671904
@@ -2994,6 +2998,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  isTeleporting: 0
   isDoor: 1
   isStair: 0
 --- !u!61 &397671907
@@ -4008,6 +4013,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  isTeleporting: 0
   isDoor: 1
   isStair: 0
 --- !u!61 &488367353
@@ -4368,6 +4374,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  isTeleporting: 0
   isDoor: 1
   isStair: 0
 --- !u!61 &556583749
@@ -4606,7 +4613,7 @@ Transform:
   m_GameObject: {fileID: 581335263}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4756,6 +4763,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  isTeleporting: 0
   isDoor: 1
   isStair: 0
 --- !u!61 &586923788
@@ -5276,6 +5284,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  isTeleporting: 0
   isDoor: 1
   isStair: 0
 --- !u!61 &653828821
@@ -7124,6 +7133,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  isTeleporting: 0
   isDoor: 1
   isStair: 0
 --- !u!61 &814388484
@@ -7804,6 +7814,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
+  isTeleporting: 0
   isDoor: 0
   isStair: 1
 --- !u!61 &873927659
@@ -8929,7 +8940,7 @@ Transform:
   m_GameObject: {fileID: 1070117345}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.58, y: 22.6, z: 7.706703}
+  m_LocalPosition: {x: 11.58, y: 22.64, z: 7.706703}
   m_LocalScale: {x: 2.9104066, y: 3.0917878, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9394,6 +9405,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
+  isTeleporting: 0
   isDoor: 0
   isStair: 1
 --- !u!61 &1097652883
@@ -9760,7 +9772,7 @@ Transform:
   m_GameObject: {fileID: 1104104053}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.5899963, y: 12.67, z: 7.706703}
+  m_LocalPosition: {x: 7.5899963, y: 12.65, z: 7.706703}
   m_LocalScale: {x: 0, y: 0, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10158,6 +10170,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
+  isTeleporting: 0
   isDoor: 0
   isStair: 1
 --- !u!61 &1130132789
@@ -11386,6 +11399,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7f023e9261528145afe0364dd1af948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destroyAfterTriggering: 1
   dialogueUICanvas: {fileID: 685421502}
   speakerTextObject: {fileID: 143588686}
   dialogueTextObject: {fileID: 1546816593}
@@ -11687,6 +11701,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  isTeleporting: 0
   isDoor: 1
   isStair: 0
 --- !u!61 &1299700432
@@ -12142,11 +12157,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 1260200612}
-  keyIndicator: {fileID: 0}
+  keyIndicator: {fileID: 584120200}
   teleportDelay: 1.35
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  isTeleporting: 0
   isDoor: 1
   isStair: 0
 --- !u!61 &1370635316
@@ -12919,6 +12935,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  isTeleporting: 0
   isDoor: 1
   isStair: 0
 --- !u!61 &1450049482
@@ -14270,6 +14287,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  isTeleporting: 0
   isDoor: 1
   isStair: 0
 --- !u!61 &1616623800
@@ -15545,6 +15563,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  isTeleporting: 0
   isDoor: 1
   isStair: 0
 --- !u!61 &1783915386
@@ -16657,6 +16676,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  isTeleporting: 0
   isDoor: 1
   isStair: 0
 --- !u!61 &1912422542
@@ -18444,6 +18464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  runSpeed: 8
   rb: {fileID: 2106205413}
   isFrozen: 0
   footstepSoundClips:
@@ -18452,6 +18473,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18a5644e13bc2654ea43b1c4fb1e0d3e, type: 3}
   - {fileID: 8300000, guid: baca66c00d7ad1249b143d71e397cffc, type: 3}
   footstepInterval: 0.8
+  isRunning: 0
 --- !u!1 &2119645247
 GameObject:
   m_ObjectHideFlags: 0
@@ -18884,6 +18906,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
+  isTeleporting: 0
   isDoor: 0
   isStair: 1
 --- !u!61 &2127205997
