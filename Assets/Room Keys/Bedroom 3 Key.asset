@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c853f5f305a496f4ab97bf50fc6e9e67, type: 3}
+  m_Name: Bedroom 3 Key
+  m_EditorClassIdentifier: 
+  keyName: Younger brother's bedroom key
+  description: Unlocks younger brother's bedroom
+  icon: {fileID: 21300000, guid: 6c5d292e7e09c0141bd759976e9852e9, type: 3}

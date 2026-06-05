@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class JournalManager : MonoBehaviour
 {
+   public CharacterPageManager CharacterPageManager;
+    
     [Header("Main Panel")]
     public GameObject journalPanel;
 
@@ -16,6 +18,7 @@ public class JournalManager : MonoBehaviour
     public GameObject characterPage;
 
     private bool isOpen = false;
+    public KeyListUI keyListUI;
 
     void Start()
     {
@@ -44,6 +47,7 @@ public class JournalManager : MonoBehaviour
         backgroundObjective.SetActive(false);
         backgroundCharacter.SetActive(false);
 
+        keyListUI.Refresh();
         // Pages
         menuPage.SetActive(true);
         objectivePage.SetActive(false);
@@ -70,6 +74,10 @@ public class JournalManager : MonoBehaviour
         menuPage.SetActive(false);
         objectivePage.SetActive(false);
         characterPage.SetActive(true);
+
+        CharacterPageManager.ShowCharacter(0);
+
+  
     }
 }
 

@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{07BE06AF-E083-05B8-C495-929DCA2CDC7A}</ProjectGuid>
+    <ProjectGuid>{0234739E-46F0-BC40-E736-2B55143FFF1E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,7 +63,6 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\MonsterDeath.cs" />
     <Compile Include="Assets\Scripts\PuzzleKeyTrigger.cs" />
-    <Compile Include="Assets\Scripts\DayNightCycle.cs" />
     <Compile Include="Assets\Scripts\SoundSequenceTrigger.cs" />
     <Compile Include="Assets\Scripts\GrandmaController.cs" />
     <Compile Include="Assets\Scripts\LockedTeleport.cs" />
@@ -72,15 +71,19 @@
     <Compile Include="Assets\Scripts\ObjectiveTrigger.cs" />
     <Compile Include="Assets\Scripts\RedLightGreenLightManager.cs" />
     <Compile Include="Assets\Scripts\CSE_Test.cs" />
+    <Compile Include="Assets\Scripts\CharacterPageManager.cs" />
     <Compile Include="Assets\Scripts\SoundFXTrigger.cs" />
+    <Compile Include="Assets\Scripts\KeyData.cs" />
     <Compile Include="Assets\Scripts\CheckpointTrigger.cs" />
     <Compile Include="Assets\Scripts\BoxMover.cs" />
+    <Compile Include="Assets\Scripts\DayNightManager.cs" />
     <Compile Include="Assets\Scripts\ObjectiveItem.cs" />
     <Compile Include="Assets\Scripts\ObjectiveManager.cs" />
     <Compile Include="Assets\Scripts\StairTeleport.cs" />
     <Compile Include="Assets\Scripts\PuzzleStartTrigger.cs" />
     <Compile Include="Assets\Scripts\ParallaxController.cs" />
     <Compile Include="Assets\Scripts\ObjectiveMenuUI.cs" />
+    <Compile Include="Assets\Scripts\CharacterData.cs" />
     <Compile Include="Assets\Scripts\CSE_CameraPan.cs" />
     <Compile Include="Assets\Scripts\DialogueTriggerSystem.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
@@ -88,9 +91,11 @@
     <Compile Include="Assets\Scripts\MonsterMovement.cs" />
     <Compile Include="Assets\Scripts\KeyManager.cs" />
     <Compile Include="Assets\Scripts\CheckpointManager.cs" />
+    <Compile Include="Assets\Scripts\KeyListUI.cs" />
     <Compile Include="Assets\Scripts\CutsceneElementBase.cs" />
     <Compile Include="Assets\Scripts\KeyPickup.cs" />
     <Compile Include="Assets\Scripts\CutsceneDialogueEvent.cs" />
+    <Compile Include="Assets\Scripts\KeyInventory.cs" />
     <Compile Include="Assets\Scripts\MusicManager.cs" />
     <Compile Include="Assets\Scripts\PlayerDeath.cs" />
     <Compile Include="Assets\Scripts\CutsceneHandler.cs" />
@@ -99,10 +104,12 @@
     <Compile Include="Assets\Scripts\ObjectToggler.cs" />
     <Compile Include="Assets\Scripts\PlayerInteraction.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\GameProgressManager.cs" />
     <Compile Include="Assets\Scripts\StopMusicTrigger.cs" />
     <Compile Include="Assets\Scripts\ChangeMusicTrigger.cs" />
     <Compile Include="Assets\Scripts\JournalManager.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem.cs" />
+    <Compile Include="Assets\Scripts\TypeWriterText.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

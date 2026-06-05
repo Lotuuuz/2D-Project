@@ -2,7 +2,7 @@
 
 public class KeyPickup : MonoBehaviour
 {
-    public string keyName;
+    public KeyData keyData;
 
     [SerializeField] private GameObject pickupPrompt;
     [SerializeField] private GameObject keyObject; // nøkkelen
@@ -19,7 +19,7 @@ public class KeyPickup : MonoBehaviour
     {
         if (playerInRange && Input.GetKeyDown(KeyCode.E))
         {
-            KeyManager.Instance.AddKey(keyName);
+            KeyInventory.Instance.AddKey(keyData);
 
             // Fortell bestemoren at nøkkelen er plukket opp
            Object.FindFirstObjectByType<GrandmaController>().keyCollected = true;

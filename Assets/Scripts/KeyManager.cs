@@ -1,33 +1,41 @@
 using UnityEngine;
 using System.Collections.Generic;
-using JetBrains.Annotations;
 
 public class KeyManager : MonoBehaviour
 {
-  public static KeyManager Instance;
-  
-  private HashSet<string> keys = new HashSet<string>();
-  
-  private void Awake()
-  {
-        if (Instance == null)
-        {
-            Instance = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-  }
+    public static KeyManager Instance;
 
-    public void AddKey(string keyName)
+    public List<KeyData> collectedKeys = new List<KeyData>();
+
+    private void Awake()
     {
-        keys.Add(keyName);
-        Debug.Log("Picked up: " +  keyName);
+        if (Instance == null)
+            Instance = this;
+        else
+            Destroy(gameObject);
+    }
+
+    public void AddKey(KeyData key)
+    {
+        if (!collectedKeys.Contains(key))
+        {
+            collectedKeys.Add(key);
+            Debug.Log("Picked up: " + key.keyName);
+        }
+    }
+
+    public bool HasKey(KeyData key)
+    {
+        return collectedKeys.Contains(key);
     }
 
     public bool HasKey(string keyName)
     {
-        return keys.Contains(keyName);
+        foreach (var k in collectedKeys)
+        {
+            if (k.keyName == keyName)
+                return true;
+        }
+        return false;
     }
 }
