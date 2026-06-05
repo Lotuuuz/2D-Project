@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Unity\\Game Design 2\\2D Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|c:\\unity\\game design 2\\2d project\\assets\\scripts\\objectiveitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|c:\\unity\\game design 2\\2d project\\assets\\scripts\\objectivetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectivetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\keypickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keypickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\objectivemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectivemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\objectiveitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectiveitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|c:\\unity\\game design 2\\2d project\\assets\\scripts\\objectivemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectivemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\objectivemenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectivemenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\objecttoggler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\grandmacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grandmacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\keypickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keypickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\puzzlekeytrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,32 +75,69 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ObjectiveTrigger.cs",
+              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\ObjectiveTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectiveTrigger.cs",
+              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\ObjectiveTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ObjectiveTrigger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T12:57:28.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ObjectiveItem.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\ObjectiveItem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectiveItem.cs",
               "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\ObjectiveItem.cs",
               "RelativeToolTip": "Assets\\Scripts\\ObjectiveItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T12:39:00.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-04T12:39:00.082Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ObjectiveManager.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\ObjectiveManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectiveManager.cs",
               "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\ObjectiveManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\ObjectiveManager.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwDQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-04T12:18:33.629Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "KeyPickup.cs",
+              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\KeyPickup.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KeyPickup.cs",
+              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\KeyPickup.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KeyPickup.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T13:58:20.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ObjectiveMenuUI.cs",
+              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\ObjectiveMenuUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectiveMenuUI.cs",
+              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\ObjectiveMenuUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ObjectiveMenuUI.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T12:45:44.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -104,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ObjectToggler.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\ObjectToggler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectToggler.cs",
@@ -116,19 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "KeyPickup.cs",
-              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\KeyPickup.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\KeyPickup.cs",
-              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\KeyPickup.cs",
-              "RelativeToolTip": "Assets\\Scripts\\KeyPickup.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwDkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T13:58:20.725Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "PuzzleKeyTrigger.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\PuzzleKeyTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PuzzleKeyTrigger.cs",
@@ -140,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "MovementPlayer.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\MovementPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MovementPlayer.cs",
@@ -152,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "GrandmaController.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\GrandmaController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GrandmaController.cs",
@@ -164,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "JournalManager.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\JournalManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\JournalManager.cs",
@@ -176,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "PuzzleStartTrigger.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\PuzzleStartTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PuzzleStartTrigger.cs",
@@ -188,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "RedLightGreenLightManager.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\RedLightGreenLightManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RedLightGreenLightManager.cs",
@@ -200,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "DayNightCycle.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\DayNightCycle.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DayNightCycle.cs",
@@ -212,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",

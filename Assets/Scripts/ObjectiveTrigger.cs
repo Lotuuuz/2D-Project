@@ -11,7 +11,7 @@ public class ObjectiveTrigger : MonoBehaviour
 
         Debug.Log("Trigger funker!");
 
-        // aktiver objective når spilleren går inn i triggeren
+        // aktiver objective x når spilleren går inn i triggeren
         ObjectiveManager.Instance.ActivateObjective(objectiveIndex);
 
         // slett triggeren så den ikke kjører igjen

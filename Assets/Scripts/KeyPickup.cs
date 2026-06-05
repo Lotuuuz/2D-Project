@@ -22,7 +22,9 @@ public class KeyPickup : MonoBehaviour
             KeyManager.Instance.AddKey(keyName);
 
             // Fortell bestemoren at nøkkelen er plukket opp
-            //Object.FindFirstObjectByType<GrandmaController>().keyCollected = true;
+           Object.FindFirstObjectByType<GrandmaController>().keyCollected = true;
+
+            ObjectiveManager.Instance.CompleteObjective(0);
 
             // Skjul E-indikatoren
             if (pickupPrompt != null)
