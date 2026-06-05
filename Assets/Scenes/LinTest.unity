@@ -747,7 +747,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keyName: Key2
   pickupPrompt: {fileID: 1761230436}
-  keyObject: {fileID: 0}
+  keyObject: {fileID: 33606567}
 --- !u!212 &33606570
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1384,6 +1384,7 @@ MonoBehaviour:
   teleportDelay: 1.35
   stairSoundClips: []
   doorSoundClips: []
+  isTeleporting: 0
   isDoor: 0
   isStair: 0
 --- !u!61 &196800949
@@ -3403,7 +3404,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keyName: Key7
   pickupPrompt: {fileID: 1761230436}
-  keyObject: {fileID: 0}
+  keyObject: {fileID: 395398251}
 --- !u!212 &395398254
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3560,10 +3561,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 7
+  runSpeed: 8
   rb: {fileID: 0}
   isFrozen: 0
   footstepSoundClips: []
   footstepInterval: 1
+  isRunning: 0
 --- !u!95 &408004078
 Animator:
   serializedVersion: 7
@@ -3714,7 +3717,7 @@ Transform:
   m_GameObject: {fileID: 408004075}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 63, y: -12.4, z: 0}
+  m_LocalPosition: {x: 28.15, y: 7.52, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4179,6 +4182,7 @@ MonoBehaviour:
   teleportDelay: 1.35
   stairSoundClips: []
   doorSoundClips: []
+  isTeleporting: 0
   isDoor: 0
   isStair: 0
 --- !u!61 &488177678
@@ -5078,6 +5082,7 @@ MonoBehaviour:
   teleportDelay: 1.35
   stairSoundClips: []
   doorSoundClips: []
+  isTeleporting: 0
   isDoor: 0
   isStair: 0
 --- !u!61 &566451537
@@ -5650,6 +5655,7 @@ MonoBehaviour:
   teleportDelay: 1.35
   stairSoundClips: []
   doorSoundClips: []
+  isTeleporting: 0
   isDoor: 0
   isStair: 0
 --- !u!61 &609772094
@@ -6654,7 +6660,7 @@ GameObject:
   - component: {fileID: 708121195}
   - component: {fileID: 708121194}
   m_Layer: 0
-  m_Name: BasementKey
+  m_Name: SafeHouseKey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6720,7 +6726,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keyName: Key8
   pickupPrompt: {fileID: 1761230436}
-  keyObject: {fileID: 0}
+  keyObject: {fileID: 708121193}
 --- !u!212 &708121196
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7129,6 +7135,7 @@ MonoBehaviour:
   teleportDelay: 1.35
   stairSoundClips: []
   doorSoundClips: []
+  isTeleporting: 0
   isDoor: 0
   isStair: 0
 --- !u!61 &774411218
@@ -7249,7 +7256,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &783477135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7319,7 +7326,7 @@ Transform:
   m_GameObject: {fileID: 783477134}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 54.31, y: -12.83, z: -1.0479093}
+  m_LocalPosition: {x: 54.31, y: -12.72, z: -1.0479093}
   m_LocalScale: {x: 1.75, y: 3.3913152, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7443,6 +7450,7 @@ MonoBehaviour:
   teleportDelay: 1.35
   stairSoundClips: []
   doorSoundClips: []
+  isTeleporting: 0
   isDoor: 0
   isStair: 0
 --- !u!61 &799451060
@@ -7751,6 +7759,7 @@ MonoBehaviour:
   teleportDelay: 1.35
   stairSoundClips: []
   doorSoundClips: []
+  isTeleporting: 0
   isDoor: 0
   isStair: 0
 --- !u!61 &842087943
@@ -7906,6 +7915,7 @@ MonoBehaviour:
   teleportDelay: 1.35
   stairSoundClips: []
   doorSoundClips: []
+  isTeleporting: 0
   isDoor: 0
   isStair: 0
 --- !u!61 &866835927
@@ -9094,7 +9104,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -7.917499, y: -3.957138}
+  m_Offset: {x: -7.917499, y: -4.023636}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -9104,7 +9114,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.57659626, y: 2.0232239}
+  m_Size: {x: 0.57659626, y: 1.8902285}
   m_EdgeRadius: 0
 --- !u!1 &1006504604
 GameObject:
@@ -9743,6 +9753,7 @@ MonoBehaviour:
   teleportDelay: 1.35
   stairSoundClips: []
   doorSoundClips: []
+  isTeleporting: 0
   isDoor: 0
   isStair: 0
 --- !u!61 &1030120741
@@ -9898,6 +9909,7 @@ MonoBehaviour:
   teleportDelay: 1.35
   stairSoundClips: []
   doorSoundClips: []
+  isTeleporting: 0
   isDoor: 0
   isStair: 0
 --- !u!61 &1030840965
@@ -10571,7 +10583,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 3
-  distanceToMove: {x: 18, y: 0}
+  distanceToMove: {x: 3.2, y: 0}
 --- !u!1 &1100173393
 GameObject:
   m_ObjectHideFlags: 0
@@ -10624,6 +10636,7 @@ MonoBehaviour:
   teleportDelay: 1.35
   stairSoundClips: []
   doorSoundClips: []
+  isTeleporting: 0
   isDoor: 0
   isStair: 0
 --- !u!61 &1100173396
@@ -11207,7 +11220,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keyName: Key5
   pickupPrompt: {fileID: 1761230436}
-  keyObject: {fileID: 0}
+  keyObject: {fileID: 1158676937}
 --- !u!212 &1158676940
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11974,7 +11987,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keyName: Key4
   pickupPrompt: {fileID: 1761230436}
-  keyObject: {fileID: 0}
+  keyObject: {fileID: 1203041624}
 --- !u!212 &1203041627
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12124,7 +12137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keyName: Key1
   pickupPrompt: {fileID: 1761230436}
-  keyObject: {fileID: 0}
+  keyObject: {fileID: 1205574759}
 --- !u!212 &1205574762
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13725,6 +13738,7 @@ MonoBehaviour:
   teleportDelay: 1.35
   stairSoundClips: []
   doorSoundClips: []
+  isTeleporting: 0
   isDoor: 0
   isStair: 0
 --- !u!61 &1455021573
@@ -14086,7 +14100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keyName: Key3
   pickupPrompt: {fileID: 1761230436}
-  keyObject: {fileID: 0}
+  keyObject: {fileID: 1515920337}
 --- !u!212 &1515920340
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14209,6 +14223,7 @@ MonoBehaviour:
   teleportDelay: 1.35
   stairSoundClips: []
   doorSoundClips: []
+  isTeleporting: 0
   isDoor: 0
   isStair: 0
 --- !u!61 &1518810332
@@ -14599,6 +14614,7 @@ MonoBehaviour:
   teleportDelay: 1.35
   stairSoundClips: []
   doorSoundClips: []
+  isTeleporting: 0
   isDoor: 0
   isStair: 0
 --- !u!61 &1564913979
@@ -15293,6 +15309,7 @@ MonoBehaviour:
   teleportDelay: 1.35
   stairSoundClips: []
   doorSoundClips: []
+  isTeleporting: 0
   isDoor: 0
   isStair: 0
 --- !u!61 &1631865955
@@ -16423,6 +16440,7 @@ MonoBehaviour:
   teleportDelay: 1.35
   stairSoundClips: []
   doorSoundClips: []
+  isTeleporting: 0
   isDoor: 0
   isStair: 0
 --- !u!61 &1822399742
@@ -18433,7 +18451,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keyName: Key6
   pickupPrompt: {fileID: 1761230436}
-  keyObject: {fileID: 0}
+  keyObject: {fileID: 2139418853}
 --- !u!212 &2139418856
 SpriteRenderer:
   m_ObjectHideFlags: 0
