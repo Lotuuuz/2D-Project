@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\MonsterDeath.cs" />
     <Compile Include="Assets\Scripts\PuzzleKeyTrigger.cs" />
     <Compile Include="Assets\Scripts\DayNightCycle.cs" />
+    <Compile Include="Assets\Scripts\SoundSequenceTrigger.cs" />
     <Compile Include="Assets\Scripts\GrandmaController.cs" />
     <Compile Include="Assets\Scripts\LockedTeleport.cs" />
     <Compile Include="Assets\Scripts\SoundMixerManager.cs" />
@@ -93,10 +94,12 @@
     <Compile Include="Assets\Scripts\MusicManager.cs" />
     <Compile Include="Assets\Scripts\PlayerDeath.cs" />
     <Compile Include="Assets\Scripts\CutsceneHandler.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovementDisabler.cs" />
     <Compile Include="Assets\Scripts\CutsceneInitiator.cs" />
     <Compile Include="Assets\Scripts\ObjectToggler.cs" />
     <Compile Include="Assets\Scripts\PlayerInteraction.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\StopMusicTrigger.cs" />
     <Compile Include="Assets\Scripts\ChangeMusicTrigger.cs" />
     <Compile Include="Assets\Scripts\JournalManager.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem.cs" />
