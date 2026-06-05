@@ -83,5 +83,36 @@ public class MusicManager : MonoBehaviour
 
         fadeCoroutine = null;
     }
+
+    public void FadeOutAndStop()
+    {
+        if (fadeCoroutine != null)
+            StopCoroutine(fadeCoroutine);
+
+        fadeCoroutine = StartCoroutine(FadeOut());
+    }
+
+    private IEnumerator FadeOut()
+    {
+        float startVolume = currentSource.volume;
+        float time = 0f;
+
+        while (time < fadeDuration)
+        {
+            time += Time.deltaTime;
+
+            currentSource.volume =
+                Mathf.Lerp(startVolume, 0f, time / fadeDuration);
+
+            yield return null;
+        }
+
+        currentSource.Stop();
+        currentSource.volume = startVolume;
+
+        fadeCoroutine = null;
+    }
+
+
 }
 
