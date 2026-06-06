@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c853f5f305a496f4ab97bf50fc6e9e67, type: 3}
   m_Name: Attick Rod
   m_EditorClassIdentifier: 
-  keyName: 
-  description: 
-  icon: {fileID: -7126863128654795347, guid: 5be8e68722fd03a4790cc6dcc414b9bd, type: 3}
+  keyName: Attick Rod
+  keyDescription: Used to open attick door
+  keySprite: {fileID: -7126863128654795347, guid: 5be8e68722fd03a4790cc6dcc414b9bd, type: 3}

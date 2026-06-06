@@ -11,7 +11,9 @@ public class KeyListUI : MonoBehaviour
     public GameObject keyEntryPrefab;    // Prefaben for én nøkkelrad
 
     public void Refresh()
+
     {
+
         // Slett gamle entries
         foreach (Transform child in keyListParent)
         {

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c853f5f305a496f4ab97bf50fc6e9e67, type: 3}
   m_Name: MasterBedRoom Key
   m_EditorClassIdentifier: 
-  keyName: Maser Bedroom Key
-  description: Can unlock parent's bedroom
-  icon: {fileID: 21300000, guid: 78251e4ed8b39f94bb2a5d477bd8d653, type: 3}
+  keyName: Master Bedroom Key
+  keyDescription: 'Unlocks parent''s bedroom door '
+  keySprite: {fileID: 21300000, guid: 78251e4ed8b39f94bb2a5d477bd8d653, type: 3}

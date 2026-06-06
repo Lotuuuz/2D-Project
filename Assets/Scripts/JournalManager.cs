@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class JournalManager : MonoBehaviour
 {
@@ -23,7 +23,7 @@ public class JournalManager : MonoBehaviour
     void Start()
     {
         journalPanel.SetActive(false);
-        ShowMenuPage(); // Starter p� meny-siden
+        ShowMenuPage(); // Starter på meny-siden
     }
 
     void Update()
@@ -38,7 +38,13 @@ public class JournalManager : MonoBehaviour
     {
         isOpen = !isOpen;
         journalPanel.SetActive(isOpen);
+
+        if (isOpen)
+        {
+            keyListUI.Refresh();   // ← FLYTTET HIT
+        }
     }
+
 
     public void ShowMenuPage()
     {
