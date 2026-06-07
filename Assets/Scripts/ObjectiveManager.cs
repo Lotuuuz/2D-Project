@@ -12,7 +12,7 @@ public class ObjectiveManager : MonoBehaviour
         public bool completed;
     }
 
-    [Header("Alle objectives du skriver inn i Inspector")]
+    [Header("Alle objectives i spillet")]
     public List<Objective> predefinedObjectives = new List<Objective>();
 
     [Header("Objectives spilleren faktisk har fått")]
@@ -23,9 +23,17 @@ public class ObjectiveManager : MonoBehaviour
 
     private void Awake()
     {
-        Instance = this;
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
-   
+
     public void ActivateObjective(int index)
     {
         if (index < 0 || index >= predefinedObjectives.Count)
