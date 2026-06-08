@@ -275,6 +275,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4205412428525037445, guid: c00d051405a25de489b656c305f6ddfb, type: 3}
+      propertyPath: m_fontSize
+      value: 42.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 4205412428525037445, guid: c00d051405a25de489b656c305f6ddfb, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4205412428525037445, guid: c00d051405a25de489b656c305f6ddfb, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 4205412428525037445, guid: c00d051405a25de489b656c305f6ddfb, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4366532684768715157, guid: c00d051405a25de489b656c305f6ddfb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4366532684768715157, guid: c00d051405a25de489b656c305f6ddfb, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 271
+      objectReference: {fileID: 0}
     - target: {fileID: 5175943530080761282, guid: c00d051405a25de489b656c305f6ddfb, type: 3}
       propertyPath: m_Name
       value: JournalPanel
