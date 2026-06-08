@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\MonsterDeath.cs" />
     <Compile Include="Assets\Scripts\PuzzleKeyTrigger.cs" />
+    <Compile Include="Assets\Scripts\SceneSetup.cs" />
     <Compile Include="Assets\Scripts\SoundSequenceTrigger.cs" />
     <Compile Include="Assets\Scripts\GrandmaController.cs" />
     <Compile Include="Assets\Scripts\LockedTeleport.cs" />

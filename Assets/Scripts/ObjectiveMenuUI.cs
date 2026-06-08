@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ObjectiveMenuUI : MonoBehaviour
 {
@@ -20,12 +20,20 @@ public class ObjectiveMenuUI : MonoBehaviour
             ObjectiveManager.Instance.OnObjectivesUpdated -= UpdateUI;
     }
 
-
     private void UpdateUI()
     {
+        // fjern gamle items
         foreach (Transform child in objectiveListParent)
             Destroy(child.gameObject);
 
+        // hvis vis ingen objectives er aktive → stopp her
+        if (ObjectiveManager.Instance.activeObjectives.Count == 0)
+        {
+     
+            return;
+        }
+
+        // lag nye items
         foreach (var obj in ObjectiveManager.Instance.activeObjectives)
         {
             var item = Instantiate(objectiveItemPrefab, objectiveListParent);

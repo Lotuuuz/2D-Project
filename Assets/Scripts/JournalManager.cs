@@ -3,6 +3,7 @@
 public class JournalManager : MonoBehaviour
 {
    public CharacterPageManager CharacterPageManager;
+    public MovementPlayer movementplayer;
     
     [Header("Main Panel")]
     public GameObject journalPanel;

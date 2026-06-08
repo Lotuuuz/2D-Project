@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovementdisabler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|c:\\unity\\game design 2\\2d project\\assets\\scripts\\dialoguetriggersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\dialoguetriggersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialoguetriggersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,19 +15,19 @@
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectivemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|c:\\unity\\game design 2\\2d project\\assets\\scripts\\sceneobjectiveactivator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\sceneobjectiveactivator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sceneobjectiveactivator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|c:\\unity\\game design 2\\2d project\\assets\\scripts\\parallaxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\parallaxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\parallaxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|c:\\unity\\game design 2\\2d project\\assets\\scripts\\checkpointmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\checkpointmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\checkpointmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|c:\\unity\\game design 2\\2d project\\assets\\scripts\\gameprogressmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\gameprogressmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameprogressmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -134,8 +134,7 @@
               "RelativeToolTip": "Assets\\Scripts\\DialogueTriggerSystem.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAAAuwFwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T07:19:03.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T07:19:03.788Z"
             },
             {
               "$type": "Document",
@@ -160,8 +159,7 @@
               "RelativeToolTip": "Assets\\Scripts\\ParallaxController.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAABuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-07T21:25:36.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-07T21:25:36.412Z"
             },
             {
               "$type": "Document",
@@ -173,8 +171,7 @@
               "RelativeToolTip": "Assets\\Scripts\\SceneObjectiveActivator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-07T21:05:41.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-07T21:05:41.759Z"
             },
             {
               "$type": "Document",
@@ -186,8 +183,7 @@
               "RelativeToolTip": "Assets\\Scripts\\ObjectiveManager.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwA4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T12:18:33.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-04T12:18:33.629Z"
             },
             {
               "$type": "Document",
@@ -199,8 +195,7 @@
               "RelativeToolTip": "Assets\\Scripts\\CheckpointManager.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-07T21:09:24.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-07T21:09:24.861Z"
             },
             {
               "$type": "Document",
@@ -236,8 +231,7 @@
               "RelativeToolTip": "Assets\\Scripts\\GameProgressManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T16:10:24.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-05T16:10:24.677Z"
             },
             {
               "$type": "Document",

@@ -5,11 +5,14 @@ public class KeyInventory : MonoBehaviour
 {
     public static KeyInventory Instance;
 
-    public List<KeyData> collectedKeys = new List<KeyData>();
+    public List<KeyData> collectedKeys;
 
     private void Awake()
     {
         Instance = this;
+
+        if (collectedKeys== null)
+            collectedKeys = new List<KeyData>();
     }
 
     public void AddKey(KeyData key)
