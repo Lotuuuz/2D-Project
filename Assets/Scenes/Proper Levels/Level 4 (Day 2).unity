@@ -11955,7 +11955,7 @@ MonoBehaviour:
   dialogueTextObject: {fileID: 1546816593}
   portraitImageObject: {fileID: 946649264}
   typingEffectSpeed: 0.02
-  playerMovementScript: {fileID: 0}
+  playerMovementScript: {fileID: 2106205422}
   speakerName:
   - Little Girl
   - Little Girl
@@ -18190,10 +18190,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 615e3934284feda43a64015034d1e3c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAnim: {fileID: 2106205420}
-  dayLight: {fileID: 1644028592}
-  candleLight: {fileID: 906944947}
-  isNight: 0
 --- !u!4 &2063185712
 Transform:
   m_ObjectHideFlags: 0
