@@ -2,7 +2,9 @@
 
 public class JournalManager : MonoBehaviour
 {
-   public CharacterPageManager CharacterPageManager;
+   
+    
+    public CharacterPageManager CharacterPageManager;
     public MovementPlayer movementplayer;
     
     [Header("Main Panel")]
@@ -23,8 +25,17 @@ public class JournalManager : MonoBehaviour
 
     void Start()
     {
-        journalPanel.SetActive(false);
-        ShowMenuPage(); // Starter på meny-siden
+    
+        {
+            // Finn Player automatisk hvis den ikke er satt i Inspector
+            if (movementplayer == null)
+                movementplayer = FindAnyObjectByType<MovementPlayer>();
+
+
+            journalPanel.SetActive(false);
+            ShowMenuPage(); // Starter på meny-siden
+        }
+
     }
 
     void Update()

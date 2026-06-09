@@ -6,19 +6,29 @@ public class PlayerMovementDisabler : MonoBehaviour
     public PlayableDirector director;
     public MovementPlayer movementPlayer;
 
-    void Start()
-    {
-        director.played += OnTimelineStarted;
-        director.stopped += OnTimelineStopped;
-    }
-
     public void OnTimelineStarted(PlayableDirector pd)
     {
-        movementPlayer.enabled = false;
+#pragma warning disable CS0618
+        if (movementPlayer == null)
+            movementPlayer = FindObjectOfType<MovementPlayer>();
+#pragma warning restore CS0618
+
+        // Bare bruk movementPlayer hvis den faktisk finnes
+        if (movementPlayer != null)
+            movementPlayer.enabled = false;
     }
 
     public void OnTimelineStopped(PlayableDirector pd)
     {
-        movementPlayer.enabled = true;
+#pragma warning disable CS0618
+        if (movementPlayer == null)
+            movementPlayer = FindObjectOfType<MovementPlayer>();
+#pragma warning restore CS0618
+
+
+        // Bare bruk movementPlayer hvis den faktisk finnes
+        if (movementPlayer != null)
+            movementPlayer.enabled = true;
     }
+
 }

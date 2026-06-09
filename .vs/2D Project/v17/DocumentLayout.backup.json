@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Unity\\Game Design 2\\2D Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\gameprogressmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameprogressmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\characterpagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\characterpagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\journalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\journalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|c:\\unity\\game design 2\\2d project\\assets\\scripts\\playermovementdisabler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovementdisabler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\dialoguetriggersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialoguetriggersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\objectivemenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectivemenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\objectivemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectivemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\keyinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keyinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\keylistui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keylistui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\dialoguetriggersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialoguetriggersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\sceneobjectiveactivator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,36 +51,16 @@
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\checkpointmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\gameprogressmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameprogressmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\objectiveitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectiveitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\objectivemenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectivemenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\keylistui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keylistui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\keydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\journalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\journalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\keypickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keypickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\keyinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keyinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\keymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\typewritertext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\typewritertext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\characterpagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\characterpagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\characterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -122,23 +122,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DialogueTriggerSystem.cs",
-              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\DialogueTriggerSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueTriggerSystem.cs",
-              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\DialogueTriggerSystem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DialogueTriggerSystem.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAuwFwAAAAtAAAAAAAAAA==",
+              "Title": "CharacterPageManager.cs",
+              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\CharacterPageManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterPageManager.cs",
+              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\CharacterPageManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CharacterPageManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T07:19:03.788Z"
+              "WhenOpened": "2026-06-05T13:53:26.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JournalManager.cs",
+              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\JournalManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\JournalManager.cs",
+              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\JournalManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\JournalManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T12:29:04.75Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GameProgressManager.cs",
+              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\GameProgressManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameProgressManager.cs",
+              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\GameProgressManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameProgressManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T16:10:24.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "PlayerMovementDisabler.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\PlayerMovementDisabler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovementDisabler.cs",
@@ -152,6 +179,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "ObjectiveMenuUI.cs",
+              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\ObjectiveMenuUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectiveMenuUI.cs",
+              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\ObjectiveMenuUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ObjectiveMenuUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T12:45:44.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ObjectiveManager.cs",
+              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\ObjectiveManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectiveManager.cs",
+              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\ObjectiveManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ObjectiveManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T12:18:33.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "KeyInventory.cs",
+              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\KeyInventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KeyInventory.cs",
+              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\KeyInventory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KeyInventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T18:10:24.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "KeyListUI.cs",
+              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\KeyListUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KeyListUI.cs",
+              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\KeyListUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KeyListUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T19:13:01.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ParallaxController.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\ParallaxController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ParallaxController.cs",
@@ -163,7 +242,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
+              "Title": "DialogueTriggerSystem.cs",
+              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\DialogueTriggerSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueTriggerSystem.cs",
+              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\DialogueTriggerSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DialogueTriggerSystem.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAuwFwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T07:19:03.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "SceneObjectiveActivator.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\SceneObjectiveActivator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneObjectiveActivator.cs",
@@ -175,19 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ObjectiveManager.cs",
-              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\ObjectiveManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectiveManager.cs",
-              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\ObjectiveManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ObjectiveManager.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwA4AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T12:18:33.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "CheckpointManager.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\CheckpointManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CheckpointManager.cs",
@@ -199,19 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ObjectiveMenuUI.cs",
-              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\ObjectiveMenuUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectiveMenuUI.cs",
-              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\ObjectiveMenuUI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ObjectiveMenuUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T12:45:44.631Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "ObjectiveItem.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\ObjectiveItem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectiveItem.cs",
@@ -223,31 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GameProgressManager.cs",
-              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\GameProgressManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameProgressManager.cs",
-              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\GameProgressManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameProgressManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T16:10:24.677Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "KeyListUI.cs",
-              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\KeyListUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\KeyListUI.cs",
-              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\KeyListUI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\KeyListUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T19:13:01.753Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "KeyData.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\KeyData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\KeyData.cs",
@@ -256,30 +299,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-05T18:09:15.498Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "JournalManager.cs",
-              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\JournalManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\JournalManager.cs",
-              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\JournalManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\JournalManager.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T12:29:04.75Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CharacterPageManager.cs",
-              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\CharacterPageManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterPageManager.cs",
-              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\CharacterPageManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CharacterPageManager.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAkwCsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T13:53:26.182Z"
             },
             {
               "$type": "Document",
@@ -295,19 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "KeyInventory.cs",
-              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\KeyInventory.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\KeyInventory.cs",
-              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\KeyInventory.cs",
-              "RelativeToolTip": "Assets\\Scripts\\KeyInventory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T18:10:24.534Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "KeyManager.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\KeyManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\KeyManager.cs",
@@ -319,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "KeyPickup.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\KeyPickup.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\KeyPickup.cs",
@@ -331,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "TypeWriterText.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\TypeWriterText.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TypeWriterText.cs",
