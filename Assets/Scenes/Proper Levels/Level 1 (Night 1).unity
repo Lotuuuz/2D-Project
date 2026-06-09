@@ -7029,6 +7029,7 @@ MonoBehaviour:
   objectsToToggle:
   - {fileID: 1669953121}
   - {fileID: 1606537880}
+  - {fileID: 947002514}
 --- !u!61 &687623458
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9938,7 +9939,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &947002515
 Transform:
   m_ObjectHideFlags: 0
