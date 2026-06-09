@@ -42,9 +42,21 @@ public class ObjectiveManager : MonoBehaviour
             return;
         }
 
-        activeObjectives.Add(predefinedObjectives[index]);
+        // Ikke aktiver samme objective to ganger
+        if (activeObjectives.Count > index)
+            return;
+
+        // Lag en NY instans av objective
+        Objective newObj = new Objective
+        {
+            text = predefinedObjectives[index].text,
+            completed = false
+        };
+
+        activeObjectives.Add(newObj);
         OnObjectivesUpdated?.Invoke();
     }
+
 
     public void CompleteObjective(int index)
     {
@@ -54,7 +66,22 @@ public class ObjectiveManager : MonoBehaviour
             return;
         }
 
+        // Marker active objective som fullført
         activeObjectives[index].completed = true;
+
+        // Marker det tilsvarende predefined objective som fullført
+        predefinedObjectives[index].completed = true;
+
         OnObjectivesUpdated?.Invoke();
+    }
+
+
+    // lar triggers sjekke om forrige objective er ferdig
+    public bool IsCompleted(int index)
+    {
+        if (index < 0 || index >= predefinedObjectives.Count)
+            return false;
+
+        return predefinedObjectives[index].completed;
     }
 }
