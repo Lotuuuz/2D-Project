@@ -895,7 +895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f29659fa38a92849910f9201eb860a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyData: {fileID: 0}
+  keyData: {fileID: 11400000, guid: d9917e866fab7e94eb1c5a0cc90ef265, type: 2}
   pickupPrompt: {fileID: 1761230436}
   keyObject: {fileID: 33606567}
 --- !u!212 &33606570
@@ -3852,7 +3852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f29659fa38a92849910f9201eb860a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyData: {fileID: 0}
+  keyData: {fileID: 11400000, guid: 3fe27dbe354e8a34784622fb76ff4d68, type: 2}
   pickupPrompt: {fileID: 1761230436}
   keyObject: {fileID: 395398251}
 --- !u!212 &395398254
@@ -7625,7 +7625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f29659fa38a92849910f9201eb860a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyData: {fileID: 0}
+  keyData: {fileID: 11400000, guid: 7c0ed3f68ae981a4ba919fe7bc7b7955, type: 2}
   pickupPrompt: {fileID: 1761230436}
   keyObject: {fileID: 708121193}
 --- !u!212 &708121196
@@ -13036,7 +13036,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f29659fa38a92849910f9201eb860a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyData: {fileID: 0}
+  keyData: {fileID: 11400000, guid: 44441c4724c3efa40aa412aee2579d0f, type: 2}
   pickupPrompt: {fileID: 1761230436}
   keyObject: {fileID: 1203041624}
 --- !u!212 &1203041627
@@ -13186,7 +13186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f29659fa38a92849910f9201eb860a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyData: {fileID: 0}
+  keyData: {fileID: 11400000, guid: 4bb83b66e2ab92449a1cb6a99a2898d4, type: 2}
   pickupPrompt: {fileID: 1761230436}
   keyObject: {fileID: 1205574759}
 --- !u!212 &1205574762
@@ -13923,7 +13923,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1292608996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15351,7 +15351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f29659fa38a92849910f9201eb860a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyData: {fileID: 0}
+  keyData: {fileID: 11400000, guid: 2fbe7cee42452404c89a910cd224fb20, type: 2}
   pickupPrompt: {fileID: 1761230436}
   keyObject: {fileID: 1515920337}
 --- !u!212 &1515920340
@@ -19811,7 +19811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f29659fa38a92849910f9201eb860a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyData: {fileID: 0}
+  keyData: {fileID: 11400000, guid: 5b02b7aacc583ee4fa2336faa28075a3, type: 2}
   pickupPrompt: {fileID: 1761230436}
   keyObject: {fileID: 2139418853}
 --- !u!212 &2139418856
