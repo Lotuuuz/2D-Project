@@ -43,7 +43,7 @@ public class ObjectiveManager : MonoBehaviour
         }
 
         // Ikke aktiver samme objective to ganger
-        if (activeObjectives.Count > index)
+        if (activeObjectives.Count > index && activeObjectives[index] != null)
             return;
 
         // Lag en NY instans av objective

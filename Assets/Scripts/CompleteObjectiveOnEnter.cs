@@ -3,7 +3,7 @@ using UnityEngine;
 public class CompleteObjectiveOnEnter : MonoBehaviour
 {
     [SerializeField] private int objectiveIndex;
-
+    public PuzzleStartTrigger puzzleStartTrigger;
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
@@ -18,6 +18,19 @@ public class CompleteObjectiveOnEnter : MonoBehaviour
         {
           
             ObjectiveManager.Instance.CompleteObjective(objectiveIndex);
+            Destroy(gameObject);
+        }
+
+        if (collision.CompareTag("Player"))
+        {
+            ObjectiveManager.Instance.CompleteObjective(objectiveIndex);
+
+            if (objectiveIndex == 7)
+            {
+                puzzleStartTrigger.puzzleUnlocked = true; 
+
+            }
+
             Destroy(gameObject);
         }
     }

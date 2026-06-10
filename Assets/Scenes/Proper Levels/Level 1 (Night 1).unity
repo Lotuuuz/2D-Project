@@ -336,6 +336,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1370263411}
+  - {fileID: 524759850}
+  - {fileID: 1084917117}
+  - {fileID: 1100102215}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &13613459
@@ -3072,22 +3075,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 838245579}
-    - target: {fileID: 189396197315940366, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ShowMenuPage
-      objectReference: {fileID: 0}
-    - target: {fileID: 347256617007777674, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1506781662227190840, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 838245579}
-    - target: {fileID: 1506781662227190840, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ShowObjectivePage
-      objectReference: {fileID: 0}
     - target: {fileID: 2980151844171711900, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -3172,208 +3163,29 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 838245579}
-    - target: {fileID: 2994990762646406712, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ShowObjectivePage
-      objectReference: {fileID: 0}
     - target: {fileID: 3084105186795691010, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 838245579}
-    - target: {fileID: 3084105186795691010, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ShowCharacterPage
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: predefinedObjectives.Array.data[0].completed
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3260147560835755137, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 838245579}
-    - target: {fileID: 3260147560835755137, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ShowCharacterPage
-      objectReference: {fileID: 0}
     - target: {fileID: 4125840356884449355, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 838245579}
-    - target: {fileID: 4125840356884449355, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ShowCharacterPage
-      objectReference: {fileID: 0}
-    - target: {fileID: 4352398826208775972, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -669
-      objectReference: {fileID: 0}
-    - target: {fileID: 4446866600864121373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5128329817333439347, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: familyMembers.Array.data[5].name
-      value: Grandpa
-      objectReference: {fileID: 0}
-    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: familyMembers.Array.data[6].name
-      value: Casper
-      objectReference: {fileID: 0}
-    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: familyMembers.Array.data[7].name
-      value: Older Brother
-      objectReference: {fileID: 0}
-    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: familyMembers.Array.data[2].dayPortrait
-      value: 
-      objectReference: {fileID: 21300000, guid: 5c33659e767f2b7419999502d98c9a14, type: 3}
-    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: familyMembers.Array.data[5].dayPortrait
-      value: 
-      objectReference: {fileID: 21300000, guid: 2d2d8eb13efb8654e958d57a098fe5dd, type: 3}
-    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: familyMembers.Array.data[6].dayPortrait
-      value: 
-      objectReference: {fileID: 21300000, guid: 71aa17ce927571c47b08128f093de2fa, type: 3}
-    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: familyMembers.Array.data[7].dayPortrait
-      value: 
-      objectReference: {fileID: 21300000, guid: 06a5c796bc5962743bba30c049f6dcc9, type: 3}
-    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: familyMembers.Array.data[5].nightPortrait
-      value: 
-      objectReference: {fileID: 21300000, guid: ec96fc63863b1054d96c74c38e8ba5e0, type: 3}
-    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: familyMembers.Array.data[6].nightPortrait
-      value: 
-      objectReference: {fileID: 21300000, guid: 56c55841b8fa918449d8caa4f3c77a00, type: 3}
-    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: familyMembers.Array.data[7].nightPortrait
-      value: 
-      objectReference: {fileID: 21300000, guid: 7b0ecf7ff5fa5a945a81965b5bae5bb7, type: 3}
-    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: familyMembers.Array.data[5].nightDescriptions.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: familyMembers.Array.data[6].nightDescriptions.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: familyMembers.Array.data[7].nightDescriptions.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: 'familyMembers.Array.data[5].dayDescriptions.Array.data[0]'
-      value: "Usually I don\u2019t see him until after noon. Why is he up so early?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: 'familyMembers.Array.data[5].dayDescriptions.Array.data[1]'
-      value: He should not let grandma take a walk.
-      objectReference: {fileID: 0}
-    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: 'familyMembers.Array.data[6].dayDescriptions.Array.data[0]'
-      value: WOOOOF-Woof-wof
-      objectReference: {fileID: 0}
-    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: 'familyMembers.Array.data[6].dayDescriptions.Array.data[1]'
-      value: I haven't seen Casper today. I wonder where he is.
-      objectReference: {fileID: 0}
-    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: 'familyMembers.Array.data[7].dayDescriptions.Array.data[0]'
-      value: Does his leg not hurt anymore? I thought the doctor said it was permanently
-        disfigured.
-      objectReference: {fileID: 0}
-    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: 'familyMembers.Array.data[7].dayDescriptions.Array.data[1]'
-      value: "He doesn\u2019t remember the injury. You\u2019d think a life ruining
-        injury would be memorable. \r\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: 'familyMembers.Array.data[4].nightDescriptions.Array.data[0]'
-      value: 'I can hear my younger brother crying from the walls, I know how much
-        he loved that dog... '
-      objectReference: {fileID: 0}
-    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: 'familyMembers.Array.data[5].nightDescriptions.Array.data[0]'
-      value: 'Don''t look away...
-
-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: 'familyMembers.Array.data[6].nightDescriptions.Array.data[0]'
-      value: '....
-
-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: 'familyMembers.Array.data[6].nightDescriptions.Array.data[1]'
-      value: '1 SA!6 D@O&Nt Lo#k 4W...
-
-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: 'familyMembers.Array.data[7].nightDescriptions.Array.data[0]'
-      value: Brother has been standing outside for a while now... I wonder why?
-      objectReference: {fileID: 0}
-    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: 'familyMembers.Array.data[7].nightDescriptions.Array.data[1]'
-      value: '1 SA!6 D@O&Nt Lo#k 4W...
-
-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 6513692637400991358, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6748487108225365892, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 838245579}
-    - target: {fileID: 6748487108225365892, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ShowObjectivePage
-      objectReference: {fileID: 0}
     - target: {fileID: 6756037345678829924, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 838245579}
-    - target: {fileID: 6756037345678829924, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ShowMenuPage
-      objectReference: {fileID: 0}
-    - target: {fileID: 6890108523760100254, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: m_Spacing
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6890108523760100254, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: m_ChildAlignment
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6890108523760100254, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: m_ChildControlHeight
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7904036550597557065, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -543
-      objectReference: {fileID: 0}
-    - target: {fileID: 7904036550597557065, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 123
-      objectReference: {fileID: 0}
     - target: {fileID: 9089193744450467901, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_Name
       value: Journal UI
-      objectReference: {fileID: 0}
-    - target: {fileID: 9089193744450467901, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4634,6 +4446,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7329143714003745862, guid: e254a3c0b5eb69145bc31afe10acf63f, type: 3}
+      propertyPath: isNight
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8454809867915869260, guid: e254a3c0b5eb69145bc31afe10acf63f, type: 3}
       propertyPath: m_Name
       value: GameProgressManager
@@ -5608,11 +5424,11 @@ Transform:
   m_GameObject: {fileID: 524759849}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20.47, y: 16.495296, z: 0.016821023}
+  m_LocalPosition: {x: 19.198677, y: 71.65, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 6653381}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &524759852
 MonoBehaviour:
@@ -11367,12 +11183,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1084917114}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 91.9, y: -3.55, z: 0.7037003}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 90.62868, y: 51.604706, z: 0.6868793}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 6653381}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1087070662
 GameObject:
@@ -11804,12 +11620,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1100102212}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.41, y: -54.89, z: -8.586813}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.86132276, y: 0.26470566, z: -8.603634}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 6653381}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1100488391
 GameObject:
@@ -22715,6 +22531,7 @@ SceneRoots:
   - {fileID: 2034813688}
   - {fileID: 739849914}
   - {fileID: 559872086}
+  - {fileID: 428137802}
   - {fileID: 709173600}
   - {fileID: 926930342}
   - {fileID: 337860464}
@@ -22728,9 +22545,5 @@ SceneRoots:
   - {fileID: 1985281304}
   - {fileID: 2122029365}
   - {fileID: 803375680}
-  - {fileID: 428137802}
   - {fileID: 6653381}
   - {fileID: 630584264}
-  - {fileID: 524759850}
-  - {fileID: 1084917117}
-  - {fileID: 1100102215}
