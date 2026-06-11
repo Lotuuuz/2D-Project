@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0234739E-46F0-BC40-E736-2B55143FFF1E}</ProjectGuid>
+    <ProjectGuid>{07BE06AF-E083-05B8-C495-929DCA2CDC7A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,13 +63,11 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\MonsterDeath.cs" />
     <Compile Include="Assets\Scripts\PuzzleKeyTrigger.cs" />
+    <Compile Include="Assets\Scripts\DocumentManager.cs" />
     <Compile Include="Assets\Scripts\SceneSetup.cs" />
-<<<<<<< HEAD
-    <Compile Include="Assets\Scripts\GrandmaKeyTrigger.cs" />
-=======
     <Compile Include="Assets\Scripts\LightActivator.cs" />
     <Compile Include="Assets\Scripts\FuseTiles.cs" />
->>>>>>> 3269a0b00d70c75ae40995b8bc3e98978b84bb6a
+    <Compile Include="Assets\Scripts\GrandmaKeyTrigger.cs" />
     <Compile Include="Assets\Scripts\SoundSequenceTrigger.cs" />
     <Compile Include="Assets\Scripts\GrandmaController.cs" />
     <Compile Include="Assets\Scripts\LockedTeleport.cs" />
