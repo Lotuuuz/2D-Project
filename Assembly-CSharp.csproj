@@ -64,7 +64,12 @@
     <Compile Include="Assets\Scripts\MonsterDeath.cs" />
     <Compile Include="Assets\Scripts\PuzzleKeyTrigger.cs" />
     <Compile Include="Assets\Scripts\SceneSetup.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\GrandmaKeyTrigger.cs" />
+=======
+    <Compile Include="Assets\Scripts\LightActivator.cs" />
+    <Compile Include="Assets\Scripts\FuseTiles.cs" />
+>>>>>>> 3269a0b00d70c75ae40995b8bc3e98978b84bb6a
     <Compile Include="Assets\Scripts\SoundSequenceTrigger.cs" />
     <Compile Include="Assets\Scripts\GrandmaController.cs" />
     <Compile Include="Assets\Scripts\LockedTeleport.cs" />
@@ -81,6 +86,7 @@
     <Compile Include="Assets\Scripts\BoxMover.cs" />
     <Compile Include="Assets\Scripts\DayNightManager.cs" />
     <Compile Include="Assets\Scripts\ObjectiveItem.cs" />
+    <Compile Include="Assets\Scripts\FusePuzzleManager.cs" />
     <Compile Include="Assets\Scripts\ObjectiveManager.cs" />
     <Compile Include="Assets\Scripts\StairTeleport.cs" />
     <Compile Include="Assets\Scripts\PuzzleStartTrigger.cs" />
@@ -88,6 +94,7 @@
     <Compile Include="Assets\Scripts\ObjectiveMenuUI.cs" />
     <Compile Include="Assets\Scripts\UIButtonActivator.cs" />
     <Compile Include="Assets\Scripts\CharacterData.cs" />
+    <Compile Include="Assets\Scripts\FusePuzzle.cs" />
     <Compile Include="Assets\Scripts\CSE_CameraPan.cs" />
     <Compile Include="Assets\Scripts\FinalChoiceScript.cs" />
     <Compile Include="Assets\Scripts\DialogueTriggerSystem.cs" />
