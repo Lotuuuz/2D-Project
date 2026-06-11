@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 906c47d36fe812a40b7138d64f6864c3
+guid: 422925f0c397e264196f3a8c44257fa6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -438639316411108213
-    second: wire6_0
+      213: 7815642344915750584
+    second: Menu Background Not my family_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wire6_0
+      name: Menu Background Not my family_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 164
-        height: 164
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b84bbc0add3a9e9f0800000000000000
-      internalID: -438639316411108213
+      spriteID: 8be443cbd4db67c60800000000000000
+      internalID: 7815642344915750584
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      wire6_0: -438639316411108213
+      Menu Background Not my family_0: 7815642344915750584
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 906c47d36fe812a40b7138d64f6864c3
+guid: 748abe95b826a4a43aa5fc44c091f46e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -438639316411108213
-    second: wire6_0
+      213: 5805947795196838719
+    second: Menu buttons for Not my family_0
+  - first:
+      213: -5157481234481948044
+    second: Menu buttons for Not my family_1
+  - first:
+      213: -1285979732314844894
+    second: Menu buttons for Not my family_2
+  - first:
+      213: -5919668213570125864
+    second: Menu buttons for Not my family_3
+  - first:
+      213: 2293060316087216280
+    second: Menu buttons for Not my family_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +58,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -126,13 +138,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wire6_0
+      name: Menu buttons for Not my family_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 164
-        height: 164
+        x: 564
+        y: 851
+        width: 197
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +153,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b84bbc0add3a9e9f0800000000000000
-      internalID: -438639316411108213
+      spriteID: f338b2d22ced29050800000000000000
+      internalID: 5805947795196838719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu buttons for Not my family_1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 630
+        width: 491
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ad5fa8422fc68b0800000000000000
+      internalID: -5157481234481948044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu buttons for Not my family_2
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 458
+        width: 491
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22195033f38472ee0800000000000000
+      internalID: -1285979732314844894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu buttons for Not my family_3
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 308
+        width: 491
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df3bfd9f1d19dda0800000000000000
+      internalID: -5919668213570125864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu buttons for Not my family_4
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 74
+        width: 487
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8986ce4553692df10800000000000000
+      internalID: 2293060316087216280
       vertices: []
       indices: 
       edges: []
@@ -151,7 +251,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +261,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      wire6_0: -438639316411108213
+      Menu buttons for Not my family_0: 5805947795196838719
+      Menu buttons for Not my family_1: -5157481234481948044
+      Menu buttons for Not my family_2: -1285979732314844894
+      Menu buttons for Not my family_3: -5919668213570125864
+      Menu buttons for Not my family_4: 2293060316087216280
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
