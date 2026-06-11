@@ -15,10 +15,10 @@ public class GrandmaController : MonoBehaviour
 
     void Start()
     {
-        StartIdlePhase();
+        
     }
 
-    void Update()
+   public void Update()
     {
         //stopp alt hvis nøkkelen er plukket opp 
         if (keyCollected)
@@ -57,7 +57,7 @@ public class GrandmaController : MonoBehaviour
      
     }
 
-    void StartIdlePhase()
+  public  void StartIdlePhase()
     {
         isWarning = false;
         isLooking = false;
@@ -68,7 +68,7 @@ public class GrandmaController : MonoBehaviour
         timer = idleTime;
     }
 
-    void StartWarningPhase()
+   public void StartWarningPhase()
     {
         isWarning = true;
         isLooking = false;
@@ -79,7 +79,7 @@ public class GrandmaController : MonoBehaviour
         timer = warningTime;
     }
 
-    void StartLookingPhase()
+   public void StartLookingPhase()
     {
         isWarning = false;
         isLooking = true;

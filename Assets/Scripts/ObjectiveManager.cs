@@ -63,7 +63,7 @@ public class ObjectiveManager : MonoBehaviour
         if (index < 0 || index >= activeObjectives.Count)
         {
             Debug.LogWarning("Objective index er utenfor range!");
-            return;
+            //return;
         }
 
         // Marker active objective som fullført
@@ -71,6 +71,8 @@ public class ObjectiveManager : MonoBehaviour
 
         // Marker det tilsvarende predefined objective som fullført
         predefinedObjectives[index].completed = true;
+        //Debug.Log(activeObjectives.IndexOf(predefinedObjectives[index]));
+        //activeObjectives[activeObjectives.IndexOf(predefinedObjectives[index])].completed = true;
 
         OnObjectivesUpdated?.Invoke();
     }

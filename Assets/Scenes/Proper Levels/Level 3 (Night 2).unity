@@ -7194,9 +7194,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1955202429918362663, guid: c00d051405a25de489b656c305f6ddfb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1801321215}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c00d051405a25de489b656c305f6ddfb, type: 3}
+--- !u!224 &731912744 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1955202429918362663, guid: c00d051405a25de489b656c305f6ddfb, type: 3}
+  m_PrefabInstance: {fileID: 731912743}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &734707242
 GameObject:
   m_ObjectHideFlags: 0
@@ -17438,6 +17446,70 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1858724907}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1801321214
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1801321215}
+  - component: {fileID: 1801321216}
+  m_Layer: 0
+  m_Name: ObjectiveManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1801321215
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801321214}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 731912744}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1801321216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801321214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 047f76838cc5c8c408da82e2c08845d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  predefinedObjectives:
+  - text: 'Go to the pantry '
+    completed: 0
+  - text: 'Get the key to the study '
+    completed: 0
+  - text: 'Search the study '
+    completed: 0
+  - text: 'Get the safehouse key '
+    completed: 0
+  - text: 'Get to the attic '
+    completed: 1
+  - text: 'Find the attic rod '
+    completed: 1
+  - text: Find the safehouse key
+    completed: 1
+  - text: 'Go to the safehouse '
+    completed: 1
+  - text: 'Go to the safehouse '
+    completed: 1
+  activeObjectives: []
 --- !u!1 &1810747941
 GameObject:
   m_ObjectHideFlags: 0

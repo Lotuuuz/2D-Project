@@ -7,29 +7,24 @@ public class CompleteObjectiveOnEnter : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
-        if (ObjectiveManager.Instance.activeObjectives.Count < objectiveIndex + 1)
+        if (!ObjectiveManager.Instance.IsCompleted(objectiveIndex - 1) && objectiveIndex != 0) 
         {
-          
+            Debug.Log("hgfhg");
             return;
 
         }
 
         if (collision.CompareTag("Player"))
         {
-          
-            ObjectiveManager.Instance.CompleteObjective(objectiveIndex);
-            Destroy(gameObject);
-        }
-
-        if (collision.CompareTag("Player"))
-        {
             ObjectiveManager.Instance.CompleteObjective(objectiveIndex);
 
-            if (objectiveIndex == 7)
+            if (objectiveIndex == 1)
             {
                 puzzleStartTrigger.puzzleUnlocked = true; 
 
             }
+
+            Debug.Log("sletta");
 
             Destroy(gameObject);
         }

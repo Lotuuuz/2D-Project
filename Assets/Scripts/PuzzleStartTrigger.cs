@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PuzzleStartTrigger : MonoBehaviour
 {
@@ -14,7 +14,10 @@ public class PuzzleStartTrigger : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             grandma.enabled = true;
+            grandma.StartWarningPhase();   // start rett i lookup-start
+
             puzzleManager.enabled = true;
+
             gameObject.SetActive(false);
         }
     }
