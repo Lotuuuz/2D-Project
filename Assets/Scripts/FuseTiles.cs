@@ -1,27 +1,31 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class FuseTiles : MonoBehaviour
+public class FuseTiles : MonoBehaviour, IPointerClickHandler
 {
     [SerializeField] private FusePuzzleManager puzzleManager;
 
-    private int rotationIndex = 0;
+    private int currentRotation;
 
-    private void OnMouseDown()
+    private void Start()
     {
-        RotateTile();
+        currentRotation = Random.Range(1, 4);
+
+        transform.rotation =
+            Quaternion.Euler(0f, 0f, -90f * currentRotation);
     }
 
-    private void RotateTile()
+    public void OnPointerClick(PointerEventData eventData)
     {
-        rotationIndex = (rotationIndex + 1) % 4;
+        currentRotation = (currentRotation + 1) % 4;
 
-        transform.rotation = Quaternion.Euler(0f, 0f, -90f * rotationIndex);
+        transform.Rotate(0f, 0f, -90f);
+
         puzzleManager.CheckPuzzle();
     }
 
-    public int GetRotationIndex()
+    public bool IsCorrect()
     {
-        return rotationIndex;
+        return currentRotation == 0;
     }
-
 }

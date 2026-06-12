@@ -1,64 +1,92 @@
-using Unity.Cinemachine;
 using UnityEngine;
 
 public class FusePuzzle : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private GameObject puzzleUI;
-    [SerializeField] private MonoBehaviour playerController;
+    [SerializeField] private GameObject interactionIndicator;
+    [SerializeField] private MonoBehaviour playerMovement;
     [SerializeField] private LightActivator lightActivator;
 
-    private bool PlayerInRange;
+    private bool playerInRange;
     private bool puzzleSolved;
-    private bool puzzleOpen;
+
+    private void Start()
+    {
+        if (interactionIndicator != null)
+            interactionIndicator.SetActive(false);
+
+        if (puzzleUI != null)
+            puzzleUI.SetActive(false);
+    }
 
     private void Update()
     {
         if (puzzleSolved)
             return;
 
-        if (PlayerInRange && Input.GetKeyDown(KeyCode.E))
+        if (playerInRange && Input.GetKeyDown(KeyCode.E))
         {
-            if (!puzzleOpen)
-            {
-                OpenPuzzle();
-            }
+            OpenPuzzle();
         }
     }
 
-    public void OpenPuzzle()
+    private void OpenPuzzle()
     {
-        puzzleOpen = true;
+        if (interactionIndicator != null)
+            interactionIndicator.SetActive(false);
 
-        puzzleUI.SetActive(true);
+        if (puzzleUI != null)
+            puzzleUI.SetActive(true);
 
-        if (playerController != null)
-            playerController.enabled = false;
+        if (playerMovement != null)
+            ((MovementPlayer)playerMovement).isFrozen = true;
     }
 
-    private void ClosePuzzle()
+    public void ClosePuzzle()
     {
-        puzzleOpen = false;
+        if (puzzleUI != null)
+            puzzleUI.SetActive(false);
 
-        puzzleUI.SetActive(false);
+        if (playerMovement != null)
+            ((MovementPlayer)playerMovement).isFrozen = false;
 
-        if (playerController != null)
-            playerController.enabled = true;
+        if (!puzzleSolved && playerInRange && interactionIndicator != null)
+            interactionIndicator.SetActive(true);
+    }
+
+    public void OnPuzzleSolved()
+    {
+        puzzleSolved = true;
+
+        if (interactionIndicator != null)
+            interactionIndicator.SetActive(false);
+
+        if (lightActivator != null)
+            lightActivator.Activate();
+
+        ClosePuzzle();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
-        {
-            PlayerInRange = true;
-        }
+        if (!other.CompareTag("Player"))
+            return;
+
+        playerInRange = true;
+
+        if (!puzzleSolved && interactionIndicator != null)
+            interactionIndicator.SetActive(true);
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
-        {
-            PlayerInRange = false;
-        }
+        if (!other.CompareTag("Player"))
+            return;
+
+        playerInRange = false;
+
+        if (interactionIndicator != null)
+            interactionIndicator.SetActive(false);
     }
 }
