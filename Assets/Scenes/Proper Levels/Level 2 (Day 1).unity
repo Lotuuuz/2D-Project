@@ -22242,7 +22242,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 62ed25722e5de9a42a14efefc916cf78, type: 3}
   - {fileID: 8300000, guid: 18a5644e13bc2654ea43b1c4fb1e0d3e, type: 3}
   - {fileID: 8300000, guid: baca66c00d7ad1249b143d71e397cffc, type: 3}
-  footstepInterval: 0.8
+  footstepInterval: 0.6
   isRunning: 0
 --- !u!1 &2119645247
 GameObject:

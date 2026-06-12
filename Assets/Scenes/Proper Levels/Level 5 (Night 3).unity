@@ -208,6 +208,7 @@ GameObject:
   - component: {fileID: 1378402}
   - component: {fileID: 1378401}
   - component: {fileID: 1378400}
+  - component: {fileID: 1378403}
   m_Layer: 0
   m_Name: Document Screen Trigger
   m_TagString: Untagged
@@ -294,6 +295,20 @@ Transform:
   - {fileID: 981326169}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1378403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0f0c5fe2c8bfca49a38bc02dff92a58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToToggle:
+  - {fileID: 1557896477}
 --- !u!1 &2111901
 GameObject:
   m_ObjectHideFlags: 0
@@ -12805,7 +12820,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f16da6a207b6b64faaf1209da5210a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectivesToActivate: 12000000
 --- !u!4 &1162288099
 Transform:
   m_ObjectHideFlags: 0
@@ -17286,7 +17300,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1557896478
 Transform:
   m_ObjectHideFlags: 0
@@ -23103,7 +23117,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 62ed25722e5de9a42a14efefc916cf78, type: 3}
   - {fileID: 8300000, guid: 18a5644e13bc2654ea43b1c4fb1e0d3e, type: 3}
   - {fileID: 8300000, guid: baca66c00d7ad1249b143d71e397cffc, type: 3}
-  footstepInterval: 0.8
+  footstepInterval: 0.6
   isRunning: 0
 --- !u!1 &2119645247
 GameObject:

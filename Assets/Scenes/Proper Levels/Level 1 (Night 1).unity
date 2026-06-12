@@ -1104,7 +1104,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &89195416
 Transform:
   m_ObjectHideFlags: 0
@@ -3796,7 +3796,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &397671905
 Transform:
   m_ObjectHideFlags: 0
@@ -4336,6 +4336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectiveIndex: 2
+  puzzleStartTrigger: {fileID: 0}
 --- !u!1 &420562884
 GameObject:
   m_ObjectHideFlags: 0
@@ -4966,7 +4967,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &488367351
 Transform:
   m_ObjectHideFlags: 0
@@ -6031,6 +6032,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectiveIndex: 3
+  puzzleStartTrigger: {fileID: 0}
 --- !u!1 &584120198
 GameObject:
   m_ObjectHideFlags: 0
@@ -6858,7 +6860,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &653828819
 Transform:
   m_ObjectHideFlags: 0
@@ -13722,7 +13724,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 62ed25722e5de9a42a14efefc916cf78, type: 3}
   - {fileID: 8300000, guid: 18a5644e13bc2654ea43b1c4fb1e0d3e, type: 3}
   - {fileID: 8300000, guid: baca66c00d7ad1249b143d71e397cffc, type: 3}
-  footstepInterval: 0.8
+  footstepInterval: 0.6
   isRunning: 0
 --- !u!95 &1277766072
 Animator:
@@ -14511,7 +14513,7 @@ MonoBehaviour:
   - Little Girl
   dialogueLines:
   - That's weird. They always lock their door...
-  - I need to find Mother!
+  - Where are they?
   portraitImages:
   - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
   - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
@@ -15000,7 +15002,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1370635314
 Transform:
   m_ObjectHideFlags: 0
@@ -15681,6 +15683,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectiveIndex: 1
+  puzzleStartTrigger: {fileID: 0}
 --- !u!1 &1426149609
 GameObject:
   m_ObjectHideFlags: 0
@@ -19672,6 +19675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectiveIndex: 0
+  puzzleStartTrigger: {fileID: 0}
 --- !u!1 &1838136802
 GameObject:
   m_ObjectHideFlags: 0
@@ -20444,7 +20448,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1912422540
 Transform:
   m_ObjectHideFlags: 0

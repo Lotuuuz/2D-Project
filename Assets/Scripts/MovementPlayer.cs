@@ -66,7 +66,7 @@ public class MovementPlayer : MonoBehaviour
 
             if (footstepTimer <= 0f)
             {
-               // SoundFXManager.Instance.PlayRandomSoundFXClip(footstepSoundClips, transform, 1f);
+               SoundFXManager.Instance.PlayRandomSoundFXClip(footstepSoundClips, transform, 1f);
 
                 footstepTimer = footstepInterval;
             }
