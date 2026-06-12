@@ -8,7 +8,7 @@ public class BedTrigger : MonoBehaviour
     {
         if (collision.CompareTag("Player") && Input.GetKeyDown(KeyCode.E))
         {
-            sleep.TrySleep();
+            sleep.CanSleep();
         }
     }
 }

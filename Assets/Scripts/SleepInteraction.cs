@@ -1,55 +1,23 @@
 ﻿using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class SleepInteraction : MonoBehaviour
 {
-    public GameObject indicator; // vises når alle objectives er ferdige
+    public GameObject indicator;
 
-    private void Start()
+    private void Update()
     {
-        indicator.SetActive(false);
-        ObjectiveManager.Instance.OnObjectivesUpdated += CheckObjectives;
-        CheckObjectives();
-    }
-
-    private void CheckObjectives()
-    {
-        indicator.SetActive(AllObjectivesCompleted());
-    }
-
-    private bool AllObjectivesCompleted()
-    {
-        foreach (var obj in ObjectiveManager.Instance.activeObjectives)
+        if (SceneObjectiveTracker.Instance == null)
         {
-            if (!obj.completed)
-                return false;
-        }
-        return true;
-    }
-
-    public void TrySleep()
-    {
-        // Night 3 → ingen soving
-        if (GameProgressManager.Instance.currentDay == 3 && GameProgressManager.Instance.isNight)
-        {
-            Debug.Log("Night 3: Spilleren skal ta et valg, ikke sove.");
+            indicator.SetActive(false);
             return;
         }
 
-        if (!AllObjectivesCompleted())
-        {
-            Debug.Log("Du kan ikke sove ennå. Fullfør alle objectives først.");
-            return;
-        }
+        indicator.SetActive(SceneObjectiveTracker.Instance.AllCompleted());
+    }
 
-        string nextScene = SceneFlowManager.Instance.GetNextScene();
-
-        if (string.IsNullOrEmpty(nextScene))
-        {
-            Debug.Log("Ingen neste scene definert.");
-            return;
-        }
-
-        SceneManager.LoadScene(nextScene);
+    public bool CanSleep()
+    {
+        return SceneObjectiveTracker.Instance != null &&
+               SceneObjectiveTracker.Instance.AllCompleted();
     }
 }

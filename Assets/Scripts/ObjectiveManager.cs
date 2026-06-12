@@ -4,6 +4,7 @@ using UnityEngine;
 public class ObjectiveManager : MonoBehaviour
 {
     public static ObjectiveManager Instance;
+    public List<Objective> completedObjectives = new List<Objective>();
 
     [System.Serializable]
     public class Objective
@@ -43,10 +44,10 @@ public class ObjectiveManager : MonoBehaviour
         }
 
         // Ikke aktiver samme objective to ganger
-        if (activeObjectives.Count > index && activeObjectives[index] != null)
+        if (activeObjectives.Count > index)
             return;
 
-        // Lag en NY instans av objective
+        // Lag en NY instans av objective (kopi)
         Objective newObj = new Objective
         {
             text = predefinedObjectives[index].text,
@@ -54,29 +55,27 @@ public class ObjectiveManager : MonoBehaviour
         };
 
         activeObjectives.Add(newObj);
+
         OnObjectivesUpdated?.Invoke();
     }
-
 
     public void CompleteObjective(int index)
     {
         if (index < 0 || index >= activeObjectives.Count)
         {
             Debug.LogWarning("Objective index er utenfor range!");
-            //return;
+            return;
         }
 
         // Marker active objective som fullført
         activeObjectives[index].completed = true;
 
-        // Marker det tilsvarende predefined objective som fullført
         predefinedObjectives[index].completed = true;
-        //Debug.Log(activeObjectives.IndexOf(predefinedObjectives[index]));
-        //activeObjectives[activeObjectives.IndexOf(predefinedObjectives[index])].completed = true;
+
+        completedObjectives.Add(predefinedObjectives[index]);
 
         OnObjectivesUpdated?.Invoke();
     }
-
 
     // lar triggers sjekke om forrige objective er ferdig
     public bool IsCompleted(int index)

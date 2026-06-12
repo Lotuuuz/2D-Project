@@ -43,7 +43,7 @@ public class TypewriterText : MonoBehaviour
 
     void Update()
     {
-        Debug.Log("Typewriter start: " + fullText);
+    
 
         // Klikk for å vise hele teksten med en gang
         if (Input.GetMouseButtonDown(0))

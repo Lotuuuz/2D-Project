@@ -6502,52 +6502,67 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &596639463
-GameObject:
+--- !u!1001 &594425972
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 596639465}
-  - component: {fileID: 596639464}
-  m_Layer: 0
-  m_Name: GameProgressManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &596639464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 596639463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 295aed560ed70de4081608712ce12233, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentDay: 2
-  isNight: 1
---- !u!4 &596639465
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 596639463}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.90929, y: -52.101913, z: -0.11407179}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7329143714003745862, guid: e254a3c0b5eb69145bc31afe10acf63f, type: 3}
+      propertyPath: isNight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454809867915869260, guid: e254a3c0b5eb69145bc31afe10acf63f, type: 3}
+      propertyPath: m_Name
+      value: GameProgressManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 8501073319529578904, guid: e254a3c0b5eb69145bc31afe10acf63f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1281.169
+      objectReference: {fileID: 0}
+    - target: {fileID: 8501073319529578904, guid: e254a3c0b5eb69145bc31afe10acf63f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 273.10764
+      objectReference: {fileID: 0}
+    - target: {fileID: 8501073319529578904, guid: e254a3c0b5eb69145bc31afe10acf63f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.6174749
+      objectReference: {fileID: 0}
+    - target: {fileID: 8501073319529578904, guid: e254a3c0b5eb69145bc31afe10acf63f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8501073319529578904, guid: e254a3c0b5eb69145bc31afe10acf63f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8501073319529578904, guid: e254a3c0b5eb69145bc31afe10acf63f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8501073319529578904, guid: e254a3c0b5eb69145bc31afe10acf63f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8501073319529578904, guid: e254a3c0b5eb69145bc31afe10acf63f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8501073319529578904, guid: e254a3c0b5eb69145bc31afe10acf63f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8501073319529578904, guid: e254a3c0b5eb69145bc31afe10acf63f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e254a3c0b5eb69145bc31afe10acf63f, type: 3}
 --- !u!1 &597164421
 GameObject:
   m_ObjectHideFlags: 0
@@ -14746,12 +14761,36 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1887470731}
     - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: 'familyMembers.Array.data[0].nightDescriptions.Array.data[1]'
+      value: 'She comforts me like nothing happened. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: 'familyMembers.Array.data[2].nightDescriptions.Array.data[2]'
+      value: It's all your fault!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: 'familyMembers.Array.data[3].nightDescriptions.Array.data[0]'
       value: 'She''s been behaving strange lately... '
       objectReference: {fileID: 0}
     - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: 'familyMembers.Array.data[3].nightDescriptions.Array.data[1]'
       value: Did she kill Casper? But no... That doesn't make any sense...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: 'familyMembers.Array.data[4].nightDescriptions.Array.data[0]'
+      value: "She moves like she\u2019s remembering how a body is supposed to work."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: 'familyMembers.Array.data[5].nightDescriptions.Array.data[0]'
+      value: "Don't look away... Look at what you did to us... \n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: 'familyMembers.Array.data[5].nightDescriptions.Array.data[1]'
+      value: It's always watching you... It knows your every move
+      objectReference: {fileID: 0}
+    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: 'familyMembers.Array.data[7].nightDescriptions.Array.data[0]'
+      value: He's been in the pantry for some time now, I wonder why?
       objectReference: {fileID: 0}
     - target: {fileID: 6748487108225365892, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -14766,10 +14805,19 @@ PrefabInstance:
       value: Canvas
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4446866600864121373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2980151844171711900, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1792238726}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+--- !u!224 &1376646656 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2980151844171711900, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+  m_PrefabInstance: {fileID: 1376646655}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1376869654
 GameObject:
   m_ObjectHideFlags: 0
@@ -19863,6 +19911,61 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1792238725
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1792238726}
+  - component: {fileID: 1792238727}
+  m_Layer: 0
+  m_Name: ObjectiveManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1792238726
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792238725}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1376646656}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1792238727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792238725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 047f76838cc5c8c408da82e2c08845d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  completedObjectives: []
+  predefinedObjectives:
+  - text: 'Go to the pantry '
+    completed: 0
+  - text: Get the key to the study
+    completed: 0
+  - text: 'Search the study '
+    completed: 0
+  - text: 'Go to sleep '
+    completed: 0
+  activeObjectives: []
 --- !u!1 &1795234510
 GameObject:
   m_ObjectHideFlags: 0
@@ -23424,10 +23527,10 @@ SceneRoots:
   - {fileID: 2145655904}
   - {fileID: 1340083010}
   - {fileID: 1010730156}
-  - {fileID: 596639465}
   - {fileID: 107625401}
   - {fileID: 1173243306}
   - {fileID: 618304087}
   - {fileID: 1270037441}
   - {fileID: 1376646655}
   - {fileID: 1805730548}
+  - {fileID: 594425972}

@@ -8,7 +8,7 @@ public class CompleteObjectiveOnEnter : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
-        if (!ObjectiveManager.Instance.IsCompleted(objectiveIndex - 1) && objectiveIndex != 0) 
+        if (!ObjectiveManager.Instance.IsCompleted(objectiveIndex - 1) && objectiveIndex != 0)
         {
             Debug.Log("hgfhg");
             return;
@@ -33,4 +33,3 @@ public class CompleteObjectiveOnEnter : MonoBehaviour
 
     }
 }
-
