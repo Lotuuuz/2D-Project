@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CompleteObjectiveOnEnter : MonoBehaviour
 {
@@ -13,20 +14,23 @@ public class CompleteObjectiveOnEnter : MonoBehaviour
             return;
 
         }
-
         if (collision.CompareTag("Player"))
         {
             ObjectiveManager.Instance.CompleteObjective(objectiveIndex);
 
-            if (objectiveIndex == 1)
+            if (objectiveIndex == 1 &&
+                SceneManager.GetActiveScene().name == "Level 2 (Day 1)" &&
+                puzzleStartTrigger != null)
             {
-                puzzleStartTrigger.puzzleUnlocked = true; 
-
+                puzzleStartTrigger.puzzleUnlocked = true;
             }
 
             Debug.Log("sletta");
-
             Destroy(gameObject);
         }
+
+
+
     }
 }
+

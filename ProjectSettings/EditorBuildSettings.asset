@@ -11,6 +11,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Proper Levels/Level 1 (Night 1).unity
     guid: 58bfb13d40d2ca449a1cb8c96a8dcb0d
+  - enabled: 1
+    path: Assets/Scenes/Proper Levels/Level 2 (Day 1).unity
+    guid: 0339a63572d34f647b193c9b6074cc4a
+  - enabled: 1
+    path: Assets/Scenes/Proper Levels/Level 3 (Night 2).unity
+    guid: fee95f331a8077d43ae8d954a9b1cd5e
+  - enabled: 1
+    path: Assets/Scenes/Proper Levels/Level 4 (Day 2).unity
+    guid: 76673a83fa232ec4591fe3490a73b8fc
+  - enabled: 1
+    path: Assets/Scenes/Proper Levels/Level 5 (Night 3).unity
+    guid: dcf2cf6279cb7a64eafac11dea0a024a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

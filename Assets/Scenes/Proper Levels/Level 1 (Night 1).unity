@@ -2909,6 +2909,118 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &316327112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 316327113}
+  - component: {fileID: 316327116}
+  - component: {fileID: 316327115}
+  - component: {fileID: 316327114}
+  m_Layer: 0
+  m_Name: Systems
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &316327113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316327112}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 82.291725, y: -5.5792665, z: -0.47995213}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &316327114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316327112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ce065d050333c54c9588524983cfe34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &316327115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316327112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 047f76838cc5c8c408da82e2c08845d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  predefinedObjectives:
+  - text: Go to Mother's room
+    completed: 0
+  - text: Search the manor for Mother
+    completed: 0
+  - text: Run to your room
+    completed: 0
+  - text: Try to sleep
+    completed: 0
+  - text: Find Mother
+    completed: 1
+  - text: Talk to Mother
+    completed: 1
+  - text: 'Go down to the pantry at night '
+    completed: 1
+  - text: Talk to Father instead
+    completed: 1
+  - text: Get the Mater Bedroom Key
+    completed: 1
+  - text: Get the Study Key at night
+    completed: 1
+  - text: 'Go to the pantry '
+    completed: 1
+  - text: 'Get the key to the study '
+    completed: 1
+  - text: 'Search the study '
+    completed: 1
+  - text: 'Get the safehouse key '
+    completed: 1
+  - text: 'Get to the attic '
+    completed: 1
+  - text: 'Find the attic rod '
+    completed: 1
+  - text: Find the safehouse key
+    completed: 1
+  - text: 'Go to the safehouse '
+    completed: 1
+  - text: 'Go to the safehouse '
+    completed: 1
+  activeObjectives: []
+--- !u!114 &316327116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316327112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 295aed560ed70de4081608712ce12233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentDay: 1
+  isNight: 1
 --- !u!1 &319166992
 GameObject:
   m_ObjectHideFlags: 0
@@ -3167,6 +3279,146 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 838245579}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.size
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[4].text
+      value: Talk to Mother
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[5].text
+      value: 'Talk to Father Instead '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[6].text
+      value: 'Get the Master Bedroom '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[7].text
+      value: Get the Mater Bedroom Key
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[8].text
+      value: Get the Study Key at night
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[9].text
+      value: Go to sleep
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[10].text
+      value: 'Go to the pantry '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[11].text
+      value: Get the key to the study
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[12].text
+      value: 'Search the study '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[13].text
+      value: 'Go to sleep '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[14].text
+      value: 'Get to the attic '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[15].text
+      value: 'Find the attic rod '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[16].text
+      value: 'Find the pantry key '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[17].text
+      value: 'Go to the pantry '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[18].text
+      value: 'Sleep '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[19].text
+      value: 'Sleep '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[0].completed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[1].completed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[2].completed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[3].completed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[4].completed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[5].completed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[6].completed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[8].completed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[9].completed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[10].completed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[11].completed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[12].completed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[13].completed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[14].completed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[15].completed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[16].completed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[17].completed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[18].completed
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3260147560835755137, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -6033,6 +6285,53 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveIndex: 3
   puzzleStartTrigger: {fileID: 0}
+--- !u!1 &576135515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 576135517}
+  - component: {fileID: 576135516}
+  m_Layer: 0
+  m_Name: SleepPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &576135516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576135515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce39ab41e3c30a409a6e6e216b21799, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  indicator: {fileID: 1354894824}
+--- !u!4 &576135517
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576135515}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -15.924309, y: -52.682613, z: -0.4875114}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1354894827}
+  - {fileID: 630438294}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &584120198
 GameObject:
   m_ObjectHideFlags: 0
@@ -6486,6 +6785,98 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!1 &630438293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 630438294}
+  - component: {fileID: 630438295}
+  - component: {fileID: 630438296}
+  m_Layer: 0
+  m_Name: BedTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &630438294
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630438293}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.22, y: -2.28, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 576135517}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &630438295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630438293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eeb748410f7cf440b5e04c94d1283b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sleep: {fileID: 576135516}
+--- !u!61 &630438296
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630438293}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.9, y: 2.75}
+  m_EdgeRadius: 0
 --- !u!1 &630584263
 GameObject:
   m_ObjectHideFlags: 0
@@ -14789,6 +15180,81 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1354894824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1354894827}
+  - component: {fileID: 1354894826}
+  - component: {fileID: 1354894825}
+  m_Layer: 0
+  m_Name: Key Indivator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1354894825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354894824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e1dad96b906570b4691e6687748c3322, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1354894826
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354894824}
+  m_CullTransparentMesh: 1
+--- !u!224 &1354894827
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354894824}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 576135517}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1368570029
 GameObject:
   m_ObjectHideFlags: 0
@@ -22551,3 +23017,5 @@ SceneRoots:
   - {fileID: 803375680}
   - {fileID: 6653381}
   - {fileID: 630584264}
+  - {fileID: 316327113}
+  - {fileID: 576135517}

@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{07BE06AF-E083-05B8-C495-929DCA2CDC7A}</ProjectGuid>
+    <ProjectGuid>{0234739E-46F0-BC40-E736-2B55143FFF1E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\SoundMixerManager.cs" />
     <Compile Include="Assets\Scripts\SceneTransitionTrigger.cs" />
     <Compile Include="Assets\Scripts\MovementPlayer.cs" />
+    <Compile Include="Assets\Scripts\SleepIndicator.cs" />
     <Compile Include="Assets\Scripts\ObjectiveTrigger.cs" />
     <Compile Include="Assets\Scripts\RedLightGreenLightManager.cs" />
     <Compile Include="Assets\Scripts\CSE_Test.cs" />
@@ -87,6 +88,7 @@
     <Compile Include="Assets\Scripts\FusePuzzleManager.cs" />
     <Compile Include="Assets\Scripts\ObjectiveManager.cs" />
     <Compile Include="Assets\Scripts\StairTeleport.cs" />
+    <Compile Include="Assets\Scripts\SceneFlowManager.cs" />
     <Compile Include="Assets\Scripts\PuzzleStartTrigger.cs" />
     <Compile Include="Assets\Scripts\ParallaxController.cs" />
     <Compile Include="Assets\Scripts\ObjectiveMenuUI.cs" />
@@ -103,10 +105,12 @@
     <Compile Include="Assets\Scripts\CheckpointManager.cs" />
     <Compile Include="Assets\Scripts\KeyListUI.cs" />
     <Compile Include="Assets\Scripts\CutsceneElementBase.cs" />
+    <Compile Include="Assets\Scripts\BedTrigger.cs" />
     <Compile Include="Assets\Scripts\CompleteObjectiveOnEnter.cs" />
     <Compile Include="Assets\Scripts\KeyPickup.cs" />
     <Compile Include="Assets\Scripts\CutsceneDialogueEvent.cs" />
     <Compile Include="Assets\Scripts\KeyInventory.cs" />
+    <Compile Include="Assets\Scripts\SleepInteraction.cs" />
     <Compile Include="Assets\Scripts\MusicManager.cs" />
     <Compile Include="Assets\Scripts\PlayerDeath.cs" />
     <Compile Include="Assets\Scripts\CutsceneHandler.cs" />

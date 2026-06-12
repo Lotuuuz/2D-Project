@@ -5,7 +5,7 @@ public class GameProgressManager : MonoBehaviour
     public static GameProgressManager Instance;
 
     public int currentDay = 1;   // 1, 2, 3
-    public bool isNight = false; // false = dag, true = natt
+    public bool isNight = true; // false = dag, true = natt
 
     private void Awake()
     {
