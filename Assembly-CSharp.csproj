@@ -98,6 +98,7 @@
     <Compile Include="Assets\Scripts\CSE_CameraPan.cs" />
     <Compile Include="Assets\Scripts\FinalChoiceScript.cs" />
     <Compile Include="Assets\Scripts\DialogueTriggerSystem.cs" />
+    <Compile Include="Assets\Scripts\SceneTransitionManager.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\SoundFXManager.cs" />
     <Compile Include="Assets\Scripts\MonsterMovement.cs" />
@@ -125,6 +126,7 @@
     <Compile Include="Assets\Scripts\JournalManager.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem.cs" />
     <Compile Include="Assets\Scripts\TypeWriterText.cs" />
+    <Compile Include="Assets\Scripts\SceneObjectiveTracker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

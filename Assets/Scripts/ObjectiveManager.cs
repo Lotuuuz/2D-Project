@@ -85,4 +85,21 @@ public class ObjectiveManager : MonoBehaviour
 
         return predefinedObjectives[index].completed;
     }
+
+
+    //for scene transition 
+    public bool AreAllActiveObjectivesCompleted()
+    {
+        if (activeObjectives.Count == 0)
+            return false;
+
+        foreach (var objective in activeObjectives)
+        {
+            if (!objective.completed)
+                return false;
+        }
+
+        return true;
+    }
+
 }
