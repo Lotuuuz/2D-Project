@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\SceneTransitionTrigger.cs" />
     <Compile Include="Assets\Scripts\MovementPlayer.cs" />
     <Compile Include="Assets\Scripts\SleepIndicator.cs" />
+    <Compile Include="Assets\Scripts\LadderMover.cs" />
     <Compile Include="Assets\Scripts\ObjectiveTrigger.cs" />
     <Compile Include="Assets\Scripts\RedLightGreenLightManager.cs" />
     <Compile Include="Assets\Scripts\CSE_Test.cs" />

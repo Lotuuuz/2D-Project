@@ -3,11 +3,27 @@
   "WorkspaceRootPath": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|c:\\unity prosjekter\\game design 2\\2d-project\\assets\\scripts\\laddermover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\laddermover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|c:\\unity prosjekter\\game design 2\\2d-project\\assets\\scripts\\keyinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keyinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|c:\\unity prosjekter\\game design 2\\2d-project\\assets\\scripts\\keypickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keypickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|c:\\unity prosjekter\\game design 2\\2d-project\\assets\\scripts\\keydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|c:\\unity prosjekter\\game design 2\\2d-project\\assets\\scripts\\boxmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\boxmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|c:\\unity prosjekter\\game design 2\\2d-project\\assets\\scripts\\fusepuzzlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|C:\\Unity prosjekter\\Game Design 2\\2D-Project\\assets\\scripts\\fusepuzzlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fusepuzzlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -42,11 +58,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KeyPickup.cs",
+              "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\KeyPickup.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KeyPickup.cs",
+              "ToolTip": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\KeyPickup.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KeyPickup.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T15:29:12.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KeyData.cs",
+              "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\KeyData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KeyData.cs",
+              "ToolTip": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\KeyData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KeyData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T15:29:05.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KeyInventory.cs",
+              "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\KeyInventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KeyInventory.cs",
+              "ToolTip": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\KeyInventory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KeyInventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T15:28:58.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LadderMover.cs",
+              "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\LadderMover.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LadderMover.cs",
+              "ToolTip": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\LadderMover.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LadderMover.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwDkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T15:21:55.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "BoxMover.cs",
               "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\BoxMover.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BoxMover.cs",
@@ -59,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "MovementPlayer.cs",
               "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\MovementPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MovementPlayer.cs",
@@ -71,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "FuseTiles.cs",
               "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\FuseTiles.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FuseTiles.cs",
@@ -83,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "FusePuzzle.cs",
               "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\FusePuzzle.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FusePuzzle.cs",
@@ -95,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "FusePuzzleManager.cs",
               "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\FusePuzzleManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FusePuzzleManager.cs",
@@ -103,12 +171,11 @@
               "RelativeToolTip": "Assets\\Scripts\\FusePuzzleManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-13T10:56:05.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-13T10:56:05.238Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "LightActivator.cs",
               "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\LightActivator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LightActivator.cs",
@@ -120,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "SceneTransitionManager.cs",
               "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\SceneTransitionManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneTransitionManager.cs",
@@ -132,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "ObjectiveManager.cs",
               "DocumentMoniker": "C:\\Unity prosjekter\\Game Design 2\\2D-Project\\Assets\\Scripts\\ObjectiveManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectiveManager.cs",
