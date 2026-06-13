@@ -6,14 +6,22 @@ public class BoxMover : MonoBehaviour
 {
     public Transform destination;
     public Image fadeScreen;
+    public GameObject interactIndicator;
 
-    private bool playerInRange;
-    private bool moved;
+    private bool playerInRange = false;
+    private bool moved = false;
 
-    void Update()
+    private void Start()
+    {
+        interactIndicator.SetActive(false);
+    }
+
+    private void Update()
     {
         if (playerInRange && Input.GetKeyDown(KeyCode.E) && !moved)
         {
+            interactIndicator.SetActive(false);
+
             moved = true;
             StartCoroutine(MoveBoxSequence());
         }
@@ -22,7 +30,7 @@ public class BoxMover : MonoBehaviour
     IEnumerator MoveBoxSequence()
     {
         //Fade to black
-        yield return StartCoroutine(Fade(0, 1));
+        yield return StartCoroutine(Fade(0, 1f));
 
         //Stays for a bit
         yield return new WaitForSeconds(2f);
@@ -34,7 +42,7 @@ public class BoxMover : MonoBehaviour
         GetComponent<Collider2D>().enabled = false;
 
         //Fade back in
-        yield return StartCoroutine(Fade(1, 0));
+        yield return StartCoroutine(Fade(1f, 0));
     }
 
     IEnumerator Fade(float startAlpha, float endAlpha)
@@ -65,13 +73,15 @@ public class BoxMover : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && !moved)
             playerInRange = true;
+            interactIndicator.SetActive(true);
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
             playerInRange = false;
+            interactIndicator.SetActive(false);
     }
 }
