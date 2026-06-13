@@ -27,12 +27,15 @@ public class FusePuzzle : MonoBehaviour
 
         if (playerInRange && Input.GetKeyDown(KeyCode.E))
         {
+            Debug.Log("E pressed");
             OpenPuzzle();
         }
     }
 
     private void OpenPuzzle()
     {
+        Debug.Log("Opening puzzle");
+
         if (interactionIndicator != null)
             interactionIndicator.SetActive(false);
 
@@ -73,10 +76,13 @@ public class FusePuzzle : MonoBehaviour
         if (!other.CompareTag("Player"))
             return;
 
+        Debug.Log("Player entered trigger");
+
         playerInRange = true;
 
         if (!puzzleSolved && interactionIndicator != null)
             interactionIndicator.SetActive(true);
+
     }
 
     private void OnTriggerExit2D(Collider2D other)

@@ -14,12 +14,23 @@ public class FusePuzzleManager : MonoBehaviour
 
         foreach (FuseTiles tile in tiles)
         {
+            if (!tile.IsRequiredForSolution())
+                continue;
+
             if (!tile.IsCorrect())
+            {
+                Debug.Log(tile.name + " is not correct");
                 return;
+            }
         }
 
         solved = true;
 
-        fusePuzzle.OnPuzzleSolved();
+        Debug.Log("Puzzle Solved!");
+
+        if (fusePuzzle != null)
+        {
+            fusePuzzle.OnPuzzleSolved();
+        }
     }
 }

@@ -2,10 +2,15 @@ using UnityEngine;
 
 public class LightActivator : MonoBehaviour
 {
-    [SerializeField] private GameObject lightObject;
+    [SerializeField] private GameObject darknessOverlay;
+    [SerializeField] private GameObject blockingWall;
 
     public void Activate()
     {
-        lightObject.SetActive(true);
+        if (darknessOverlay != null)
+            darknessOverlay.SetActive(false);
+
+        if (blockingWall != null)
+            blockingWall.SetActive(false);
     }
 }
