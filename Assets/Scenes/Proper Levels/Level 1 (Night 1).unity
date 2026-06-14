@@ -2968,45 +2968,65 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   completedObjectives: []
+  familyColors: []
   predefinedObjectives:
   - text: Go to Mother's room
     completed: 0
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: Search the manor for Mother
     completed: 0
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: Run to your room
     completed: 0
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: Try to sleep
     completed: 0
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: Find Mother
     completed: 1
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: Talk to Mother
     completed: 1
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: 'Go down to the pantry at night '
     completed: 1
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: Talk to Father instead
     completed: 1
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: Get the Mater Bedroom Key
     completed: 1
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: Get the Study Key at night
     completed: 1
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: 'Go to the pantry '
     completed: 1
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: 'Get the key to the study '
     completed: 1
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: 'Search the study '
     completed: 1
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: 'Get the safehouse key '
     completed: 1
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: 'Get to the attic '
     completed: 1
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: 'Find the attic rod '
     completed: 1
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: Find the safehouse key
     completed: 1
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: 'Go to the safehouse '
     completed: 1
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: 'Go to the safehouse '
     completed: 1
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
   activeObjectives: []
 --- !u!114 &316327116
 MonoBehaviour:
@@ -3281,8 +3301,172 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 838245579}
     - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[0].name
+      value: Mother
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[1].name
+      value: Father
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[2].name
+      value: Aunt
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[3].name
+      value: Younger Brother
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[4].name
+      value: Grandma
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[5].name
+      value: Grandpa
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[6].name
+      value: 'Older Brother '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[7].name
+      value: Casper
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: predefinedObjectives.Array.size
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[0].color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[0].color.b
+      value: 0.72156864
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[0].color.g
+      value: 0.45882353
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[0].color.r
+      value: 0.23137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[1].color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[1].color.b
+      value: 0.39215687
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[1].color.g
+      value: 0.5686275
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[1].color.r
+      value: 0.64705884
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[2].color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[2].color.b
+      value: 0.23529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[2].color.g
+      value: 0.23529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[2].color.r
+      value: 0.4862745
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[3].color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[3].color.b
+      value: 0.15686275
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[3].color.g
+      value: 0.5372549
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[3].color.r
+      value: 0.58431375
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[4].color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[4].color.b
+      value: 0.09411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[4].color.g
+      value: 0.3764706
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[4].color.r
+      value: 0.5529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[5].color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[5].color.b
+      value: 0.6901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[5].color.g
+      value: 0.6862745
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[5].color.r
+      value: 0.6745098
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[6].color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[6].color.b
+      value: 0.2509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[6].color.g
+      value: 0.36862746
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[6].color.r
+      value: 0.42745098
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[7].color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[7].color.b
+      value: 0.36078432
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[7].color.g
+      value: 0.36078432
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: familyColors.Array.data[7].color.r
+      value: 0.7058824
       objectReference: {fileID: 0}
     - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: predefinedObjectives.Array.data[4].text
@@ -3419,6 +3603,38 @@ PrefabInstance:
     - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: predefinedObjectives.Array.data[18].completed
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[0].nameColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[0].nameColor.b
+      value: 0.72156864
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[0].nameColor.g
+      value: 0.45882353
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[0].nameColor.r
+      value: 0.23137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[1].nameColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[1].nameColor.b
+      value: 0.72156864
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[1].nameColor.g
+      value: 0.45882353
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: predefinedObjectives.Array.data[1].nameColor.r
+      value: 0.23137255
       objectReference: {fileID: 0}
     - target: {fileID: 3260147560835755137, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -4590,6 +4806,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveIndex: 2
   puzzleStartTrigger: {fileID: 0}
+  keyToActivate: {fileID: 0}
+  fatherPuzzleStartTrigger: {fileID: 0}
 --- !u!1 &420562884
 GameObject:
   m_ObjectHideFlags: 0
@@ -15844,6 +16062,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveIndex: 1
   puzzleStartTrigger: {fileID: 0}
+  keyToActivate: {fileID: 0}
+  fatherPuzzleStartTrigger: {fileID: 0}
 --- !u!1 &1426149609
 GameObject:
   m_ObjectHideFlags: 0
@@ -19836,6 +20056,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveIndex: 0
   puzzleStartTrigger: {fileID: 0}
+  keyToActivate: {fileID: 0}
+  fatherPuzzleStartTrigger: {fileID: 0}
 --- !u!1 &1838136802
 GameObject:
   m_ObjectHideFlags: 0
@@ -19970,6 +20192,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveIndex: 3
   puzzleStartTrigger: {fileID: 0}
+  keyToActivate: {fileID: 0}
+  fatherPuzzleStartTrigger: {fileID: 0}
 --- !u!61 &1848193645
 BoxCollider2D:
   m_ObjectHideFlags: 0

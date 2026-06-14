@@ -26,18 +26,17 @@ public class ObjectiveMenuUI : MonoBehaviour
         foreach (Transform child in objectiveListParent)
             Destroy(child.gameObject);
 
-        // hvis vis ingen objectives er aktive → stopp her
+        // hvis ingen objectives er aktive → stopp her
         if (ObjectiveManager.Instance.activeObjectives.Count == 0)
-        {
-     
             return;
-        }
 
         // lag nye items
         foreach (var obj in ObjectiveManager.Instance.activeObjectives)
         {
             var item = Instantiate(objectiveItemPrefab, objectiveListParent);
-            item.GetComponent<ObjectiveItem>().SetText(obj.text, obj.completed);
+
+            // RIKTIG METODE:
+            item.GetComponent<ObjectiveItem>().SetObjective(obj);
         }
     }
 }

@@ -11,7 +11,19 @@ public class ObjectiveManager : MonoBehaviour
     {
         public string text;
         public bool completed;
+      
+      
     }
+
+    [System.Serializable]
+    public class NameColorPair
+    {
+        public string name;
+        public Color color;
+    }
+
+    public List<NameColorPair> familyColors = new List<NameColorPair>();
+
 
     [Header("Alle objectives i spillet")]
     public List<Objective> predefinedObjectives = new List<Objective>();
