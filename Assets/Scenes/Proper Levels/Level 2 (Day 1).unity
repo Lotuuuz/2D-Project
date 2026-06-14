@@ -3282,7 +3282,7 @@ MonoBehaviour:
   - text: 'Get the Master Bedroom '
     completed: 0
   - text: Get the Mater Bedroom Key
-    completed: 1
+    completed: 0
   - text: Go to sleep
     completed: 0
   activeObjectives: []
@@ -3533,7 +3533,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &348188422
 Transform:
   m_ObjectHideFlags: 0
@@ -9373,6 +9373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveIndex: 1
   puzzleStartTrigger: {fileID: 257639983}
+  keyToActivate: {fileID: 348188421}
 --- !u!61 &854062872
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10436,9 +10437,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isLooking: 0
   isWarning: 0
-  warningTime: 1.5
-  lookTime: 2
-  idleTime: 3
+  warningTime: 1
+  lookTime: 1.5
+  idleTime: 2
   keyCollected: 0
   animator: {fileID: 982469335}
 --- !u!212 &982469337
@@ -13858,7 +13859,7 @@ Transform:
   m_GameObject: {fileID: 1274859330}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25.53, y: 6.59, z: -0.10071031}
+  m_LocalPosition: {x: 25.53, y: 7.6, z: -0.10071031}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14351,6 +14352,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveIndex: 3
   puzzleStartTrigger: {fileID: 0}
+  keyToActivate: {fileID: 0}
 --- !u!1 &1324867628
 GameObject:
   m_ObjectHideFlags: 0
@@ -15069,6 +15071,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveIndex: 0
   puzzleStartTrigger: {fileID: 0}
+  keyToActivate: {fileID: 0}
 --- !u!4 &1386343099
 Transform:
   m_ObjectHideFlags: 0
@@ -20396,6 +20399,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveIndex: 2
   puzzleStartTrigger: {fileID: 257639983}
+  keyToActivate: {fileID: 0}
 --- !u!61 &1980816140
 BoxCollider2D:
   m_ObjectHideFlags: 0

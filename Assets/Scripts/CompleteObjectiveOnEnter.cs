@@ -1,10 +1,13 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class CompleteObjectiveOnEnter : MonoBehaviour
 {
     [SerializeField] private int objectiveIndex;
     public PuzzleStartTrigger puzzleStartTrigger;
+    public GameObject keyToActivate;
+    public  FatherPuzzleStartTrigger fatherPuzzleStartTrigger;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
@@ -18,18 +21,43 @@ public class CompleteObjectiveOnEnter : MonoBehaviour
         {
             ObjectiveManager.Instance.CompleteObjective(objectiveIndex);
 
-            if (objectiveIndex == 1 &&
-                SceneManager.GetActiveScene().name == "Level 2 (Day 1)" &&
-                puzzleStartTrigger != null)
+            // Når objective 1 fullføres:
+            if (objectiveIndex == 1)
             {
-                puzzleStartTrigger.puzzleUnlocked = true;
-            }
+                // 1. Vis nøkkelen
+                if (keyToActivate != null)
+                    keyToActivate.SetActive(true);
 
-            Debug.Log("sletta");
+                // 2. Unlock puzzlet
+                if (puzzleStartTrigger != null)
+                    puzzleStartTrigger.puzzleUnlocked = true;
+            }
+        }
+
+        if (collision.CompareTag("Player"))
+        {
+            ObjectiveManager.Instance.CompleteObjective(objectiveIndex);
+
+            // ⭐ FAR-PUZZLE STARTER HER
+            if (objectiveIndex == 0) // dette er objective som unlocker far-puzzlet
+            {
+                // 1. Unlock puzzle
+                if (fatherPuzzleStartTrigger != null)
+                    fatherPuzzleStartTrigger.puzzleUnlocked = true;
+
+                // 2. Vis nøkkelen (Study Key)
+                if (keyToActivate != null)
+                    keyToActivate.SetActive(true);
+            }
+        }
+
+
+
+        Debug.Log("sletta");
             Destroy(gameObject);
         }
 
 
 
     }
-}
+
