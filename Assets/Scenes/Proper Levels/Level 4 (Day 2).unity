@@ -2737,6 +2737,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveIndex: 2
   puzzleStartTrigger: {fileID: 0}
+  keyToActivate: {fileID: 0}
+  fatherPuzzleStartTrigger: {fileID: 0}
 --- !u!1 &342821622
 GameObject:
   m_ObjectHideFlags: 0
@@ -4689,6 +4691,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   completedObjectives: []
+  allKeys:
+  - {fileID: 11400000, guid: d5a7ccc2181baac41b9aa9d2c4fdd132, type: 2}
+  - {fileID: 11400000, guid: 44441c4724c3efa40aa412aee2579d0f, type: 2}
+  - {fileID: 11400000, guid: 2fbe7cee42452404c89a910cd224fb20, type: 2}
+  - {fileID: 11400000, guid: d9917e866fab7e94eb1c5a0cc90ef265, type: 2}
+  - {fileID: 11400000, guid: 4bb83b66e2ab92449a1cb6a99a2898d4, type: 2}
+  - {fileID: 11400000, guid: f15708cf6a3adc94db62201e2ee21662, type: 2}
+  - {fileID: 11400000, guid: 5b02b7aacc583ee4fa2336faa28075a3, type: 2}
+  - {fileID: 11400000, guid: 7c0ed3f68ae981a4ba919fe7bc7b7955, type: 2}
+  - {fileID: 11400000, guid: 3fe27dbe354e8a34784622fb76ff4d68, type: 2}
+  familyColors:
+  - name: Mother
+    color: {r: 0.23137255, g: 0.45882353, b: 0.72156864, a: 1}
+  - name: Father
+    color: {r: 0.64705884, g: 0.5686275, b: 0.39215687, a: 1}
+  - name: Younger Brother
+    color: {r: 0.58431375, g: 0.5372549, b: 0.15686275, a: 1}
+  - name: Aunt
+    color: {r: 0.4862745, g: 0.23529412, b: 0.23529412, a: 1}
+  - name: Grandma
+    color: {r: 0.5529412, g: 0.3764706, b: 0.09411765, a: 1}
+  - name: Grandpa
+    color: {r: 0.6745098, g: 0.6862745, b: 0.6901961, a: 1}
+  - name: Casper
+    color: {r: 0.7058824, g: 0.36078432, b: 0.36078432, a: 1}
+  - name: Older Brother
+    color: {r: 0.42745098, g: 0.36862746, b: 0.2509804, a: 1}
   predefinedObjectives:
   - text: 'Get to the attic '
     completed: 0
@@ -14264,6 +14293,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveIndex: 3
   puzzleStartTrigger: {fileID: 0}
+  keyToActivate: {fileID: 0}
+  fatherPuzzleStartTrigger: {fileID: 0}
 --- !u!61 &1304805007
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16009,6 +16040,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveIndex: 0
   puzzleStartTrigger: {fileID: 0}
+  keyToActivate: {fileID: 0}
+  fatherPuzzleStartTrigger: {fileID: 0}
 --- !u!61 &1462112340
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19205,6 +19238,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveIndex: 1
   puzzleStartTrigger: {fileID: 0}
+  keyToActivate: {fileID: 0}
+  fatherPuzzleStartTrigger: {fileID: 0}
 --- !u!1 &1780035932
 GameObject:
   m_ObjectHideFlags: 0

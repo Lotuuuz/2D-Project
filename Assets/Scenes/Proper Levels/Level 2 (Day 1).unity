@@ -2210,6 +2210,26 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ShowCharacterPage
       objectReference: {fileID: 0}
+    - target: {fileID: 3546416338436199241, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3546416338436199241, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3546416338436199241, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3546416338436199241, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3546416338436199241, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278190080
+      objectReference: {fileID: 0}
     - target: {fileID: 4125840356884449355, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2217,6 +2237,34 @@ PrefabInstance:
     - target: {fileID: 4125840356884449355, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ShowCharacterPage
+      objectReference: {fileID: 0}
+    - target: {fileID: 4225354643015371060, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4225354643015371060, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4225354643015371060, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4225354643015371060, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278190080
+      objectReference: {fileID: 0}
+    - target: {fileID: 4845359824009635715, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5128329817333439347, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6513692637400991358, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6748487108225365892, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2233,6 +2281,18 @@ PrefabInstance:
     - target: {fileID: 6756037345678829924, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ShowMenuPage
+      objectReference: {fileID: 0}
+    - target: {fileID: 6759123294368162916, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7904036550597557065, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -552
+      objectReference: {fileID: 0}
+    - target: {fileID: 7904036550597557065, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 9089193744450467901, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_Name
@@ -3274,14 +3334,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   completedObjectives: []
+  allKeys:
+  - {fileID: 11400000, guid: d5a7ccc2181baac41b9aa9d2c4fdd132, type: 2}
+  - {fileID: 11400000, guid: 44441c4724c3efa40aa412aee2579d0f, type: 2}
+  - {fileID: 11400000, guid: 2fbe7cee42452404c89a910cd224fb20, type: 2}
+  - {fileID: 11400000, guid: d9917e866fab7e94eb1c5a0cc90ef265, type: 2}
+  - {fileID: 11400000, guid: 4bb83b66e2ab92449a1cb6a99a2898d4, type: 2}
+  - {fileID: 11400000, guid: f15708cf6a3adc94db62201e2ee21662, type: 2}
+  - {fileID: 11400000, guid: 5b02b7aacc583ee4fa2336faa28075a3, type: 2}
+  - {fileID: 11400000, guid: 7c0ed3f68ae981a4ba919fe7bc7b7955, type: 2}
+  - {fileID: 11400000, guid: 3fe27dbe354e8a34784622fb76ff4d68, type: 2}
+  familyColors:
+  - name: Mother
+    color: {r: 0.23137255, g: 0.45882353, b: 0.72156864, a: 1}
+  - name: Father
+    color: {r: 0.64705884, g: 0.5686275, b: 0.39215687, a: 1}
+  - name: Younger Brother
+    color: {r: 0.58431375, g: 0.5372549, b: 0.15686275, a: 1}
+  - name: Aunt
+    color: {r: 0.4862745, g: 0.23529412, b: 0.23529412, a: 1}
+  - name: Grandma
+    color: {r: 0.5529412, g: 0.3764706, b: 0.09411765, a: 1}
+  - name: Grandpa
+    color: {r: 0.6745098, g: 0.6862745, b: 0.6901961, a: 1}
+  - name: Older Brother
+    color: {r: 0.42745098, g: 0.36862746, b: 0.2509804, a: 1}
+  - name: Casper
+    color: {r: 0.7058824, g: 0.36078432, b: 0.36078432, a: 1}
   predefinedObjectives:
   - text: Talk to Mother
     completed: 0
   - text: 'Talk to Father Instead '
     completed: 0
-  - text: 'Get the Master Bedroom '
-    completed: 0
-  - text: Get the Mater Bedroom Key
+  - text: Get the Master Bedroom Key
     completed: 0
   - text: Go to sleep
     completed: 0
@@ -9374,6 +9459,7 @@ MonoBehaviour:
   objectiveIndex: 1
   puzzleStartTrigger: {fileID: 257639983}
   keyToActivate: {fileID: 348188421}
+  fatherPuzzleStartTrigger: {fileID: 0}
 --- !u!61 &854062872
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13895,6 +13981,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   completedObjectives: []
+  allKeys: []
+  familyColors: []
   predefinedObjectives: []
   activeObjectives: []
 --- !u!4 &1275758564
@@ -14353,6 +14441,7 @@ MonoBehaviour:
   objectiveIndex: 3
   puzzleStartTrigger: {fileID: 0}
   keyToActivate: {fileID: 0}
+  fatherPuzzleStartTrigger: {fileID: 0}
 --- !u!1 &1324867628
 GameObject:
   m_ObjectHideFlags: 0
@@ -15072,6 +15161,7 @@ MonoBehaviour:
   objectiveIndex: 0
   puzzleStartTrigger: {fileID: 0}
   keyToActivate: {fileID: 0}
+  fatherPuzzleStartTrigger: {fileID: 0}
 --- !u!4 &1386343099
 Transform:
   m_ObjectHideFlags: 0
@@ -20400,6 +20490,7 @@ MonoBehaviour:
   objectiveIndex: 2
   puzzleStartTrigger: {fileID: 257639983}
   keyToActivate: {fileID: 0}
+  fatherPuzzleStartTrigger: {fileID: 0}
 --- !u!61 &1980816140
 BoxCollider2D:
   m_ObjectHideFlags: 0

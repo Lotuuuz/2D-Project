@@ -5,7 +5,7 @@ public class ObjectiveManager : MonoBehaviour
 {
     public static ObjectiveManager Instance;
     public List<Objective> completedObjectives = new List<Objective>();
-
+    public List<KeyData> allKeys;
     [System.Serializable]
     public class Objective
     {

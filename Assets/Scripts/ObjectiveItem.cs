@@ -10,32 +10,66 @@ public class ObjectiveItem : MonoBehaviour
         string objective = obj.text;
         string processedText = objective;
 
-        // Gå gjennom Family Colors-listen
+        // --- 1. Farg familiemedlem + 's ---
         foreach (var pair in ObjectiveManager.Instance.familyColors)
         {
-            // Sjekk om navnet finnes i objective-teksten
             if (!string.IsNullOrEmpty(pair.name) && objective.Contains(pair.name))
             {
                 string hex = ColorUtility.ToHtmlStringRGB(pair.color);
-                string coloredName = $"<color=#{hex}>{pair.name}</color>";
 
-                // Bytt ut kun navnet, ikke resten
-                processedText = objective.Replace(pair.name, coloredName);
+                string fullNameWithS = pair.name + "'s";
+
+                if (objective.Contains(fullNameWithS))
+                {
+                    processedText = processedText.Replace(
+                        fullNameWithS,
+                        $"<color=#{hex}>{fullNameWithS}</color>"
+                    );
+                }
+                else
+                {
+                    processedText = processedText.Replace(
+                        pair.name,
+                        $"<color=#{hex}>{pair.name}</color>"
+                    );
+                }
+
                 break;
             }
         }
 
-        // Completed styling
+        // --- 2. Farg key basert på sprite-farge ---
+        foreach (var key in ObjectiveManager.Instance.allKeys)
+        {
+            if (!string.IsNullOrEmpty(key.keyName) && processedText.Contains(key.keyName))
+            {
+                // hent farge fra midten av sprite
+                Texture2D tex = key.keySprite.texture;
+                Color spriteColor = tex.GetPixel(tex.width / 2, tex.height / 2);
+
+                string hex = ColorUtility.ToHtmlStringRGB(spriteColor);
+
+                processedText = processedText.Replace(
+                    key.keyName,
+                    $"<color=#{hex}>{key.keyName}</color>"
+                );
+
+                break;
+            }
+        }
+
+        // --- 3. Completed styling ---
         if (obj.completed)
         {
             text.text = $"<s>{processedText}</s>";
-            text.color = Color.gray;
+            text.color = Color.black;
         }
         else
         {
             text.text = processedText;
-            text.color = Color.black; 
+            text.color = Color.black; // resten av teksten skal være svart
         }
     }
 }
+
 
