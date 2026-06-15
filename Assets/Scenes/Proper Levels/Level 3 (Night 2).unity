@@ -754,6 +754,93 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &63992909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 63992911}
+  - component: {fileID: 63992910}
+  m_Layer: 0
+  m_Name: Key Indicator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &63992910
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63992909}
+  m_Enabled: 0
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: e1dad96b906570b4691e6687748c3322, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &63992911
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63992909}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.19498932, y: 0.954848, z: 0}
+  m_LocalScale: {x: 0.5908769, y: 0.41614673, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1428601036}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &65675139
 GameObject:
   m_ObjectHideFlags: 0
@@ -1040,7 +1127,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
-  movementPlayer: {fileID: 0}
+  movementPlayer: {fileID: 2106205422}
   isTeleporting: 0
   isDoor: 0
   isStair: 1
@@ -1354,7 +1441,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
-  movementPlayer: {fileID: 0}
+  movementPlayer: {fileID: 2106205422}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -3012,7 +3099,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
-  movementPlayer: {fileID: 0}
+  movementPlayer: {fileID: 2106205422}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -3943,7 +4030,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
-  movementPlayer: {fileID: 0}
+  movementPlayer: {fileID: 2106205422}
   isTeleporting: 0
   isDoor: 0
   isStair: 1
@@ -4000,7 +4087,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
-  movementPlayer: {fileID: 0}
+  movementPlayer: {fileID: 2106205422}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -5352,7 +5439,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
-  movementPlayer: {fileID: 0}
+  movementPlayer: {fileID: 2106205422}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -6034,7 +6121,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
-  movementPlayer: {fileID: 0}
+  movementPlayer: {fileID: 2106205422}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -6504,7 +6591,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
-  movementPlayer: {fileID: 0}
+  movementPlayer: {fileID: 2106205422}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -6984,7 +7071,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
-  movementPlayer: {fileID: 0}
+  movementPlayer: {fileID: 2106205422}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -8740,7 +8827,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
-  movementPlayer: {fileID: 0}
+  movementPlayer: {fileID: 2106205422}
   isTeleporting: 0
   isDoor: 0
   isStair: 1
@@ -8898,7 +8985,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
-  movementPlayer: {fileID: 0}
+  movementPlayer: {fileID: 2106205422}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -9574,7 +9661,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
-  movementPlayer: {fileID: 0}
+  movementPlayer: {fileID: 2106205422}
   isTeleporting: 0
   isDoor: 0
   isStair: 1
@@ -10314,7 +10401,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
-  movementPlayer: {fileID: 0}
+  movementPlayer: {fileID: 2106205422}
   isTeleporting: 0
   isDoor: 0
   isStair: 1
@@ -10641,6 +10728,7 @@ GameObject:
   - component: {fileID: 1010730156}
   - component: {fileID: 1010730157}
   - component: {fileID: 1010730158}
+  - component: {fileID: 1010730159}
   m_Layer: 0
   m_Name: Document Screen Trigger
   m_TagString: Untagged
@@ -10729,6 +10817,20 @@ MonoBehaviour:
   - {fileID: 1667869072}
   - {fileID: 1577314693}
   - {fileID: 133825842}
+--- !u!114 &1010730159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010730154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0f0c5fe2c8bfca49a38bc02dff92a58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToToggle:
+  - {fileID: 1428601032}
 --- !u!1 &1015643243
 GameObject:
   m_ObjectHideFlags: 0
@@ -11014,6 +11116,37 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1067700045
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1067700046}
+  m_Layer: 0
+  m_Name: ------Managers---------
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1067700046
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067700045}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1082836915
 GameObject:
   m_ObjectHideFlags: 0
@@ -11232,7 +11365,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
-  movementPlayer: {fileID: 0}
+  movementPlayer: {fileID: 2106205422}
   isTeleporting: 0
   isDoor: 0
   isStair: 1
@@ -11972,7 +12105,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
-  movementPlayer: {fileID: 0}
+  movementPlayer: {fileID: 2106205422}
   isTeleporting: 0
   isDoor: 0
   isStair: 1
@@ -14282,7 +14415,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
-  movementPlayer: {fileID: 0}
+  movementPlayer: {fileID: 2106205422}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -14809,7 +14942,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
-  movementPlayer: {fileID: 0}
+  movementPlayer: {fileID: 2106205422}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -16280,6 +16413,115 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1428601032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1428601036}
+  - component: {fileID: 1428601035}
+  - component: {fileID: 1428601034}
+  - component: {fileID: 1428601033}
+  m_Layer: 0
+  m_Name: Scene Transition Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1428601033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428601032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cd1878e49b9d2c44a94bf0bd4feafc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextSceneName: Level 4 (Day 2)
+  finalObjectiveIndex: 3
+  keyIndicator: {fileID: 63992910}
+--- !u!114 &1428601034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428601032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e24c06a49592f3d45b5f8f0a9ba74e3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playSceneName: Level 2 (Day 1)
+--- !u!61 &1428601035
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428601032}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!4 &1428601036
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428601032}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -15.9, y: -55.1945, z: 0}
+  m_LocalScale: {x: 1.6924, y: 2.4029984, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 63992911}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1436269821
 GameObject:
   m_ObjectHideFlags: 0
@@ -16501,7 +16743,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
-  movementPlayer: {fileID: 0}
+  movementPlayer: {fileID: 2106205422}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -17170,7 +17412,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
-  movementPlayer: {fileID: 0}
+  movementPlayer: {fileID: 2106205422}
   isTeleporting: 0
   isDoor: 0
   isStair: 1
@@ -17464,6 +17706,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1542715989
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1542715990}
+  m_Layer: 0
+  m_Name: ------Unity Default------
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1542715990
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542715989}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1546816591
 GameObject:
   m_ObjectHideFlags: 0
@@ -18440,7 +18713,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
-  movementPlayer: {fileID: 0}
+  movementPlayer: {fileID: 2106205422}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -19628,6 +19901,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1763687278}
   m_CullTransparentMesh: 1
+--- !u!1 &1764010613
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1764010614}
+  m_Layer: 0
+  m_Name: ------In Scene-----------
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1764010614
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764010613}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1766041349
 GameObject:
   m_ObjectHideFlags: 0
@@ -20041,6 +20345,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1779905584
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1779905585}
+  m_Layer: 0
+  m_Name: ------UI-----------------
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1779905585
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779905584}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1780035932
 GameObject:
   m_ObjectHideFlags: 0
@@ -20185,7 +20520,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
-  movementPlayer: {fileID: 0}
+  movementPlayer: {fileID: 2106205422}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -21477,7 +21812,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
-  movementPlayer: {fileID: 0}
+  movementPlayer: {fileID: 2106205422}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -23940,13 +24275,26 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1701757055}
+  - {fileID: 1542715990}
   - {fileID: 2063732284}
   - {fileID: 1644028594}
+  - {fileID: 1067700046}
+  - {fileID: 1701757055}
+  - {fileID: 853912016}
   - {fileID: 599520520}
   - {fileID: 683553382}
   - {fileID: 65675141}
+  - {fileID: 107625401}
+  - {fileID: 1805730548}
+  - {fileID: 594425972}
+  - {fileID: 2145655904}
+  - {fileID: 1173243306}
+  - {fileID: 1270934035}
+  - {fileID: 1779905585}
   - {fileID: 926930342}
+  - {fileID: 1340083010}
+  - {fileID: 1376646655}
+  - {fileID: 1764010614}
   - {fileID: 2106205417}
   - {fileID: 387451317}
   - {fileID: 471267160}
@@ -23954,18 +24302,10 @@ SceneRoots:
   - {fileID: 1575850926}
   - {fileID: 1404372489}
   - {fileID: 1863736217}
-  - {fileID: 2145655904}
-  - {fileID: 1340083010}
   - {fileID: 1010730156}
-  - {fileID: 107625401}
-  - {fileID: 1173243306}
   - {fileID: 618304087}
   - {fileID: 1270037441}
-  - {fileID: 1376646655}
-  - {fileID: 1805730548}
-  - {fileID: 594425972}
   - {fileID: 1019058094}
   - {fileID: 369745773}
-  - {fileID: 1270934035}
   - {fileID: 1448636475}
-  - {fileID: 853912016}
+  - {fileID: 1428601036}

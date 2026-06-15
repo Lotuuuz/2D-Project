@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0234739E-46F0-BC40-E736-2B55143FFF1E}</ProjectGuid>
+    <ProjectGuid>{07BE06AF-E083-05B8-C495-929DCA2CDC7A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\MonsterDeath.cs" />
     <Compile Include="Assets\Scripts\PuzzleKeyTrigger.cs" />
     <Compile Include="Assets\Scripts\DocumentManager.cs" />
+    <Compile Include="Assets\Scripts\CreditScroll.cs" />
     <Compile Include="Assets\Scripts\SceneSetup.cs" />
     <Compile Include="Assets\Scripts\LightActivator.cs" />
     <Compile Include="Assets\Scripts\FuseTiles.cs" />
@@ -93,6 +94,7 @@
     <Compile Include="Assets\Scripts\SceneFlowManager.cs" />
     <Compile Include="Assets\Scripts\PuzzleStartTrigger.cs" />
     <Compile Include="Assets\Scripts\ParallaxController.cs" />
+    <Compile Include="Assets\Scripts\SceneExitTrigger.cs" />
     <Compile Include="Assets\Scripts\ObjectiveMenuUI.cs" />
     <Compile Include="Assets\Scripts\UIButtonActivator.cs" />
     <Compile Include="Assets\Scripts\CharacterData.cs" />
@@ -100,7 +102,6 @@
     <Compile Include="Assets\Scripts\CSE_CameraPan.cs" />
     <Compile Include="Assets\Scripts\FinalChoiceScript.cs" />
     <Compile Include="Assets\Scripts\DialogueTriggerSystem.cs" />
-    <Compile Include="Assets\Scripts\SceneTransitionManager.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\FatherPuzzleManager.cs" />
     <Compile Include="Assets\Scripts\SoundFXManager.cs" />
