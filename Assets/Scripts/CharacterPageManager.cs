@@ -16,6 +16,8 @@ public class CharacterPageManager : MonoBehaviour
 
     public void ShowCharacter(int index)
     {
+
+        Debug.Log("ShowCharacter CALLED: " + index);
         currentIndex = index;
 
         var c = familyMembers[index];

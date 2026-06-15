@@ -15,6 +15,8 @@ public class StairTeleport : MonoBehaviour
 
     [SerializeField] private AudioClip[] doorSoundClips;
 
+    [SerializeField] private MovementPlayer movementPlayer;
+
 
     private bool playerInRange = false;
     private GameObject player; 
@@ -40,6 +42,8 @@ public class StairTeleport : MonoBehaviour
     //When this method runs, move the player position, to the teleport target position (drag in in inspector)
     IEnumerator TeleportSequence()
     {
+       
+
         isTeleporting = true;
 
         playerAnimator.SetTrigger("DoorInteract");
@@ -53,12 +57,16 @@ public class StairTeleport : MonoBehaviour
         {
             SoundFXManager.Instance.PlayRandomSoundFXClip(stairSoundClips, transform, 1f);
         }
-
+        movementPlayer.enabled = false;
         yield return new WaitForSeconds(teleportDelay);
+      
 
         player.transform.position = teleportTarget.position;
 
         isTeleporting = false;
+
+        movementPlayer.enabled = true;
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

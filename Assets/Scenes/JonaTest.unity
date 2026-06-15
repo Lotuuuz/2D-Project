@@ -628,6 +628,12 @@ MonoBehaviour:
   teleportTarget: {fileID: 644871509}
   keyIndicator: {fileID: 1873445769}
   teleportDelay: 1.35
+  stairSoundClips: []
+  doorSoundClips: []
+  movementPlayer: {fileID: 0}
+  isTeleporting: 0
+  isDoor: 0
+  isStair: 0
 --- !u!61 &74924923
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -932,6 +938,12 @@ MonoBehaviour:
   teleportTarget: {fileID: 1219687804}
   keyIndicator: {fileID: 1082836917}
   teleportDelay: 1.35
+  stairSoundClips: []
+  doorSoundClips: []
+  movementPlayer: {fileID: 0}
+  isTeleporting: 0
+  isDoor: 0
+  isStair: 0
 --- !u!61 &89195418
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2336,6 +2348,12 @@ MonoBehaviour:
   teleportTarget: {fileID: 1162409015}
   keyIndicator: {fileID: 1241416688}
   teleportDelay: 1.35
+  stairSoundClips: []
+  doorSoundClips: []
+  movementPlayer: {fileID: 0}
+  isTeleporting: 0
+  isDoor: 0
+  isStair: 0
 --- !u!61 &266209890
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2841,6 +2859,12 @@ MonoBehaviour:
   teleportTarget: {fileID: 1104104054}
   keyIndicator: {fileID: 1911911922}
   teleportDelay: 1.35
+  stairSoundClips: []
+  doorSoundClips: []
+  movementPlayer: {fileID: 0}
+  isTeleporting: 0
+  isDoor: 0
+  isStair: 0
 --- !u!61 &368650544
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3215,6 +3239,12 @@ MonoBehaviour:
   teleportTarget: {fileID: 1136889548}
   keyIndicator: {fileID: 1693461098}
   teleportDelay: 1.35
+  stairSoundClips: []
+  doorSoundClips: []
+  movementPlayer: {fileID: 0}
+  isTeleporting: 0
+  isDoor: 0
+  isStair: 0
 --- !u!1 &397671904
 GameObject:
   m_ObjectHideFlags: 0
@@ -3265,6 +3295,12 @@ MonoBehaviour:
   teleportTarget: {fileID: 2057177920}
   keyIndicator: {fileID: 1858686603}
   teleportDelay: 1.35
+  stairSoundClips: []
+  doorSoundClips: []
+  movementPlayer: {fileID: 0}
+  isTeleporting: 0
+  isDoor: 0
+  isStair: 0
 --- !u!61 &397671907
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4376,6 +4412,12 @@ MonoBehaviour:
   teleportTarget: {fileID: 2093613415}
   keyIndicator: {fileID: 1466040858}
   teleportDelay: 1.35
+  stairSoundClips: []
+  doorSoundClips: []
+  movementPlayer: {fileID: 0}
+  isTeleporting: 0
+  isDoor: 0
+  isStair: 0
 --- !u!61 &488367353
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4731,6 +4773,12 @@ MonoBehaviour:
   teleportTarget: {fileID: 698984065}
   keyIndicator: {fileID: 1107505206}
   teleportDelay: 1.35
+  stairSoundClips: []
+  doorSoundClips: []
+  movementPlayer: {fileID: 0}
+  isTeleporting: 0
+  isDoor: 0
+  isStair: 0
 --- !u!61 &556583749
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5114,6 +5162,12 @@ MonoBehaviour:
   teleportTarget: {fileID: 399416747}
   keyIndicator: {fileID: 2001599294}
   teleportDelay: 1.35
+  stairSoundClips: []
+  doorSoundClips: []
+  movementPlayer: {fileID: 0}
+  isTeleporting: 0
+  isDoor: 0
+  isStair: 0
 --- !u!61 &586923788
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5761,6 +5815,12 @@ MonoBehaviour:
   teleportTarget: {fileID: 16910518}
   keyIndicator: {fileID: 462999209}
   teleportDelay: 1.35
+  stairSoundClips: []
+  doorSoundClips: []
+  movementPlayer: {fileID: 0}
+  isTeleporting: 0
+  isDoor: 0
+  isStair: 0
 --- !u!61 &653828821
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7818,6 +7878,12 @@ MonoBehaviour:
   teleportTarget: {fileID: 789861924}
   keyIndicator: {fileID: 437726758}
   teleportDelay: 1.35
+  stairSoundClips: []
+  doorSoundClips: []
+  movementPlayer: {fileID: 0}
+  isTeleporting: 0
+  isDoor: 0
+  isStair: 0
 --- !u!61 &814388484
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8448,6 +8514,12 @@ MonoBehaviour:
   teleportTarget: {fileID: 1343804376}
   keyIndicator: {fileID: 678200621}
   teleportDelay: 1.35
+  stairSoundClips: []
+  doorSoundClips: []
+  movementPlayer: {fileID: 0}
+  isTeleporting: 0
+  isDoor: 0
+  isStair: 0
 --- !u!61 &873927659
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10117,6 +10189,12 @@ MonoBehaviour:
   teleportTarget: {fileID: 1127482218}
   keyIndicator: {fileID: 193608698}
   teleportDelay: 1.35
+  stairSoundClips: []
+  doorSoundClips: []
+  movementPlayer: {fileID: 0}
+  isTeleporting: 0
+  isDoor: 0
+  isStair: 0
 --- !u!61 &1097652883
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10979,6 +11057,12 @@ MonoBehaviour:
   teleportTarget: {fileID: 3246542}
   keyIndicator: {fileID: 905925423}
   teleportDelay: 1.35
+  stairSoundClips: []
+  doorSoundClips: []
+  movementPlayer: {fileID: 0}
+  isTeleporting: 0
+  isDoor: 0
+  isStair: 0
 --- !u!61 &1130132789
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12526,6 +12610,12 @@ MonoBehaviour:
   teleportTarget: {fileID: 1795234511}
   keyIndicator: {fileID: 382344397}
   teleportDelay: 1.35
+  stairSoundClips: []
+  doorSoundClips: []
+  movementPlayer: {fileID: 0}
+  isTeleporting: 0
+  isDoor: 0
+  isStair: 0
 --- !u!61 &1299700432
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12981,6 +13071,12 @@ MonoBehaviour:
   teleportTarget: {fileID: 1260200612}
   keyIndicator: {fileID: 0}
   teleportDelay: 1.35
+  stairSoundClips: []
+  doorSoundClips: []
+  movementPlayer: {fileID: 0}
+  isTeleporting: 0
+  isDoor: 0
+  isStair: 0
 --- !u!61 &1370635316
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13880,6 +13976,12 @@ MonoBehaviour:
   teleportTarget: {fileID: 755429352}
   keyIndicator: {fileID: 1376869656}
   teleportDelay: 1.35
+  stairSoundClips: []
+  doorSoundClips: []
+  movementPlayer: {fileID: 0}
+  isTeleporting: 0
+  isDoor: 0
+  isStair: 0
 --- !u!61 &1450049482
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14440,6 +14542,12 @@ MonoBehaviour:
   teleportTarget: {fileID: 436327628}
   keyIndicator: {fileID: 349882719}
   teleportDelay: 1.35
+  stairSoundClips: []
+  doorSoundClips: []
+  movementPlayer: {fileID: 0}
+  isTeleporting: 0
+  isDoor: 0
+  isStair: 0
 --- !u!61 &1503620216
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15207,6 +15315,12 @@ MonoBehaviour:
   teleportTarget: {fileID: 975082277}
   keyIndicator: {fileID: 1718423149}
   teleportDelay: 1.35
+  stairSoundClips: []
+  doorSoundClips: []
+  movementPlayer: {fileID: 0}
+  isTeleporting: 0
+  isDoor: 0
+  isStair: 0
 --- !u!61 &1616623800
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15486,8 +15600,8 @@ MonoBehaviour:
   m_LightType: 4
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 1, g: 0.9716981, b: 0.9716981, a: 1}
+  m_Intensity: 0
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -16474,6 +16588,12 @@ MonoBehaviour:
   teleportTarget: {fileID: 1109658021}
   keyIndicator: {fileID: 1770063340}
   teleportDelay: 1.35
+  stairSoundClips: []
+  doorSoundClips: []
+  movementPlayer: {fileID: 0}
+  isTeleporting: 0
+  isDoor: 0
+  isStair: 0
 --- !u!61 &1783915386
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17581,6 +17701,12 @@ MonoBehaviour:
   teleportTarget: {fileID: 1564995568}
   keyIndicator: {fileID: 1250554174}
   teleportDelay: 1.35
+  stairSoundClips: []
+  doorSoundClips: []
+  movementPlayer: {fileID: 0}
+  isTeleporting: 0
+  isDoor: 0
+  isStair: 0
 --- !u!61 &1912422542
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18807,54 +18933,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &2063185710
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2063185712}
-  - component: {fileID: 2063185711}
-  m_Layer: 0
-  m_Name: DayNightManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2063185711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2063185710}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 615e3934284feda43a64015034d1e3c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerAnim: {fileID: 2106205420}
-  dayLight: {fileID: 1644028592}
-  candleLight: {fileID: 906944947}
-  isNight: 0
---- !u!4 &2063185712
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2063185710}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.05, y: 4.1285214, z: -0.045280218}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2063732281
 GameObject:
   m_ObjectHideFlags: 0
@@ -19311,6 +19389,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  runSpeed: 8
   rb: {fileID: 2106205413}
   isFrozen: 0
   footstepSoundClips:
@@ -19319,6 +19398,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18a5644e13bc2654ea43b1c4fb1e0d3e, type: 3}
   - {fileID: 8300000, guid: baca66c00d7ad1249b143d71e397cffc, type: 3}
   footstepInterval: 0.6
+  isRunning: 0
 --- !u!1 &2118140439
 GameObject:
   m_ObjectHideFlags: 0
@@ -19780,6 +19860,12 @@ MonoBehaviour:
   teleportTarget: {fileID: 1070117346}
   keyIndicator: {fileID: 1100133963}
   teleportDelay: 1.35
+  stairSoundClips: []
+  doorSoundClips: []
+  movementPlayer: {fileID: 0}
+  isTeleporting: 0
+  isDoor: 0
+  isStair: 0
 --- !u!61 &2127205997
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19961,7 +20047,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 2063732284}
   - {fileID: 1644028594}
-  - {fileID: 2063185712}
   - {fileID: 1431066728}
   - {fileID: 644840194}
   - {fileID: 123317620}

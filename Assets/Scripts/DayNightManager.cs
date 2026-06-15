@@ -9,6 +9,10 @@ public class DayNightManager : MonoBehaviour
     public GameObject dayLight;
     public GameObject candleLight;
 
+    public bool night;
+    public int day;
+
+
     private void Awake()
     {
         Instance = this;

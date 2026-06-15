@@ -32,6 +32,8 @@ public class TypewriterText : MonoBehaviour
         isTyping = true;
         textUI.text = "";
 
+        yield return null;
+
         foreach (char c in fullText)
         {
             textUI.text += c;
@@ -53,6 +55,11 @@ public class TypewriterText : MonoBehaviour
                 StopCoroutine(typingCoroutine);
                 textUI.text = fullText;
                 isTyping = false;
+            }
+            else
+            {
+
+
             }
         }
     }

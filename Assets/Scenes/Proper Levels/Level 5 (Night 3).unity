@@ -197,6 +197,22 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &614184 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5065431400278124782, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+  m_PrefabInstance: {fileID: 21623278}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &614186 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5126437555962446305, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+  m_PrefabInstance: {fileID: 21623278}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97fdb8e7b88b2704f87b021ae556a4a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1378399
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,6 +575,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 189396197315940366, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2122506482}
+    - target: {fileID: 189396197315940366, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShowMenuPage
+      objectReference: {fileID: 0}
+    - target: {fileID: 1506781662227190840, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2122506482}
+    - target: {fileID: 1506781662227190840, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShowObjectivePage
+      objectReference: {fileID: 0}
     - target: {fileID: 2980151844171711900, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -639,6 +671,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2994990762646406712, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2122506482}
+    - target: {fileID: 2994990762646406712, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShowObjectivePage
+      objectReference: {fileID: 0}
+    - target: {fileID: 3084105186795691010, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2122506482}
+    - target: {fileID: 3084105186795691010, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShowCharacterPage
+      objectReference: {fileID: 0}
     - target: {fileID: 3144614987287117373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: predefinedObjectives.Array.size
       value: 2
@@ -655,9 +703,46 @@ PrefabInstance:
       propertyPath: predefinedObjectives.Array.data[18].completed
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3260147560835755137, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2122506482}
+    - target: {fileID: 3260147560835755137, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShowCharacterPage
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125840356884449355, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2122506482}
+    - target: {fileID: 4125840356884449355, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShowCharacterPage
+      objectReference: {fileID: 0}
     - target: {fileID: 5128329817333439347, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: 'familyMembers.Array.data[0].nightDescriptions.Array.data[1]'
+      value: "She comforts me like nothing happened. Her voice is warm, but her face
+        doesn\u2019t move right. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6748487108225365892, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2122506482}
+    - target: {fileID: 6748487108225365892, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShowObjectivePage
+      objectReference: {fileID: 0}
+    - target: {fileID: 6756037345678829924, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2122506482}
+    - target: {fileID: 6756037345678829924, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShowMenuPage
       objectReference: {fileID: 0}
     - target: {fileID: 9089193744450467901, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_Name
@@ -1132,6 +1217,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 0
   isStair: 1
@@ -1504,6 +1590,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -2716,6 +2803,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 0
   isStair: 1
@@ -3563,6 +3651,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -4605,6 +4694,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 0
   isStair: 1
@@ -4811,6 +4901,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -6519,6 +6610,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -6755,6 +6847,11 @@ MonoBehaviour:
   puzzleStartTrigger: {fileID: 0}
   keyToActivate: {fileID: 0}
   fatherPuzzleStartTrigger: {fileID: 0}
+--- !u!1 &506511920 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5128329817333439347, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+  m_PrefabInstance: {fileID: 21623278}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &532049702
 GameObject:
   m_ObjectHideFlags: 0
@@ -6932,6 +7029,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 533109436}
   m_CullTransparentMesh: 1
+--- !u!1 &538164495 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6513692637400991358, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+  m_PrefabInstance: {fileID: 21623278}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &538164497 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+  m_PrefabInstance: {fileID: 21623278}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538164495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1503a31fab35743b89392ed00651c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &540439243
 GameObject:
   m_ObjectHideFlags: 0
@@ -7196,6 +7309,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -7641,6 +7755,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -8263,6 +8378,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -8787,6 +8903,55 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1640569749}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &699953423
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 699953425}
+  - component: {fileID: 699953424}
+  m_Layer: 0
+  m_Name: DayNightManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &699953424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699953423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f48eee9c5db81534c9fc292f97e7aadf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAnim: {fileID: 2106205420}
+  dayLight: {fileID: 1644028592}
+  candleLight: {fileID: 906944947}
+  night: 1
+  day: 2
+--- !u!4 &699953425
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699953423}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 111.42, y: -2.4700012, z: 0.002274679}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &710025197
 GameObject:
@@ -9554,6 +9719,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playSceneName: Credits
+--- !u!1 &739977593 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4845359824009635715, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+  m_PrefabInstance: {fileID: 21623278}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &741090541
 GameObject:
   m_ObjectHideFlags: 0
@@ -10500,6 +10670,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -11291,6 +11462,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 0
   isStair: 1
@@ -13403,6 +13575,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 0
   isStair: 1
@@ -14320,6 +14493,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 0
   isStair: 1
@@ -16408,6 +16582,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -17135,6 +17310,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -18294,6 +18470,111 @@ RectTransform:
   m_AnchoredPosition: {x: -79.41931, y: 264.21}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &1443744049
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1840053240324543524, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+      propertyPath: m_Name
+      value: JournalSystem (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2497044651982433773, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1454.9366
+      objectReference: {fileID: 0}
+    - target: {fileID: 2497044651982433773, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 699.9715
+      objectReference: {fileID: 0}
+    - target: {fileID: 2497044651982433773, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.347863
+      objectReference: {fileID: 0}
+    - target: {fileID: 2497044651982433773, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2497044651982433773, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2497044651982433773, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2497044651982433773, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2497044651982433773, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2497044651982433773, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2497044651982433773, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6746126958295517658, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+      propertyPath: menuPage
+      value: 
+      objectReference: {fileID: 614184}
+    - target: {fileID: 6746126958295517658, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+      propertyPath: keyListUI
+      value: 
+      objectReference: {fileID: 614186}
+    - target: {fileID: 6746126958295517658, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+      propertyPath: journalPanel
+      value: 
+      objectReference: {fileID: 506511920}
+    - target: {fileID: 6746126958295517658, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+      propertyPath: characterPage
+      value: 
+      objectReference: {fileID: 538164495}
+    - target: {fileID: 6746126958295517658, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+      propertyPath: objectivePage
+      value: 
+      objectReference: {fileID: 739977593}
+    - target: {fileID: 6746126958295517658, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+      propertyPath: backgroundMenu
+      value: 
+      objectReference: {fileID: 614184}
+    - target: {fileID: 6746126958295517658, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+      propertyPath: movementPlayer
+      value: 
+      objectReference: {fileID: 2106205422}
+    - target: {fileID: 6746126958295517658, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+      propertyPath: backgroundCharacter
+      value: 
+      objectReference: {fileID: 538164495}
+    - target: {fileID: 6746126958295517658, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+      propertyPath: backgroundObjective
+      value: 
+      objectReference: {fileID: 739977593}
+    - target: {fileID: 6746126958295517658, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+      propertyPath: pageTurn.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6746126958295517658, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+      propertyPath: CharacterPageManager
+      value: 
+      objectReference: {fileID: 538164497}
+    - target: {fileID: 6746126958295517658, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+      propertyPath: 'pageTurn.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 0584aad4cf03dd447bd40f9f22b714e8, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
 --- !u!1 &1448728931
 GameObject:
   m_ObjectHideFlags: 0
@@ -18449,6 +18730,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -19296,6 +19578,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 0
   isStair: 1
@@ -20274,6 +20557,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -21160,6 +21444,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 0
   isStair: 1
@@ -22643,6 +22928,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -24011,6 +24297,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -26719,6 +27006,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 471267160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2122506482 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6746126958295517658, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+  m_PrefabInstance: {fileID: 1443744049}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2ffed684523e754789fc29de92d6389, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2123061947
 GameObject:
   m_ObjectHideFlags: 0
@@ -27308,3 +27606,5 @@ SceneRoots:
   - {fileID: 1918172099}
   - {fileID: 412834403}
   - {fileID: 2102737845}
+  - {fileID: 699953425}
+  - {fileID: 1443744049}

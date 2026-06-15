@@ -803,6 +803,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
+  movementPlayer: {fileID: 1277766071}
   isTeleporting: 0
   isDoor: 0
   isStair: 1
@@ -1139,6 +1140,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -1383,6 +1385,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
+  movementPlayer: {fileID: 1277766071}
   isTeleporting: 0
   isDoor: 0
   isStair: 1
@@ -2625,6 +2628,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 1277766071}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -2968,65 +2972,47 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   completedObjectives: []
+  allKeys: []
   familyColors: []
   predefinedObjectives:
   - text: Go to Mother's room
     completed: 0
-    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: Search the manor for Mother
     completed: 0
-    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: Run to your room
     completed: 0
-    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: Try to sleep
     completed: 0
-    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: Find Mother
     completed: 1
-    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: Talk to Mother
     completed: 1
-    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: 'Go down to the pantry at night '
     completed: 1
-    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: Talk to Father instead
     completed: 1
-    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: Get the Mater Bedroom Key
     completed: 1
-    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: Get the Study Key at night
     completed: 1
-    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: 'Go to the pantry '
     completed: 1
-    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: 'Get the key to the study '
     completed: 1
-    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: 'Search the study '
     completed: 1
-    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: 'Get the safehouse key '
     completed: 1
-    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: 'Get to the attic '
     completed: 1
-    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: 'Find the attic rod '
     completed: 1
-    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: Find the safehouse key
     completed: 1
-    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: 'Go to the safehouse '
     completed: 1
-    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - text: 'Go to the safehouse '
     completed: 1
-    nameColor: {r: 0, g: 0, b: 0, a: 0}
   activeObjectives: []
 --- !u!114 &316327116
 MonoBehaviour:
@@ -3644,6 +3630,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 838245579}
+    - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: 'familyMembers.Array.data[4].nightDescriptions.Array.data[0]'
+      value: I can hear grandma crying from the walls, why is she crying?
+      objectReference: {fileID: 0}
     - target: {fileID: 6748487108225365892, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -3652,6 +3642,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 838245579}
+    - target: {fileID: 8371797389788680749, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_Navigation.m_Mode
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 9089193744450467901, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_Name
       value: Journal UI
@@ -4152,6 +4146,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
+  movementPlayer: {fileID: 1277766071}
   isTeleporting: 0
   isDoor: 0
   isStair: 1
@@ -4300,6 +4295,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -5420,6 +5416,55 @@ Transform:
   - {fileID: 496608662}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &484307211
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 484307213}
+  - component: {fileID: 484307212}
+  m_Layer: 0
+  m_Name: DayNightManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &484307212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484307211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f48eee9c5db81534c9fc292f97e7aadf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAnim: {fileID: 1277766072}
+  dayLight: {fileID: 1644028592}
+  candleLight: {fileID: 522593821}
+  night: 1
+  day: 1
+--- !u!4 &484307213
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484307211}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 37.19638, y: -43.840992, z: -8.6630535}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &488367350
 GameObject:
   m_ObjectHideFlags: 0
@@ -5473,6 +5518,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -6152,6 +6198,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 1277766071}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -6551,6 +6598,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 1277766071}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -7273,6 +7321,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -9165,6 +9214,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 1277766071}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -9710,6 +9760,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
+  movementPlayer: {fileID: 1277766071}
   isTeleporting: 0
   isDoor: 0
   isStair: 1
@@ -11701,6 +11752,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
+  movementPlayer: {fileID: 1277766071}
   isTeleporting: 0
   isDoor: 0
   isStair: 1
@@ -12532,6 +12584,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
+  movementPlayer: {fileID: 1277766071}
   isTeleporting: 0
   isDoor: 0
   isStair: 1
@@ -14472,6 +14525,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 1277766071}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -15415,6 +15469,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -16364,6 +16419,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 1277766071}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -17052,6 +17108,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
+  movementPlayer: {fileID: 1277766071}
   isTeleporting: 0
   isDoor: 0
   isStair: 1
@@ -18216,6 +18273,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 1277766071}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -19624,6 +19682,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 1277766071}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -20960,6 +21019,7 @@ MonoBehaviour:
   stairSoundClips: []
   doorSoundClips:
   - {fileID: 8300000, guid: c37278c034b578e43a7e9e8f508ebf2e, type: 3}
+  movementPlayer: {fileID: 0}
   isTeleporting: 0
   isDoor: 1
   isStair: 0
@@ -21117,6 +21177,7 @@ MonoBehaviour:
   stairSoundClips:
   - {fileID: 8300000, guid: 7c5406cfe7ada5e4a9b4f3dfd81152eb, type: 3}
   doorSoundClips: []
+  movementPlayer: {fileID: 1277766071}
   isTeleporting: 0
   isDoor: 0
   isStair: 1
@@ -21485,6 +21546,10 @@ PrefabInstance:
       propertyPath: backgroundMenu
       value: 
       objectReference: {fileID: 1871879479}
+    - target: {fileID: 6746126958295517658, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+      propertyPath: movementPlayer
+      value: 
+      objectReference: {fileID: 1277766071}
     - target: {fileID: 6746126958295517658, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
       propertyPath: movementplayer
       value: 
@@ -23029,3 +23094,4 @@ SceneRoots:
   - {fileID: 6653381}
   - {fileID: 630584264}
   - {fileID: 316327113}
+  - {fileID: 484307213}

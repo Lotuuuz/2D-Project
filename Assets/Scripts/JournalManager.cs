@@ -5,7 +5,9 @@ public class JournalManager : MonoBehaviour
    
     
     public CharacterPageManager CharacterPageManager;
-    public MovementPlayer movementplayer;
+    public MovementPlayer movementPlayer;
+    [SerializeField] private AudioClip[] pageTurn;
+
     
     [Header("Main Panel")]
     public GameObject journalPanel;
@@ -28,12 +30,12 @@ public class JournalManager : MonoBehaviour
     
         {
             // Finn Player automatisk hvis den ikke er satt i Inspector
-            if (movementplayer == null)
-                movementplayer = FindAnyObjectByType<MovementPlayer>();
+            if (movementPlayer == null)
+                movementPlayer = FindAnyObjectByType<MovementPlayer>();
 
 
             journalPanel.SetActive(false);
-            ShowMenuPage(); // Starter på meny-siden
+           // ShowMenuPage(); // Starter på meny-siden
         }
 
     }
@@ -53,8 +55,18 @@ public class JournalManager : MonoBehaviour
 
         if (isOpen)
         {
+            movementPlayer.enabled = false;
+            Time.timeScale = 0f;
             keyListUI.Refresh();   // ← FLYTTET HIT
         }
+        else
+        {
+
+            Time.timeScale = 1f;
+            movementPlayer.enabled = true;
+        }
+
+       
     }
 
 
@@ -70,6 +82,10 @@ public class JournalManager : MonoBehaviour
         menuPage.SetActive(true);
         objectivePage.SetActive(false);
         characterPage.SetActive(false);
+
+        Debug.Log("Show Menu page er runna!");
+
+        SoundFXManager.Instance.PlayRandomSoundFXClip(pageTurn, transform, 1f);
     }
 
     public void ShowObjectivePage()
@@ -81,6 +97,11 @@ public class JournalManager : MonoBehaviour
         menuPage.SetActive(false);
         objectivePage.SetActive(true);
         characterPage.SetActive(false);
+
+        Debug.Log("Show bjective page er runna!");
+
+        SoundFXManager.Instance.PlayRandomSoundFXClip(pageTurn, transform, 1f);
+
     }
 
     public void ShowCharacterPage()
@@ -95,7 +116,11 @@ public class JournalManager : MonoBehaviour
 
         CharacterPageManager.ShowCharacter(0);
 
-  
+        Debug.Log("Show Character page er runna!");
+        SoundFXManager.Instance.PlayRandomSoundFXClip(pageTurn, transform, 1f);
+
+
+
     }
 }
 
