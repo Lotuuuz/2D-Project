@@ -11,7 +11,10 @@ public class ObjectToggler : MonoBehaviour
 
         foreach (GameObject obj in objectsToToggle)
         {
-            obj.SetActive(!obj.activeSelf);
+            if (obj == null) continue;
+
+            bool nextState = !obj.activeSelf;
+            obj.SetActive(nextState);
         }
     }
 }

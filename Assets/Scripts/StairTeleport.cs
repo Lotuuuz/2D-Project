@@ -74,6 +74,7 @@ public class StairTeleport : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             playerInRange = true;
+            
             player = collision.gameObject;
 
             playerAnimator = player.GetComponent<Animator>();
@@ -88,6 +89,7 @@ public class StairTeleport : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             playerInRange = false;
+            
 
             if (keyIndicator != null)
                 keyIndicator.enabled = false;

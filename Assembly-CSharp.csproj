@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0234739E-46F0-BC40-E736-2B55143FFF1E}</ProjectGuid>
+    <ProjectGuid>{07BE06AF-E083-05B8-C495-929DCA2CDC7A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\PuzzleKeyTrigger.cs" />
     <Compile Include="Assets\Scripts\DocumentManager.cs" />
     <Compile Include="Assets\Scripts\CreditScroll.cs" />
+    <Compile Include="Assets\Scripts\MonsterController.cs" />
     <Compile Include="Assets\Scripts\SceneSetup.cs" />
     <Compile Include="Assets\Scripts\LightActivator.cs" />
     <Compile Include="Assets\Scripts\FuseTiles.cs" />
@@ -81,6 +82,7 @@
     <Compile Include="Assets\Scripts\RedLightGreenLightManager.cs" />
     <Compile Include="Assets\Scripts\CSE_Test.cs" />
     <Compile Include="Assets\Scripts\CharacterPageManager.cs" />
+    <Compile Include="Assets\Scripts\ObjectDeactivator.cs" />
     <Compile Include="Assets\Scripts\SoundFXTrigger.cs" />
     <Compile Include="Assets\Scripts\KeyData.cs" />
     <Compile Include="Assets\Scripts\CheckpointTrigger.cs" />
@@ -102,10 +104,13 @@
     <Compile Include="Assets\Scripts\CSE_CameraPan.cs" />
     <Compile Include="Assets\Scripts\FinalChoiceScript.cs" />
     <Compile Include="Assets\Scripts\DialogueTriggerSystem.cs" />
+    <Compile Include="Assets\Scripts\ObjectActivator.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\MonsterRegister.cs" />
     <Compile Include="Assets\Scripts\FatherPuzzleManager.cs" />
     <Compile Include="Assets\Scripts\SoundFXManager.cs" />
     <Compile Include="Assets\Scripts\MonsterMovement.cs" />
+    <Compile Include="Assets\Scripts\MonsterTrigger.cs" />
     <Compile Include="Assets\Scripts\KeyManager.cs" />
     <Compile Include="Assets\Scripts\CheckpointManager.cs" />
     <Compile Include="Assets\Scripts\KeyListUI.cs" />
@@ -126,6 +131,8 @@
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\GameProgressManager.cs" />
     <Compile Include="Assets\Scripts\StopMusicTrigger.cs" />
+    <Compile Include="Assets\Scripts\ResettableObject.cs" />
+    <Compile Include="Assets\Scripts\TriggerRegister.cs" />
     <Compile Include="Assets\Scripts\ChangeMusicTrigger.cs" />
     <Compile Include="Assets\Scripts\FatherPuzzleStartTrigger.cs" />
     <Compile Include="Assets\Scripts\JournalManager.cs" />

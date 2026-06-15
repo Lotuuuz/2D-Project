@@ -8,8 +8,10 @@ public class MonsterMovement : MonoBehaviour
         Right
     }
 
-    [SerializeField] private float moveSpeed = 7.0f;
+    [SerializeField] private float moveSpeed = 3f;
     [SerializeField] private MoveDirection direction = MoveDirection.Right;
+
+    public bool canMove = false;
 
     private Rigidbody2D rb;
 
@@ -20,18 +22,13 @@ public class MonsterMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Vector2 movement;
+        if (!canMove || rb == null)
+            return;
 
-        if (direction == MoveDirection.Right)
-        {
-            movement = Vector2.right;
-        }
-        else
-        {
-            movement = Vector2.left;
-        }
+        Vector2 dir = direction == MoveDirection.Right
+            ? Vector2.right
+            : Vector2.left;
 
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        rb.MovePosition(rb.position + dir * moveSpeed * Time.fixedDeltaTime);
     }
 }
-

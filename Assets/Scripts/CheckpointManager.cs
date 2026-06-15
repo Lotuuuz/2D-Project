@@ -7,33 +7,32 @@ public class CheckpointManager : MonoBehaviour
 
     private Vector3 checkpointPosition;
 
-    private Dictionary<GameObject, bool> savedStates =
-        new Dictionary<GameObject, bool>();
+    private List<MonsterController> monsters =
+        new List<MonsterController>();
+
+    private List<MonsterTrigger> triggers =
+        new List<MonsterTrigger>();
 
     private void Awake()
     {
-        if (Instance == null)
-            Instance = this;
-
-        else
-            Destroy(gameObject);
+        Instance = this;
     }
 
-
-    public void SaveCheckpoint(Vector3 playerposition, List<GameObject> objectsToTrack)
+    public void RegisterMonster(MonsterController monster)
     {
-        checkpointPosition = playerposition;
+        if (!monsters.Contains(monster))
+            monsters.Add(monster);
+    }
 
-        savedStates.Clear();
+    public void RegisterTrigger(MonsterTrigger trigger)
+    {
+        if (!triggers.Contains(trigger))
+            triggers.Add(trigger);
+    }
 
-        foreach (GameObject obj in objectsToTrack)
-        {
-            if (obj != null)
-            {
-                savedStates[obj] = obj.activeSelf;
-            }
-        }
-
+    public void SaveCheckpoint(Vector3 playerPosition)
+    {
+        checkpointPosition = playerPosition;
         Debug.Log("Checkpoint Saved");
     }
 
@@ -41,15 +40,19 @@ public class CheckpointManager : MonoBehaviour
     {
         player.transform.position = checkpointPosition;
 
-        foreach (var pair in savedStates)
+        // RESET MONSTERS
+        foreach (var m in monsters)
         {
-            if (pair.Key != null)
-            {
-                pair.Key.SetActive(pair.Value);
-            }
+            m.ResetToCheckpoint();
+        }
+
+        // RESET TRIGGERS (THIS FIXES YOUR BUG)
+        foreach (var t in triggers)
+        {
+            if (t != null)
+                t.ResetTrigger();
         }
 
         Debug.Log("Checkpoint Restored");
     }
-
 }
