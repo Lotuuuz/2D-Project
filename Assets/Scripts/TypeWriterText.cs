@@ -32,15 +32,18 @@ public class TypewriterText : MonoBehaviour
         isTyping = true;
         textUI.text = "";
 
-        yield return null;
+        //yield return new WaitForSeconds(speed);
 
         foreach (char c in fullText)
         {
             textUI.text += c;
-            yield return new WaitForSeconds(speed);
+            Debug.Log(c);
+            //yield return new WaitForSeconds(speed);
         }
 
+        Debug.Log("ferdig skrevet");
         isTyping = false;
+        yield return new WaitForSeconds(speed);
     }
 
     void Update()

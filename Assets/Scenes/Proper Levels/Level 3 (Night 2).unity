@@ -20488,9 +20488,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 727832262}
     - target: {fileID: 6746126958295517658, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+      propertyPath: pageTurn.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6746126958295517658, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
       propertyPath: CharacterPageManager
       value: 
       objectReference: {fileID: 1323336679}
+    - target: {fileID: 6746126958295517658, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+      propertyPath: 'pageTurn.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 0584aad4cf03dd447bd40f9f22b714e8, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
