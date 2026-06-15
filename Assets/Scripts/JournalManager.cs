@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class JournalManager : MonoBehaviour
 {
@@ -57,6 +58,9 @@ public class JournalManager : MonoBehaviour
         {
             movementPlayer.enabled = false;
             Time.timeScale = 0f;
+
+            ShowMenuPage();
+
             keyListUI.Refresh();   // ← FLYTTET HIT
         }
         else
@@ -118,9 +122,17 @@ public class JournalManager : MonoBehaviour
 
         Debug.Log("Show Character page er runna!");
         SoundFXManager.Instance.PlayRandomSoundFXClip(pageTurn, transform, 1f);
-
-
-
     }
+
+       
+
+public void QuitToMainMenu()
+    {
+        Time.timeScale = 1f; 
+        SceneManager.LoadScene("Main Menu");
+    }
+
+
 }
+
 

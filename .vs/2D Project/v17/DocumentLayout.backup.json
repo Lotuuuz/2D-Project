@@ -3,51 +3,51 @@
   "WorkspaceRootPath": "C:\\Unity\\Game Design 2\\2D Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\characterpagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\characterpagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\typewritertext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\typewritertext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|c:\\unity\\game design 2\\2d project\\assets\\scripts\\soundfxmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundfxmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\keylistui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keylistui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\objectivemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectivemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\journalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\journalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\daynightmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\daynightmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\gameprogressmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameprogressmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\movementplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movementplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\soundfxmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundfxmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\objectivemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectivemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\typewritertext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\typewritertext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|c:\\unity\\game design 2\\2d project\\assets\\scripts\\characterpagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\characterpagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\daynightmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\daynightmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\keylistui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keylistui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\gameprogressmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameprogressmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\scenesetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenesetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|c:\\unity\\game design 2\\2d project\\assets\\scripts\\lightactivator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\lightactivator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lightactivator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|c:\\unity\\game design 2\\2d project\\assets\\scripts\\stairteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\stairteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stairteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -55,7 +55,7 @@
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialoguesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|c:\\unity\\game design 2\\2d project\\assets\\scripts\\scenetransitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\scenetransitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenetransitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -67,7 +67,7 @@
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objecttoggler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|c:\\unity\\game design 2\\2d project\\assets\\scripts\\objectiveitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|C:\\Unity\\Game Design 2\\2D Project\\assets\\scripts\\objectiveitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0234739E-46F0-BC40-E736-2B55143FFF1E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectiveitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -178,30 +178,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TypeWriterText.cs",
-              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\TypeWriterText.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TypeWriterText.cs",
-              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\TypeWriterText.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TypeWriterText.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAwwEAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T17:45:44.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "KeyListUI.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\KeyListUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\KeyListUI.cs",
               "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\KeyListUI.cs",
               "RelativeToolTip": "Assets\\Scripts\\KeyListUI.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBQAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-05T19:13:01.753Z",
               "EditorCaption": ""
@@ -214,20 +201,20 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\SoundFXManager.cs",
               "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\SoundFXManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\SoundFXManager.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAD4vyYAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-15T07:10:39.229Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "CharacterPageManager.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\CharacterPageManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterPageManager.cs",
               "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\CharacterPageManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\CharacterPageManager.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAwwBMAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAD4vxAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-05T13:53:26.182Z",
               "EditorCaption": ""
@@ -240,33 +227,20 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\DayNightManager.cs",
               "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\DayNightManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\DayNightManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-05T15:26:08.625Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GameProgressManager.cs",
-              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\GameProgressManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameProgressManager.cs",
-              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\GameProgressManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameProgressManager.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T16:10:24.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "MovementPlayer.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\MovementPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MovementPlayer.cs",
               "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\MovementPlayer.cs",
               "RelativeToolTip": "Assets\\Scripts\\MovementPlayer.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAMwEQAAABgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-29T08:58:24.025Z",
               "EditorCaption": ""
@@ -281,34 +255,58 @@
               "RelativeToolTip": "Assets\\Scripts\\SceneSetup.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T11:31:28.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-09T11:31:28.977Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "JournalManager.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\JournalManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\JournalManager.cs",
               "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\JournalManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\JournalManager.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAD4v2QAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAkwGoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-30T12:29:04.75Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ObjectiveManager.cs",
               "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\ObjectiveManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectiveManager.cs",
               "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\ObjectiveManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\ObjectiveManager.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwFYAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwCkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-04T12:18:33.629Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TypeWriterText.cs",
+              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\TypeWriterText.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TypeWriterText.cs",
+              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\TypeWriterText.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TypeWriterText.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwCIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T17:45:44.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GameProgressManager.cs",
+              "DocumentMoniker": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\GameProgressManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameProgressManager.cs",
+              "ToolTip": "C:\\Unity\\Game Design 2\\2D Project\\Assets\\Scripts\\GameProgressManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameProgressManager.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T16:10:24.677Z"
             },
             {
               "$type": "Document",
@@ -320,8 +318,7 @@
               "RelativeToolTip": "Assets\\Scripts\\LightActivator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T08:19:11.836Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-15T08:19:11.836Z"
             },
             {
               "$type": "Document",
@@ -333,8 +330,7 @@
               "RelativeToolTip": "Assets\\Scripts\\StairTeleport.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAAwCUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T07:50:44.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-15T07:50:44.541Z"
             },
             {
               "$type": "Document",
@@ -346,8 +342,7 @@
               "RelativeToolTip": "Assets\\Scripts\\DialogueSystem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T12:22:41.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-09T12:22:41.598Z"
             },
             {
               "$type": "Document",
@@ -359,8 +354,7 @@
               "RelativeToolTip": "Assets\\Scripts\\SceneTransitionManager.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T07:45:28.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-15T07:45:28.23Z"
             },
             {
               "$type": "Document",
@@ -372,8 +366,7 @@
               "RelativeToolTip": "Assets\\Scripts\\CompleteObjectiveOnEnter.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwBsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T18:41:55.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-09T18:41:55.848Z"
             },
             {
               "$type": "Document",
@@ -385,8 +378,7 @@
               "RelativeToolTip": "Assets\\Scripts\\ObjectiveItem.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAYwEAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T12:39:00.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-04T12:39:00.082Z"
             },
             {
               "$type": "Document",
@@ -434,8 +426,7 @@
               "RelativeToolTip": "Assets\\Scripts\\ObjectToggler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T08:22:04.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-04T08:22:04.14Z"
             },
             {
               "$type": "Document",
