@@ -1875,6 +1875,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8234695876096435492, guid: 178782b7de22c284a91896df7d63e97c, type: 3}
+      propertyPath: collectedKeys.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8234695876096435492, guid: 178782b7de22c284a91896df7d63e97c, type: 3}
+      propertyPath: 'collectedKeys.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 5b02b7aacc583ee4fa2336faa28075a3, type: 2}
     - target: {fileID: 8295496274636695689, guid: 178782b7de22c284a91896df7d63e97c, type: 3}
       propertyPath: m_Name
       value: KeyInventory
@@ -26095,7 +26103,6 @@ GameObject:
   - component: {fileID: 2106205420}
   - component: {fileID: 2106205422}
   - component: {fileID: 2106205421}
-  - component: {fileID: 2106205423}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -26296,18 +26303,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: baca66c00d7ad1249b143d71e397cffc, type: 3}
   footstepInterval: 0.6
   isRunning: 0
---- !u!114 &2106205423
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2106205412}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d845148d887b0d4597e5a39d0a4a42e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2112634624
 GameObject:
   m_ObjectHideFlags: 0

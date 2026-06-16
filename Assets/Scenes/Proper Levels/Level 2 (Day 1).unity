@@ -22251,7 +22251,6 @@ MonoBehaviour:
   objectsToToggle:
   - {fileID: 89195415}
   - {fileID: 430993402}
-  - {fileID: 1071239756}
 --- !u!1 &2044681483
 GameObject:
   m_ObjectHideFlags: 0

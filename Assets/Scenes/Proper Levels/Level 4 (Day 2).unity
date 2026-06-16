@@ -6633,29 +6633,14 @@ GameObject:
   m_Component:
   - component: {fileID: 650643679}
   - component: {fileID: 650643678}
-  - component: {fileID: 650643676}
+  - component: {fileID: 650643680}
   m_Layer: 0
   m_Name: Scene Transition Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &650643676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 650643675}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cd1878e49b9d2c44a94bf0bd4feafc6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextSceneName: Level 5 (Night 3)
-  finalObjectiveIndex: 3
-  keyIndicator: {fileID: 1570352661}
+  m_IsActive: 0
 --- !u!61 &650643678
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6718,6 +6703,19 @@ Transform:
   - {fileID: 1570352662}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &650643680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650643675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e24c06a49592f3d45b5f8f0a9ba74e3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playSceneName: level 5 (Night 3)
 --- !u!1 &652988592
 GameObject:
   m_ObjectHideFlags: 0
@@ -22758,10 +22756,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2043735835}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0f0c5fe2c8bfca49a38bc02dff92a58, type: 3}
+  m_Script: {fileID: 11500000, guid: 620a9245efa2aa34b98dd1430cfc12d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectsToToggle:
+  objectsToActivate:
   - {fileID: 650643675}
 --- !u!1 &2051726899
 GameObject:

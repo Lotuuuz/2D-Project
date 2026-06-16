@@ -5,6 +5,8 @@ public class MonsterDeath : MonoBehaviour
 {
     public StairTeleport teleportBool;
 
+    [SerializeField] private float secondsToWait = 2f;
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (!other.CompareTag("Player"))
@@ -20,7 +22,7 @@ public class MonsterDeath : MonoBehaviour
 
     private IEnumerator DelayedDeath(PlayerDeath playerDeath)
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(secondsToWait);
 
         if (playerDeath != null)
         {
