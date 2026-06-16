@@ -6,7 +6,7 @@ public class SceneExitTrigger : MonoBehaviour
     [SerializeField] private string nextSceneName;
     [SerializeField] private int finalObjectiveIndex;
 
-    [SerializeField] private SpriteRenderer keyIndicator; 
+    [SerializeField] private SpriteRenderer keyIndicator;
 
     private bool playerInRange = false;
 
@@ -44,4 +44,10 @@ public class SceneExitTrigger : MonoBehaviour
             keyIndicator.enabled = false;
         }
     }
+
+    void OnDisable()
+    {
+        Debug.Log("SCENE EXIT TRIGGER BLE DEAKTIVERT AV NOE!");
+    }
+
 }

@@ -5,11 +5,8 @@ public class SceneSetup : MonoBehaviour
     public bool night;
     public int day;
 
-    void Start()
+    void Awake()
     {
-        if (night)
-            GameProgressManager.Instance.StartNight(day);
-        else
-            GameProgressManager.Instance.StartDay(day);
+        GameProgressManager.Instance.SetTime(day, night);
     }
 }

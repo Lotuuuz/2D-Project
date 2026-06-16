@@ -4,8 +4,8 @@ public class GameProgressManager : MonoBehaviour
 {
     public static GameProgressManager Instance;
 
-    public int currentDay = 1;   // 1, 2, 3
-    public bool isNight = true; // false = dag, true = natt
+    [HideInInspector] public int currentDay = 1;
+    [HideInInspector] public bool isNight = true;
 
     private void Awake()
     {
@@ -17,18 +17,13 @@ public class GameProgressManager : MonoBehaviour
         else
         {
             Destroy(gameObject);
+            return;
         }
     }
 
-    public void StartDay(int day)
+    public void SetTime(int day, bool night)
     {
         currentDay = day;
-        isNight = false;
-    }
-
-    public void StartNight(int day)
-    {
-        currentDay = day;
-        isNight = true;
+        isNight = night;
     }
 }

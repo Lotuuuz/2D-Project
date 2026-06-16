@@ -6423,7 +6423,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &650643676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14844,7 +14844,7 @@ MonoBehaviour:
     completed: 0
   - text: Find the attic rod
     completed: 0
-  - text: Find the pantry key
+  - text: Find the basement key
     completed: 0
   - text: 'Wait for night time to arrive '
     completed: 0
@@ -17076,6 +17076,10 @@ PrefabInstance:
       propertyPath: m_RaycastTarget
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4845359824009635715, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5128329817333439347, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -17114,7 +17118,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5761533885813291336, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -35
+      value: -103
       objectReference: {fileID: 0}
     - target: {fileID: 6513692637400991358, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_IsActive
@@ -17135,6 +17139,14 @@ PrefabInstance:
     - target: {fileID: 6756037345678829924, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ShowMenuPage
+      objectReference: {fileID: 0}
+    - target: {fileID: 7904036550597557065, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -501
+      objectReference: {fileID: 0}
+    - target: {fileID: 7904036550597557065, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8923161746189249182, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -22272,7 +22284,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.01, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -22282,7 +22294,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.72, y: 0.9}
   m_EdgeRadius: 0
 --- !u!114 &2043735838
 MonoBehaviour:
@@ -23184,7 +23196,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundFXObject: {fileID: 7659400532120353459, guid: e0b6503b5a98126468a3a669fc7aab7b, type: 3}
-  fatherSnoreClips: []
 --- !u!4 &2104949421
 Transform:
   m_ObjectHideFlags: 0

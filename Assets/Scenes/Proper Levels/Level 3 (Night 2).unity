@@ -7638,7 +7638,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundFXObject: {fileID: 7659400532120353459, guid: e0b6503b5a98126468a3a669fc7aab7b, type: 3}
-  fatherSnoreClips: []
 --- !u!4 &599520520
 Transform:
   m_ObjectHideFlags: 0
@@ -20960,7 +20959,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 000000005988de19
@@ -22684,7 +22683,7 @@ MonoBehaviour:
   - name: Older Brother
     color: {r: 0.42745098, g: 0.36862746, b: 0.2509804, a: 1}
   predefinedObjectives:
-  - text: 'Go to the pantry '
+  - text: Go to the basement
     completed: 0
   - text: Get the key to the study
     completed: 0

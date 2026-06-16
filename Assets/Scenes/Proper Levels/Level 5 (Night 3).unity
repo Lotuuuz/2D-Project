@@ -28009,9 +28009,9 @@ MonoBehaviour:
   - name: Older Brother
     color: {r: 0.42745098, g: 0.36862746, b: 0.2509804, a: 1}
   predefinedObjectives:
-  - text: 'Go to the pantry '
+  - text: Go to the basement
     completed: 0
-  - text: Leave the pantry
+  - text: Leave the basement
     completed: 0
   activeObjectives: []
 --- !u!1 &2025637992
@@ -28119,7 +28119,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundFXObject: {fileID: 7659400532120353459, guid: e0b6503b5a98126468a3a669fc7aab7b, type: 3}
-  fatherSnoreClips: []
 --- !u!4 &2025901374
 Transform:
   m_ObjectHideFlags: 0

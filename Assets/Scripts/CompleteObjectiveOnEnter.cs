@@ -14,7 +14,10 @@ public class CompleteObjectiveOnEnter : MonoBehaviour
             return;
 
         // Sjekk om forrige objective er fullført (gjelder ikke objective 0)
-        if (!ObjectiveManager.Instance.IsCompleted(objectiveIndex - 1) && objectiveIndex != 0)
+        if (objectiveIndex != 0 && !ObjectiveManager.Instance.IsCompleted(objectiveIndex - 1))
+            return;
+
+        if (ObjectiveManager.Instance.activeObjectives.Count <= objectiveIndex || ObjectiveManager.Instance.activeObjectives[objectiveIndex].completed == true)
             return;
 
         // Fullfør dette objective
@@ -31,7 +34,7 @@ public class CompleteObjectiveOnEnter : MonoBehaviour
         }
 
         // ⭐ FAREN sitt puzzle (objective 0)
-        if (objectiveIndex == 0)
+        else if (objectiveIndex == 0)
         {
             if (keyToActivate != null)
                 keyToActivate.SetActive(true);
