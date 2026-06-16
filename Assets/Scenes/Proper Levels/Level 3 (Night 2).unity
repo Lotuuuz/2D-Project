@@ -466,7 +466,7 @@ Transform:
   m_GameObject: {fileID: 17674072}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.79, y: 68.47, z: 0}
+  m_LocalPosition: {x: 5.19, y: 68.47, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -486,8 +486,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveIndex: 1
   puzzleStartTrigger: {fileID: 0}
-  keyToActivate: {fileID: 1957277295}
   fatherPuzzleStartTrigger: {fileID: 0}
+  keyToActivate: {fileID: 1957277295}
 --- !u!61 &17674075
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4107,8 +4107,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveIndex: 3
   puzzleStartTrigger: {fileID: 0}
-  keyToActivate: {fileID: 0}
   fatherPuzzleStartTrigger: {fileID: 0}
+  keyToActivate: {fileID: 0}
 --- !u!61 &362819999
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4232,9 +4232,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   father: {fileID: 1019058095}
+  puzzleManager: {fileID: 1677957520}
   puzzleUnlocked: 0
-  keyToActivate: {fileID: 1957277295}
-  puzzleManager: {fileID: 1270934034}
 --- !u!4 &369745773
 Transform:
   m_ObjectHideFlags: 0
@@ -4244,7 +4243,7 @@ Transform:
   m_GameObject: {fileID: 369745770}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.09, y: 16.7, z: -8.475327}
+  m_LocalPosition: {x: 7, y: 16.7, z: -8.475327}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7513,6 +7512,10 @@ PrefabInstance:
       propertyPath: isNight
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7329143714003745862, guid: e254a3c0b5eb69145bc31afe10acf63f, type: 3}
+      propertyPath: currentDay
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8454809867915869260, guid: e254a3c0b5eb69145bc31afe10acf63f, type: 3}
       propertyPath: m_Name
       value: GameProgressManager
@@ -7635,6 +7638,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundFXObject: {fileID: 7659400532120353459, guid: e0b6503b5a98126468a3a669fc7aab7b, type: 3}
+  fatherSnoreClips: []
 --- !u!4 &599520520
 Transform:
   m_ObjectHideFlags: 0
@@ -7898,7 +7902,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 2b50545078ddead40a2f6e39119316d0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10493,7 +10497,7 @@ MonoBehaviour:
   dayLight: {fileID: 1644028592}
   candleLight: {fileID: 1579894986}
   night: 1
-  day: 1
+  day: 2
 --- !u!4 &853912016
 Transform:
   m_ObjectHideFlags: 0
@@ -12176,8 +12180,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1019058092}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.31, y: 19.32, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.3099995, y: 19.32, z: 0}
   m_LocalScale: {x: 5.6, y: 5.25, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12190,17 +12194,20 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1019058092}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c3728efa71e94c4092e709cd2d509e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 1019058096}
-  idleTime: 1.4
+  isLooking: 0
+  isWarning: 0
   warningTime: 1.2
   lookTime: 1.6
+  idleTime: 1.4
   keyCollected: 0
-  puzzleActive: 0
+  animator: {fileID: 1019058096}
+  fatherSnoreClips:
+  - {fileID: 8300000, guid: 984d0a73cae81ff4b858df4bdee20075, type: 3}
 --- !u!95 &1019058096
 Animator:
   serializedVersion: 7
@@ -13897,7 +13904,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1177268652}
   - component: {fileID: 1177268654}
-  - component: {fileID: 1177268653}
+  - component: {fileID: 1177268655}
   m_Layer: 0
   m_Name: ObjectiveTrigger_2
   m_TagString: Untagged
@@ -13914,13 +13921,26 @@ Transform:
   m_GameObject: {fileID: 1177268651}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -109.98, y: -3.1, z: 0}
+  m_LocalPosition: {x: -107.99, y: -2.73, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 618304087}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1177268653
+--- !u!114 &1177268654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177268651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3326c9dd021a24843a2afae8cf43e2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectiveIndex: 2
+--- !u!61 &1177268655
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13964,21 +13984,8 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.92, y: 2.86}
+  m_Size: {x: 2.75, y: 3.52}
   m_EdgeRadius: 0
---- !u!114 &1177268654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1177268651}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3326c9dd021a24843a2afae8cf43e2ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectiveIndex: 2
 --- !u!1 &1180757699
 GameObject:
   m_ObjectHideFlags: 0
@@ -15560,54 +15567,6 @@ Transform:
   - {fileID: 362819997}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1270934033
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1270934035}
-  - component: {fileID: 1270934034}
-  m_Layer: 0
-  m_Name: FatherPuzzleManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1270934034
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1270934033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3974d8dec7af57b40a3bafc8a433b37b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  father: {fileID: 1019058095}
-  player: {fileID: 2106205422}
-  failResetPoint: {fileID: 1448636475}
-  puzzleActive: 0
---- !u!4 &1270934035
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1270934033}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.399996, y: 19.8, z: -8.45}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1289666577
 GameObject:
   m_ObjectHideFlags: 0
@@ -16663,7 +16622,7 @@ PrefabInstance:
       objectReference: {fileID: 1887470731}
     - target: {fileID: 5128329817333439347, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: 'familyMembers.Array.data[0].nightDescriptions.Array.data[1]'
@@ -16696,6 +16655,10 @@ PrefabInstance:
     - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: 'familyMembers.Array.data[7].nightDescriptions.Array.data[0]'
       value: He's been in the pantry for some time now, I wonder why?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5761533885813291336, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -66
       objectReference: {fileID: 0}
     - target: {fileID: 6513692637400991358, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_IsActive
@@ -16849,7 +16812,7 @@ Transform:
   m_GameObject: {fileID: 1376994980}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -99.75, y: -2.58, z: 0}
+  m_LocalPosition: {x: 75.8, y: 59.32, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17142,8 +17105,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveIndex: 0
   puzzleStartTrigger: {fileID: 0}
-  keyToActivate: {fileID: 1957277295}
   fatherPuzzleStartTrigger: {fileID: 369745772}
+  keyToActivate: {fileID: 1957277295}
 --- !u!61 &1391293254
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17968,7 +17931,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1428601036}
   - component: {fileID: 1428601035}
-  - component: {fileID: 1428601034}
   - component: {fileID: 1428601033}
   m_Layer: 0
   m_Name: Scene Transition Trigger
@@ -17992,19 +17954,6 @@ MonoBehaviour:
   nextSceneName: Level 4 (Day 2)
   finalObjectiveIndex: 3
   keyIndicator: {fileID: 63992910}
---- !u!114 &1428601034
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1428601032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e24c06a49592f3d45b5f8f0a9ba74e3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playSceneName: Level 2 (Day 1)
 --- !u!61 &1428601035
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18127,7 +18076,7 @@ Transform:
   m_GameObject: {fileID: 1448636474}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.64, y: 17.1, z: -8.700558}
+  m_LocalPosition: {x: 3.5, y: 17.46, z: -8.700558}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20691,6 +20640,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1621500513
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1621500514}
+  m_Layer: 0
+  m_Name: ChandelierMasterBedRoom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1621500514
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621500513}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.208767, y: 22.569906, z: -8.625684}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1631091562
 GameObject:
   m_ObjectHideFlags: 0
@@ -21186,6 +21166,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1667869070}
   m_CullTransparentMesh: 1
+--- !u!1 &1677957519
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1677957521}
+  - component: {fileID: 1677957520}
+  m_Layer: 0
+  m_Name: FatherPuzzleManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1677957520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1677957519}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc5b56fceea472947b3c99a6ee1d3ff9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  father: {fileID: 1019058095}
+  player: {fileID: 2106205422}
+  FailResetPoint: {fileID: 1448636475}
+--- !u!4 &1677957521
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1677957519}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 66.22872, y: 12.156572, z: -0.30730486}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1679604014
 GameObject:
   m_ObjectHideFlags: 0
@@ -24415,6 +24442,7 @@ GameObject:
   - component: {fileID: 1957277299}
   - component: {fileID: 1957277298}
   - component: {fileID: 1957277297}
+  - component: {fileID: 1957277300}
   m_Layer: 0
   m_Name: StudyRoomKey
   m_TagString: Untagged
@@ -24491,7 +24519,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1957277295}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6f29659fa38a92849910f9201eb860a0, type: 3}
   m_Name: 
@@ -24554,6 +24582,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1957277300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1957277295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d42a38f304b70594cb638469d2f480ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keyData: {fileID: 11400000, guid: 3fe27dbe354e8a34784622fb76ff4d68, type: 2}
+  pickupPrompt: {fileID: 1992658836}
+  keyObject: {fileID: 1957277295}
+  father: {fileID: 1019058095}
+  objectiveIndexToComplete: 1
 --- !u!1 &1958476381
 GameObject:
   m_ObjectHideFlags: 0
@@ -24641,8 +24686,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1958766136}
-  - component: {fileID: 1958766138}
   - component: {fileID: 1958766137}
+  - component: {fileID: 1958766138}
   m_Layer: 0
   m_Name: CompletedObjectiveTrigger_2
   m_TagString: Untagged
@@ -24659,7 +24704,7 @@ Transform:
   m_GameObject: {fileID: 1958766135}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -98.09, y: -2.94, z: 0}
+  m_LocalPosition: {x: 61.9, y: 59.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24679,8 +24724,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveIndex: 2
   puzzleStartTrigger: {fileID: 0}
-  keyToActivate: {fileID: 0}
   fatherPuzzleStartTrigger: {fileID: 0}
+  keyToActivate: {fileID: 0}
 --- !u!61 &1958766138
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24698,7 +24743,7 @@ BoxCollider2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_LayerOverridePriority: 0
+  m_LayerOverridePriority: 1
   m_ForceSendLayers:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -24725,7 +24770,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.34, y: 2.2}
+  m_Size: {x: 2.16, y: 3.06}
   m_EdgeRadius: 0
 --- !u!1 &1970221666
 GameObject:
@@ -25082,7 +25127,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: e1dad96b906570b4691e6687748c3322, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -26871,7 +26916,6 @@ SceneRoots:
   - {fileID: 594425972}
   - {fileID: 2145655904}
   - {fileID: 1173243306}
-  - {fileID: 1270934035}
   - {fileID: 1779905585}
   - {fileID: 926930342}
   - {fileID: 1340083010}
@@ -26879,6 +26923,7 @@ SceneRoots:
   - {fileID: 1764010614}
   - {fileID: 2106205417}
   - {fileID: 387451317}
+  - {fileID: 1019058094}
   - {fileID: 471267160}
   - {fileID: 567360193}
   - {fileID: 1575850926}
@@ -26887,8 +26932,9 @@ SceneRoots:
   - {fileID: 1010730156}
   - {fileID: 618304087}
   - {fileID: 1270037441}
-  - {fileID: 1019058094}
   - {fileID: 369745773}
   - {fileID: 1448636475}
   - {fileID: 1428601036}
   - {fileID: 1687666291}
+  - {fileID: 1677957521}
+  - {fileID: 1621500514}

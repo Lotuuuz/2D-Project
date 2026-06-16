@@ -12,6 +12,7 @@ public class GrandmaController : MonoBehaviour
     public bool keyCollected = false;
     private float timer;
     public Animator animator;
+    [SerializeField] private AudioClip[] knittingSoundClip;
 
     void Start()
     {
@@ -66,9 +67,11 @@ public class GrandmaController : MonoBehaviour
         animator.SetBool("isWarning", false);
 
         timer = idleTime;
+        SoundFXManager.Instance.PlayRandomSoundFXClip(knittingSoundClip, transform, 1f);
+
     }
 
-   public void StartWarningPhase()
+    public void StartWarningPhase()
     {
         isWarning = true;
         isLooking = false;

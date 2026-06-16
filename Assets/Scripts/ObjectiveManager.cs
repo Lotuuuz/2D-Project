@@ -75,7 +75,7 @@ public class ObjectiveManager : MonoBehaviour
     {
         if (index < 0 || index >= activeObjectives.Count)
         {
-            Debug.LogWarning("Objective index er utenfor range!");
+          //  Debug.LogWarning("Objective index er utenfor range!");
             return;
         }
 

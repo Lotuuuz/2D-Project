@@ -8,6 +8,8 @@ public class ObjectiveTrigger : MonoBehaviour
     {
         if (!collision.CompareTag("Player")) return;
 
+
+
         // *Sjekk om forrige objective er fullført*
         if (objectiveIndex > 0)
         {
@@ -18,7 +20,15 @@ public class ObjectiveTrigger : MonoBehaviour
         }
 
         ObjectiveManager.Instance.ActivateObjective(objectiveIndex);
-        Destroy(gameObject);
+
+
+
+
+        // Destroy(gameObject);
+        gameObject.SetActive(false);
+
     }
 
 }
+
+

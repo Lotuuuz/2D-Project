@@ -2,87 +2,89 @@
 
 public class FatherController : MonoBehaviour
 {
-    public Animator animator;
+    public bool isLooking = false;
+    public bool isWarning = false;
 
-    public float idleTime = 2.5f;
-    public float warningTime = 1.2f;
-    public float lookTime = 1.8f;
-
-    private float timer;
+    public float warningTime = 1.5f;
+    public float lookTime = 2f;
+    public float idleTime = 3f;
 
     public bool keyCollected = false;
-    public bool puzzleActive = false;
+    private float timer;
+    public Animator animator;
 
-    // Lesbare states for puzzle manager
-    public bool IsIdle => !animator.GetBool("isWarning") && !animator.GetBool("isLooking");
-    public bool IsWarning => animator.GetBool("isWarning");
-    public bool IsLooking => animator.GetBool("isLooking");
 
-    void Start()
-    {
-        SetIdle(); // faren starter alltid i Idle-Sleep
-    }
+    [SerializeField] private AudioClip[] fatherSnoreClips;
 
     void Update()
     {
-        // Puzzle ikke aktiv → faren skal sove
-        if (!puzzleActive)
-        {
-            SetIdle();
-            return;
-        }
-
-        // Hvis nøkkelen er tatt → avslutt puzzle og sett faren til Idle
+        // ⭐ Stopp alt hvis nøkkelen er plukket opp
         if (keyCollected)
         {
-            SetIdle();
-            puzzleActive = false;
+            isLooking = false;
+            isWarning = false;
+
+            animator.SetBool("isLooking", false);
+            animator.SetBool("isWarning", false);
+
+            animator.Play("Idle-Sleep"); // farens idle animasjon
             return;
         }
 
-        // Puzzle er aktiv → kjør faseloopen
         timer -= Time.deltaTime;
 
         if (timer <= 0)
         {
-            if (IsLooking)
-                SetIdle();
-            else if (IsWarning)
-                SetLooking();
-            else
-                SetWarning();
+            if (!isWarning && !isLooking)
+            {
+                StartWarningPhase();
+            }
+            else if (isWarning)
+            {
+                StartLookingPhase();
+            }
+            else if (isLooking)
+            {
+                StartIdlePhase();
+            }
         }
     }
 
-    // -------------------------
-    // FASEMETODER
-    // -------------------------
-
-    public void SetIdle()
+    public void StartIdlePhase()
     {
+        isWarning = false;
+        isLooking = false;
+
         animator.SetBool("isWarning", false);
         animator.SetBool("isLooking", false);
+
         timer = idleTime;
+
+
+        SoundFXManager.Instance.PlayRandomSoundFXClip(fatherSnoreClips, transform, 1f);
+
+
     }
 
-    public void SetWarning()
+    public void StartWarningPhase()
     {
+        isWarning = true;
+        isLooking = false;
+
         animator.SetBool("isWarning", true);
         animator.SetBool("isLooking", false);
+
         timer = warningTime;
     }
 
-    public void SetLooking()
+    public void StartLookingPhase()
     {
+        isWarning = false;
+        isLooking = true;
+
         animator.SetBool("isWarning", false);
         animator.SetBool("isLooking", true);
-        timer = lookTime;
-    }
 
-    // Kalles av PuzzleStartTrigger
-    public void ActivatePuzzle()
-    {
-        puzzleActive = true;
-        SetWarning(); // faren begynner å våkne
+        timer = lookTime;
     }
 }

@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keyName: Attick Rod
   keyDescription: Used to open attick door
-  keySprite: {fileID: -7126863128654795347, guid: 5be8e68722fd03a4790cc6dcc414b9bd, type: 3}
+  keySprite: {fileID: 21300000, guid: 5be8e68722fd03a4790cc6dcc414b9bd, type: 3}

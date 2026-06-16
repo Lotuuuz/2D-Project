@@ -7675,8 +7675,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveIndex: 1
   puzzleStartTrigger: {fileID: 0}
-  keyToActivate: {fileID: 0}
   fatherPuzzleStartTrigger: {fileID: 0}
+  keyToActivate: {fileID: 0}
 --- !u!1 &506511920 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5128329817333439347, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
@@ -10077,7 +10077,7 @@ MonoBehaviour:
   dayLight: {fileID: 1644028592}
   candleLight: {fileID: 857760794}
   night: 1
-  day: 2
+  day: 3
 --- !u!4 &699953425
 Transform:
   m_ObjectHideFlags: 0
@@ -24907,8 +24907,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveIndex: 0
   puzzleStartTrigger: {fileID: 0}
-  keyToActivate: {fileID: 0}
   fatherPuzzleStartTrigger: {fileID: 0}
+  keyToActivate: {fileID: 0}
 --- !u!1 &1763687278
 GameObject:
   m_ObjectHideFlags: 0
@@ -28119,6 +28119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundFXObject: {fileID: 7659400532120353459, guid: e0b6503b5a98126468a3a669fc7aab7b, type: 3}
+  fatherSnoreClips: []
 --- !u!4 &2025901374
 Transform:
   m_ObjectHideFlags: 0

@@ -1,63 +1,47 @@
 ﻿using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class CompleteObjectiveOnEnter : MonoBehaviour
 {
     [SerializeField] private int objectiveIndex;
-    public PuzzleStartTrigger puzzleStartTrigger;
+
+    public PuzzleStartTrigger puzzleStartTrigger;              // Bestemor
+    public FatherPuzzleStartTrigger fatherPuzzleStartTrigger;  // Faren
     public GameObject keyToActivate;
-    public  FatherPuzzleStartTrigger fatherPuzzleStartTrigger;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
-        if (!ObjectiveManager.Instance.IsCompleted(objectiveIndex - 1) && objectiveIndex != 0)
-        {
-            Debug.Log("hgfhg");
+        if (!collision.CompareTag("Player"))
             return;
 
-        }
-        if (collision.CompareTag("Player"))
+        // Sjekk om forrige objective er fullført (gjelder ikke objective 0)
+        if (!ObjectiveManager.Instance.IsCompleted(objectiveIndex - 1) && objectiveIndex != 0)
+            return;
+
+        // Fullfør dette objective
+        ObjectiveManager.Instance.CompleteObjective(objectiveIndex);
+
+        // ⭐ BESTEMORA sitt puzzle (objective 1)
+        if (objectiveIndex == 1)
         {
-            ObjectiveManager.Instance.CompleteObjective(objectiveIndex);
+            if (keyToActivate != null)
+                keyToActivate.SetActive(true);
 
-            // Når objective 1 fullføres:
-            if (objectiveIndex == 1)
-            {
-                // 1. Vis nøkkelen
-                if (keyToActivate != null)
-                    keyToActivate.SetActive(true);
-
-                // 2. Unlock puzzlet
-                if (puzzleStartTrigger != null)
-                    puzzleStartTrigger.puzzleUnlocked = true;
-            }
+            if (puzzleStartTrigger != null)
+                puzzleStartTrigger.puzzleUnlocked = true;
         }
 
-        if (collision.CompareTag("Player"))
+        // ⭐ FAREN sitt puzzle (objective 0)
+        if (objectiveIndex == 0)
         {
-            ObjectiveManager.Instance.CompleteObjective(objectiveIndex);
+            if (keyToActivate != null)
+                keyToActivate.SetActive(true);
 
-            // ⭐ FAR-PUZZLE STARTER HER
-            if (objectiveIndex == 0) // dette er objective som unlocker far-puzzlet
-            {
-                // 1. Unlock puzzle
-                if (fatherPuzzleStartTrigger != null)
-                    fatherPuzzleStartTrigger.puzzleUnlocked = true;
-
-                // 2. Vis nøkkelen (Study Key)
-                if (keyToActivate != null)
-                    keyToActivate.SetActive(true);
-            }
+            if (fatherPuzzleStartTrigger != null)
+                fatherPuzzleStartTrigger.puzzleUnlocked = true;
         }
-
-
-
-        Debug.Log("sletta");
-            Destroy(gameObject);
-        }
-
-
+        gameObject.SetActive(false);
 
     }
+}
+
 

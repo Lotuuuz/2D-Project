@@ -6,6 +6,9 @@ public class SoundFXManager : MonoBehaviour
 
     [SerializeField] private AudioSource soundFXObject;
 
+
+
+
     private void Awake()
     {
         if (Instance == null)
@@ -45,7 +48,15 @@ public class SoundFXManager : MonoBehaviour
         float clipLength = audioSource.clip.length;
 
         Destroy(audioSource.gameObject, clipLength);
+    }
+
+        public void PlaySnore(AudioClip clip)
+    {
+        SoundFXManager.Instance.soundFXObject.PlayOneShot(clip);
 
     }
 
+
 }
+
+
