@@ -70,6 +70,8 @@ public class DocumentManager : MonoBehaviour
     public void ExitDocumentScreen()
     {
         documentCanvas.SetActive(false);
+
+        Debug.Log("Exiting Document screen");
     }
 }
 

@@ -8,6 +8,8 @@ public class BoxMover : MonoBehaviour
     public Image fadeScreen;
     public GameObject interactIndicator;
 
+    [SerializeField] private AudioClip[] boxAudioClip;
+
     private bool playerInRange = false;
     private bool moved = false;
 
@@ -31,6 +33,8 @@ public class BoxMover : MonoBehaviour
     {
         //Fade to black
         yield return StartCoroutine(Fade(0, 1f));
+
+        SoundFXManager.Instance.PlayRandomSoundFXClip(boxAudioClip, transform, 1f);
 
         //Stays for a bit
         yield return new WaitForSeconds(2f);

@@ -3755,6 +3755,7 @@ GameObject:
   - component: {fileID: 348188425}
   - component: {fileID: 348188423}
   - component: {fileID: 348188426}
+  - component: {fileID: 348188427}
   m_Layer: 0
   m_Name: MasterBedroomKey
   m_TagString: Untagged
@@ -3896,6 +3897,20 @@ MonoBehaviour:
   keyObject: {fileID: 348188421}
   grandma: {fileID: 982469336}
   objectiveIndexToComplete: 2
+--- !u!114 &348188427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348188421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 620a9245efa2aa34b98dd1430cfc12d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToActivate:
+  - {fileID: 689029838}
 --- !u!1 &349882717
 GameObject:
   m_ObjectHideFlags: 0
@@ -3972,7 +3987,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 4
-  m_Sprite: {fileID: 21300000, guid: e1dad96b906570b4691e6687748c3322, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e32e0a1f59468bc419f8cd718d21b986, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7344,7 +7359,7 @@ GameObject:
   m_Component:
   - component: {fileID: 689029842}
   - component: {fileID: 689029841}
-  - component: {fileID: 689029839}
+  - component: {fileID: 689029843}
   m_Layer: 0
   m_Name: Scene Transition Trigger
   m_TagString: Untagged
@@ -7352,21 +7367,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &689029839
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 689029838}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cd1878e49b9d2c44a94bf0bd4feafc6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextSceneName: Level 3 (Night 2)
-  finalObjectiveIndex: 3
-  keyIndicator: {fileID: 1829856108}
 --- !u!61 &689029841
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7429,6 +7429,19 @@ Transform:
   - {fileID: 1829856109}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &689029843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689029838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e24c06a49592f3d45b5f8f0a9ba74e3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playSceneName: Level 3 (Night 2)
 --- !u!1 &698984064
 GameObject:
   m_ObjectHideFlags: 0
@@ -9924,7 +9937,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundFXObject: {fileID: 7659400532120353459, guid: e0b6503b5a98126468a3a669fc7aab7b, type: 3}
-  fatherSnoreClips: []
 --- !u!4 &870368495
 Transform:
   m_ObjectHideFlags: 0
@@ -13859,7 +13871,6 @@ GameObject:
   - component: {fileID: 1259274430}
   - component: {fileID: 1259274432}
   - component: {fileID: 1259274431}
-  - component: {fileID: 1259274433}
   m_Layer: 0
   m_Name: DialogueHandler
   m_TagString: Untagged
@@ -14001,20 +14012,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1259274433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1259274429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0f0c5fe2c8bfca49a38bc02dff92a58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectsToToggle:
-  - {fileID: 689029838}
 --- !u!1 &1260200611
 GameObject:
   m_ObjectHideFlags: 0
@@ -19467,7 +19464,7 @@ Transform:
   m_GameObject: {fileID: 1797889482}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.084, y: 0.595, z: 0}
+  m_LocalPosition: {x: 0.084, y: 0.258, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20070,7 +20067,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.084, y: 0.595, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+  m_LocalScale: {x: -0.2, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1118628657}

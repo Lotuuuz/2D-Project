@@ -1490,7 +1490,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &89195416
 Transform:
   m_ObjectHideFlags: 0
@@ -5819,9 +5819,9 @@ Transform:
   - {fileID: 1262426676}
   - {fileID: 1847739874}
   - {fileID: 72778819}
-  - {fileID: 522587419}
   - {fileID: 1637397240}
   - {fileID: 1335900643}
+  - {fileID: 1729577876}
   - {fileID: 108836875}
   - {fileID: 2119656017}
   - {fileID: 264496421}
@@ -6516,13 +6516,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1010730158}
+        m_TargetAssemblyTypeName: DocumentManager, Assembly-CSharp
+        m_MethodName: ExitDocumentScreen
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6566,113 +6566,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 520312221}
   m_CullTransparentMesh: 1
---- !u!1 &522587418
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 522587419}
-  - component: {fileID: 522587421}
-  - component: {fileID: 522587420}
-  m_Layer: 0
-  m_Name: DialogueTrigger (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &522587419
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 522587418}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 49.66, y: -17.86, z: -1.4255617}
-  m_LocalScale: {x: 5.13236, y: 3.5827699, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 471267160}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &522587420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 522587418}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7f023e9261528145afe0364dd1af948, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destroyAfterTriggering: 1
-  dialogueUICanvas: {fileID: 685421502}
-  speakerTextObject: {fileID: 143588686}
-  dialogueTextObject: {fileID: 1546816593}
-  portraitImageObject: {fileID: 946649264}
-  typingEffectSpeed: 0.02
-  playerMovementScript: {fileID: 2106205422}
-  speakerName:
-  - Little Girl
-  - Little Girl
-  dialogueLines:
-  - What happened down here?
-  - Why are there drag marks and scrapes in the floor?
-  portraitImages:
-  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
-  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
---- !u!61 &522587421
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 522587418}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!1 &525891138
 GameObject:
   m_ObjectHideFlags: 0
@@ -12014,11 +11907,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1010730154}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0f0c5fe2c8bfca49a38bc02dff92a58, type: 3}
+  m_Script: {fileID: 11500000, guid: 620a9245efa2aa34b98dd1430cfc12d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectsToToggle:
+  objectsToActivate:
   - {fileID: 1428601032}
+  - {fileID: 1729577875}
 --- !u!1 &1015643243
 GameObject:
   m_ObjectHideFlags: 0
@@ -17930,7 +17824,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1428601036}
   - component: {fileID: 1428601035}
-  - component: {fileID: 1428601033}
+  - component: {fileID: 1428601037}
   m_Layer: 0
   m_Name: Scene Transition Trigger
   m_TagString: Untagged
@@ -17938,21 +17832,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &1428601033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1428601032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cd1878e49b9d2c44a94bf0bd4feafc6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextSceneName: Level 4 (Day 2)
-  finalObjectiveIndex: 3
-  keyIndicator: {fileID: 63992910}
 --- !u!61 &1428601035
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18015,6 +17894,19 @@ Transform:
   - {fileID: 63992911}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1428601037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428601032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e24c06a49592f3d45b5f8f0a9ba74e3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playSceneName: Level 4 (Day 2)
 --- !u!1 &1436269821
 GameObject:
   m_ObjectHideFlags: 0
@@ -20791,6 +20683,7 @@ GameObject:
   - component: {fileID: 1637397240}
   - component: {fileID: 1637397242}
   - component: {fileID: 1637397241}
+  - component: {fileID: 1637397243}
   m_Layer: 0
   m_Name: DialogueTrigger (3)
   m_TagString: Untagged
@@ -20890,6 +20783,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1637397243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637397239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 620a9245efa2aa34b98dd1430cfc12d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToActivate:
+  - {fileID: 89195415}
 --- !u!1 &1640569748
 GameObject:
   m_ObjectHideFlags: 0
@@ -20959,7 +20866,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0
+  m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 000000005988de19
@@ -21807,6 +21714,113 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1729577875
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1729577876}
+  - component: {fileID: 1729577878}
+  - component: {fileID: 1729577877}
+  m_Layer: 0
+  m_Name: DialogueTrigger (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1729577876
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729577875}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -147.86, y: -59.62, z: -1.4255617}
+  m_LocalScale: {x: 3.1435707, y: 3.5827699, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 471267160}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1729577877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729577875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f023e9261528145afe0364dd1af948, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyAfterTriggering: 1
+  dialogueUICanvas: {fileID: 685421502}
+  speakerTextObject: {fileID: 143588686}
+  dialogueTextObject: {fileID: 1546816593}
+  portraitImageObject: {fileID: 946649264}
+  typingEffectSpeed: 0.02
+  playerMovementScript: {fileID: 2106205422}
+  speakerName:
+  - Little Girl
+  - Little Girl
+  dialogueLines:
+  - I have to get down to the safehouse.
+  - There has to be answers down there!
+  portraitImages:
+  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
+  - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
+--- !u!61 &1729577878
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729577875}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1763687278
 GameObject:
   m_ObjectHideFlags: 0
@@ -25945,7 +25959,7 @@ Transform:
   m_GameObject: {fileID: 2106205412}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16, y: -54.1, z: 0}
+  m_LocalPosition: {x: -16.3, y: -54.15, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
