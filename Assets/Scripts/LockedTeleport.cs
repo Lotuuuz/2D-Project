@@ -8,7 +8,16 @@ public class LockedTeleport : MonoBehaviour
     [Header("Teleport Destination")]
     public Transform teleportPoint;
 
+    [Header("UI")]
+    public GameObject eIndicator;
+
     private bool playerInRange;
+
+    private void Start()
+    {
+        if (eIndicator != null)
+            eIndicator.SetActive(false);
+    }
 
     private void Update()
     {
@@ -37,6 +46,9 @@ public class LockedTeleport : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInRange = true;
+
+            if (eIndicator != null)
+                eIndicator.SetActive(true);
         }
     }
 
@@ -45,6 +57,9 @@ public class LockedTeleport : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInRange = false;
+
+            if (eIndicator != null)
+                eIndicator.SetActive(false);
         }
     }
 }
