@@ -6315,7 +6315,7 @@ Transform:
   m_GameObject: {fileID: 513431760}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.88, y: 7.47, z: 0}
+  m_LocalPosition: {x: 14.7, y: 7.47, z: 0}
   m_LocalScale: {x: 1, y: 4.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8661,7 +8661,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b538e286f27032f4fbe1599b89efbdd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  teleportBool: {fileID: 390879198}
+  teleportBool: {fileID: 74924922}
 --- !u!114 &656760983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9051,7 +9051,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToToggle:
   - {fileID: 1606537880}
-  - {fileID: 1741507317}
   - {fileID: 1854472930}
 --- !u!61 &687623458
 BoxCollider2D:
@@ -9108,7 +9107,7 @@ Transform:
   m_GameObject: {fileID: 687623456}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 58.07, y: 17.29, z: 0}
+  m_LocalPosition: {x: 55.25, y: 17.29, z: 0}
   m_LocalScale: {x: 1, y: 4.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16118,7 +16117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b538e286f27032f4fbe1599b89efbdd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  teleportBool: {fileID: 390879198}
+  teleportBool: {fileID: 1097652882}
 --- !u!114 &1256938360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16376,7 +16375,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: f8ef2781af7e127499b046becdb300a2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7218d6cdd7c24e5409fe534739159edd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -21273,7 +21272,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1644028593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25383,6 +25382,7 @@ GameObject:
   - component: {fileID: 2043735837}
   - component: {fileID: 2043735838}
   - component: {fileID: 2043735839}
+  - component: {fileID: 2043735840}
   m_Layer: 0
   m_Name: DialogueHandler
   m_TagString: Untagged
@@ -25499,6 +25499,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToToggle:
   - {fileID: 947002514}
+--- !u!114 &2043735840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2043735835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 620a9245efa2aa34b98dd1430cfc12d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToActivate:
+  - {fileID: 1741507317}
 --- !u!1 &2052308504
 GameObject:
   m_ObjectHideFlags: 0

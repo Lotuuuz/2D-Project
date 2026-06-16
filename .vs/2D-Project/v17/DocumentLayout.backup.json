@@ -3,11 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\assets\\scripts\\monstercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monstercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\assets\\scripts\\monsterdeath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monsterdeath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|c:\\users\\jonam\\kristiania\\projects\\games\\2d-project\\assets\\scripts\\stairteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stairteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|c:\\users\\jonam\\kristiania\\projects\\games\\2d-project\\assets\\scripts\\objectdeactivator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectdeactivator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|c:\\users\\jonam\\kristiania\\projects\\games\\2d-project\\assets\\scripts\\objectactivator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectactivator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|c:\\users\\jonam\\kristiania\\projects\\games\\2d-project\\assets\\scripts\\objecttoggler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\assets\\scripts\\objecttoggler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objecttoggler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,20 +51,12 @@
       "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monstermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\assets\\scripts\\monstercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monstercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\assets\\scripts\\movementplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movementplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\assets\\scripts\\resettableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\resettableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\assets\\scripts\\monsterdeath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monsterdeath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07BE06AF-E083-05B8-C495-929DCA2CDC7A}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\assets\\scripts\\playerdeath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,11 +70,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "StairTeleport.cs",
+              "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\StairTeleport.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StairTeleport.cs",
+              "ToolTip": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\StairTeleport.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StairTeleport.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwFsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T21:21:35.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MonsterDeath.cs",
+              "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\MonsterDeath.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MonsterDeath.cs",
+              "ToolTip": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\MonsterDeath.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MonsterDeath.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T19:53:41.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ObjectDeactivator.cs",
+              "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\ObjectDeactivator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectDeactivator.cs",
+              "ToolTip": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\ObjectDeactivator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ObjectDeactivator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T21:16:18.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ObjectActivator.cs",
               "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\ObjectActivator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectActivator.cs",
@@ -79,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "TriggerRegister.cs",
               "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\TriggerRegister.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerRegister.cs",
@@ -91,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "MovementPlayer.cs",
               "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\MovementPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MovementPlayer.cs",
@@ -103,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "MonsterTrigger.cs",
               "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\MonsterTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MonsterTrigger.cs",
@@ -115,19 +162,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "MonsterController.cs",
               "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\MonsterController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MonsterController.cs",
               "ToolTip": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\MonsterController.cs",
               "RelativeToolTip": "Assets\\Scripts\\MonsterController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAA2wDwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwAwAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T20:21:31.15Z"
+              "WhenOpened": "2026-06-15T20:21:31.15Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "MonsterRegister.cs",
               "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\MonsterRegister.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MonsterRegister.cs",
@@ -139,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "ResettableObject.cs",
               "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\ResettableObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ResettableObject.cs",
@@ -151,19 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MonsterDeath.cs",
-              "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\MonsterDeath.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MonsterDeath.cs",
-              "ToolTip": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\MonsterDeath.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MonsterDeath.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T19:53:41.713Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "PlayerDeath.cs",
               "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\PlayerDeath.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerDeath.cs",
@@ -175,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ObjectToggler.cs",
               "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\ObjectToggler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectToggler.cs",
@@ -183,12 +219,11 @@
               "RelativeToolTip": "Assets\\Scripts\\ObjectToggler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T18:50:34.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-15T18:50:34.142Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "MonsterMovement.cs",
               "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\MonsterMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MonsterMovement.cs",
@@ -200,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "CheckpointTrigger.cs",
               "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\CheckpointTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CheckpointTrigger.cs",
@@ -212,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "CheckpointManager.cs",
               "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\2D-Project\\Assets\\Scripts\\CheckpointManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CheckpointManager.cs",

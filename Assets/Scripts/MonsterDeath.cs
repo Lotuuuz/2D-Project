@@ -20,7 +20,7 @@ public class MonsterDeath : MonoBehaviour
 
     private IEnumerator DelayedDeath(PlayerDeath playerDeath)
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(2f);
 
         if (playerDeath != null)
         {

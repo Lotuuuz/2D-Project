@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f8ef2781af7e127499b046becdb300a2
+guid: 7218d6cdd7c24e5409fe534739159edd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7911822267688317549
-    second: Full House 1_0
+      213: 6146475896363675025
+    second: House Background 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Full House 1_0
+      name: House Background 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d62769f0f607ccd60800000000000000
-      internalID: 7911822267688317549
+      spriteID: 19de147234bac4550800000000000000
+      internalID: 6146475896363675025
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Full House 1_0: 7911822267688317549
+      House Background 1_0: 6146475896363675025
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

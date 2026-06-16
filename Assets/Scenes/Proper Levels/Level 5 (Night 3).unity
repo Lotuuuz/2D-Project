@@ -5884,6 +5884,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   direction: 0
+  canMove: 0
 --- !u!50 &406504185
 Rigidbody2D:
   serializedVersion: 5
@@ -18081,7 +18082,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: f8ef2781af7e127499b046becdb300a2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7218d6cdd7c24e5409fe534739159edd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -23390,7 +23391,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000
