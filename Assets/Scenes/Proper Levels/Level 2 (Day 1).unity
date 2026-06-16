@@ -667,6 +667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2ffed684523e754789fc29de92d6389, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogueSystem: {fileID: 2043735838}
   CharacterPageManager: {fileID: 2119735079}
   movementPlayer: {fileID: 2106205422}
   pageTurn:
@@ -678,6 +679,7 @@ MonoBehaviour:
   menuPage: {fileID: 1141555995}
   objectivePage: {fileID: 1354219502}
   characterPage: {fileID: 2119735077}
+  isOpen: 0
   keyListUI: {fileID: 1141555997}
 --- !u!4 &60538177
 Transform:
@@ -1316,6 +1318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 000c0a7734c0b79448a6039460d38aec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  journalManager: {fileID: 0}
   dialogueCanvas: {fileID: 685421502}
   speakerText: {fileID: 143588686}
   dialogueText: {fileID: 1546816593}
@@ -1338,6 +1341,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: d4b5ed4f0c683e74a8bed0bd574376e2, type: 3}
   - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
   - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
+  dialogueIsOpen: 0
 --- !u!1 &89464704
 GameObject:
   m_ObjectHideFlags: 0
@@ -2719,6 +2723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 000c0a7734c0b79448a6039460d38aec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  journalManager: {fileID: 60538176}
   dialogueCanvas: {fileID: 685421502}
   speakerText: {fileID: 143588686}
   dialogueText: {fileID: 1546816593}
@@ -2753,6 +2758,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
   - {fileID: 21300000, guid: 0bb0ff42f8b789c40994cd47d63c7260, type: 3}
   - {fileID: 21300000, guid: 0bb0ff42f8b789c40994cd47d63c7260, type: 3}
+  dialogueIsOpen: 0
 --- !u!61 &215869437
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10381,6 +10387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 000c0a7734c0b79448a6039460d38aec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  journalManager: {fileID: 60538176}
   dialogueCanvas: {fileID: 685421502}
   speakerText: {fileID: 143588686}
   dialogueText: {fileID: 1546816593}
@@ -10403,6 +10410,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 5c33659e767f2b7419999502d98c9a14, type: 3}
   - {fileID: 21300000, guid: eee88bfae69d1a041925a78d37aa3101, type: 3}
   - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
+  dialogueIsOpen: 0
 --- !u!61 &923446607
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13905,6 +13913,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 000c0a7734c0b79448a6039460d38aec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  journalManager: {fileID: 60538176}
   dialogueCanvas: {fileID: 685421502}
   speakerText: {fileID: 143588686}
   dialogueText: {fileID: 1546816593}
@@ -13966,6 +13975,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: a6a32367a2307404691050a38b70e3eb, type: 3}
   - {fileID: 21300000, guid: d4b5ed4f0c683e74a8bed0bd574376e2, type: 3}
   - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
+  dialogueIsOpen: 0
 --- !u!61 &1259274432
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16826,6 +16836,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 000c0a7734c0b79448a6039460d38aec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  journalManager: {fileID: 0}
   dialogueCanvas: {fileID: 685421502}
   speakerText: {fileID: 143588686}
   dialogueText: {fileID: 1546816593}
@@ -16848,6 +16859,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
   - {fileID: 21300000, guid: 5c33659e767f2b7419999502d98c9a14, type: 3}
   - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
+  dialogueIsOpen: 0
 --- !u!1 &1504299992
 GameObject:
   m_ObjectHideFlags: 0
@@ -18404,6 +18416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 000c0a7734c0b79448a6039460d38aec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  journalManager: {fileID: 60538176}
   dialogueCanvas: {fileID: 685421502}
   speakerText: {fileID: 143588686}
   dialogueText: {fileID: 1546816593}
@@ -18426,6 +18439,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 2ae1832daee64b44ca3c737f1c8b6092, type: 3}
   - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
   - {fileID: 21300000, guid: 2d2d8eb13efb8654e958d57a098fe5dd, type: 3}
+  dialogueIsOpen: 0
 --- !u!61 &1675342693
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21647,6 +21661,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 000c0a7734c0b79448a6039460d38aec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  journalManager: {fileID: 60538176}
   dialogueCanvas: {fileID: 685421502}
   speakerText: {fileID: 143588686}
   dialogueText: {fileID: 1546816593}
@@ -21702,6 +21717,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 43af88c6cb73f5a41a2565dd76b9cc0b, type: 3}
   - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
   - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
+  dialogueIsOpen: 0
 --- !u!114 &2043735839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22154,6 +22170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 000c0a7734c0b79448a6039460d38aec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  journalManager: {fileID: 60538176}
   dialogueCanvas: {fileID: 685421502}
   speakerText: {fileID: 143588686}
   dialogueText: {fileID: 1546816593}
@@ -22176,6 +22193,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 06a5c796bc5962743bba30c049f6dcc9, type: 3}
   - {fileID: 21300000, guid: f3bfdca4525a391469ec300b6f7beccb, type: 3}
   - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
+  dialogueIsOpen: 0
 --- !u!61 &2057076824
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23721,9 +23739,9 @@ SceneRoots:
   - {fileID: 1937804041}
   - {fileID: 45806456}
   - {fileID: 146958369}
+  - {fileID: 60538177}
   - {fileID: 919701373}
   - {fileID: 926930342}
-  - {fileID: 60538177}
   - {fileID: 164528389}
   - {fileID: 1815226805}
   - {fileID: 2106205417}

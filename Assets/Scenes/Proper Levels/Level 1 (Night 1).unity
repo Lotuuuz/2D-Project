@@ -5382,8 +5382,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveIndex: 2
   puzzleStartTrigger: {fileID: 0}
-  keyToActivate: {fileID: 0}
   fatherPuzzleStartTrigger: {fileID: 0}
+  keyToActivate: {fileID: 0}
 --- !u!1 &420562884
 GameObject:
   m_ObjectHideFlags: 0
@@ -18747,8 +18747,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveIndex: 1
   puzzleStartTrigger: {fileID: 0}
-  keyToActivate: {fileID: 0}
   fatherPuzzleStartTrigger: {fileID: 0}
+  keyToActivate: {fileID: 0}
 --- !u!1 &1426149609
 GameObject:
   m_ObjectHideFlags: 0
@@ -22911,8 +22911,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveIndex: 0
   puzzleStartTrigger: {fileID: 0}
-  keyToActivate: {fileID: 0}
   fatherPuzzleStartTrigger: {fileID: 0}
+  keyToActivate: {fileID: 0}
 --- !u!1 &1838136802
 GameObject:
   m_ObjectHideFlags: 0
@@ -23047,8 +23047,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectiveIndex: 3
   puzzleStartTrigger: {fileID: 0}
-  keyToActivate: {fileID: 0}
   fatherPuzzleStartTrigger: {fileID: 0}
+  keyToActivate: {fileID: 0}
 --- !u!61 &1848193645
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24813,6 +24813,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1871879479}
     - target: {fileID: 6746126958295517658, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
+      propertyPath: dialogueSystem
+      value: 
+      objectReference: {fileID: 2043735838}
+    - target: {fileID: 6746126958295517658, guid: f043e7a6ff8a2f046b93a4be6c910924, type: 3}
       propertyPath: movementPlayer
       value: 
       objectReference: {fileID: 1277766071}
@@ -25463,6 +25467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 000c0a7734c0b79448a6039460d38aec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  journalManager: {fileID: 838245579}
   dialogueCanvas: {fileID: 685421502}
   speakerText: {fileID: 143588686}
   dialogueText: {fileID: 1546816593}
@@ -25485,6 +25490,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 7974f0af01e77c2459ba5035c58aff24, type: 3}
   - {fileID: 21300000, guid: 43af88c6cb73f5a41a2565dd76b9cc0b, type: 3}
   - {fileID: 21300000, guid: 43af88c6cb73f5a41a2565dd76b9cc0b, type: 3}
+  dialogueIsOpen: 0
 --- !u!114 &2043735839
 MonoBehaviour:
   m_ObjectHideFlags: 0

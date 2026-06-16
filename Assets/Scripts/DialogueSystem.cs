@@ -7,6 +7,8 @@ using System.Collections;
 
 public class DialogueSystem : MonoBehaviour
 {
+    public JournalManager journalManager;
+
     [Header(" Dialogue UI References")]
     //Dialogue UI variables
     [SerializeField] private GameObject dialogueCanvas;
@@ -38,7 +40,7 @@ public class DialogueSystem : MonoBehaviour
 
 
     //Internal variables
-    private bool dialogueActiviated;
+    [HideInInspector] public bool dialogueActiviated;
 
     private int step;
 
@@ -46,7 +48,7 @@ public class DialogueSystem : MonoBehaviour
     // When you press the interact button (V), either activate the dialogue, or go to next line
     void Update()
     {
-        if (Input.GetButtonDown("Interact") && dialogueActiviated == true && canContinueText)
+        if (Input.GetButtonDown("Interact") && dialogueActiviated == true && canContinueText && journalManager.isOpen == false)
         {
             movementPlayer.enabled = false;
             

@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class JournalManager : MonoBehaviour
 {
-   
+
     
     public CharacterPageManager CharacterPageManager;
     public MovementPlayer movementPlayer;
@@ -23,7 +23,7 @@ public class JournalManager : MonoBehaviour
     public GameObject objectivePage;
     public GameObject characterPage;
 
-    private bool isOpen = false;
+    [HideInInspector] public bool isOpen = false;
     public KeyListUI keyListUI;
 
     void Start()
