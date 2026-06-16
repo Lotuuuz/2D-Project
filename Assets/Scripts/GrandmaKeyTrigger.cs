@@ -15,7 +15,7 @@ public class GrandmaKeyTrigger : MonoBehaviour
 
     private void Update()
     {
-        if (playerInRange && Input.GetKeyDown(KeyCode.E))
+        if (playerInRange && Input.GetKeyDown(KeyCode.E) && grandma.puzzleActivate)
         {
             // Legg nøkkelen i inventory
             KeyInventory.Instance.AddKey(keyData);

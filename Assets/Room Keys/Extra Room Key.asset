@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c853f5f305a496f4ab97bf50fc6e9e67, type: 3}
   m_Name: Extra Room Key
   m_EditorClassIdentifier: 
-  keyName: ExtraRoomKey
-  keyDescription: 'Unlocks extra room door '
+  keyName: Extra Room Key
+  keyDescription: 
   keySprite: {fileID: 0}

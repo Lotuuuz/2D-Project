@@ -902,6 +902,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   requiredKey: Key6
   teleportPoint: {fileID: 1037801784}
+  eIndicator: {fileID: 0}
 --- !u!61 &37403449
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4191,6 +4192,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 838245579}
+    - target: {fileID: 4845359824009635715, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5128329817333439347, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5343594495628234433, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: 'familyMembers.Array.data[4].nightDescriptions.Array.data[0]'
       value: I can hear grandma crying from the walls, why is she crying?
@@ -4203,6 +4212,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 838245579}
+    - target: {fileID: 7904036550597557065, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -566
+      objectReference: {fileID: 0}
+    - target: {fileID: 7904036550597557065, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 8371797389788680749, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_Navigation.m_Mode
       value: -1
@@ -5191,7 +5208,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &414491308
 Transform:
   m_ObjectHideFlags: 0
@@ -7722,6 +7739,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportBool: {fileID: 390879198}
+  secondsToWait: 2
 --- !u!114 &599810043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8662,6 +8680,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportBool: {fileID: 74924922}
+  secondsToWait: 2
 --- !u!114 &656760983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10485,7 +10504,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &781822743
 Transform:
   m_ObjectHideFlags: 0
@@ -16118,6 +16137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportBool: {fileID: 1097652882}
+  secondsToWait: 2
 --- !u!114 &1256938360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16646,7 +16666,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1289666578
 Transform:
   m_ObjectHideFlags: 0
@@ -17572,6 +17592,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   requiredKey: Key6
   teleportPoint: {fileID: 123104125}
+  eIndicator: {fileID: 0}
 --- !u!61 &1357024165
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21201,7 +21222,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1637334178
 Transform:
   m_ObjectHideFlags: 0
@@ -21236,7 +21257,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1640569749
 Transform:
   m_ObjectHideFlags: 0
@@ -21787,6 +21808,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7f485e5974179d4aa81eea64a0493d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ladderSoundClip: []
   ladder: {fileID: 0}
   secondFloorSpawn: {fileID: 0}
   atticRodKey: {fileID: 11400000, guid: d5a7ccc2181baac41b9aa9d2c4fdd132, type: 2}
@@ -23495,7 +23517,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1858724907
 Transform:
   m_ObjectHideFlags: 0

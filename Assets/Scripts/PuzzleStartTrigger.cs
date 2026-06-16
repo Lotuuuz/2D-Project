@@ -14,6 +14,9 @@ public class PuzzleStartTrigger : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             grandma.enabled = true;
+
+            grandma.puzzleActivate = true;
+
             grandma.StartWarningPhase();   // start rett i lookup-start
 
             puzzleManager.enabled = true;

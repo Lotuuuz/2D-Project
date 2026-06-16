@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Bedroom 3 Key
   m_EditorClassIdentifier: 
   keyName: Younger brother's bedroom key
-  keyDescription: 'Unlocks younger brother''s bedroom door '
+  keyDescription: 
   keySprite: {fileID: 21300000, guid: 78251e4ed8b39f94bb2a5d477bd8d653, type: 3}

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c853f5f305a496f4ab97bf50fc6e9e67, type: 3}
   m_Name: Bedroom 1 Key
   m_EditorClassIdentifier: 
-  keyName: Aunt's bedroom
-  keyDescription: 'Unlocks aunt''s bedroom door '
+  keyName: Aunt's bedroom key
+  keyDescription: 
   keySprite: {fileID: 21300000, guid: 78251e4ed8b39f94bb2a5d477bd8d653, type: 3}

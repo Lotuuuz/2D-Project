@@ -2397,7 +2397,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 0bb0ff42f8b789c40994cd47d63c7260, type: 3}
     - target: {fileID: 5761533885813291336, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -11
+      value: -140
       objectReference: {fileID: 0}
     - target: {fileID: 6513692637400991358, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_IsActive
@@ -2447,14 +2447,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2489803948564354617, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
     m_RemovedGameObjects:
     - {fileID: 4446866600864121373, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 2980151844171711900, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       insertIndex: -1
       addedObject: {fileID: 267618370}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6820207685707162127, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1187621315}
   m_SourcePrefab: {fileID: 100100000, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
 --- !u!224 &164528390 stripped
 RectTransform:
@@ -3892,7 +3896,7 @@ BoxCollider2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_LayerOverridePriority: 0
+  m_LayerOverridePriority: 1
   m_ForceSendLayers:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -11043,6 +11047,7 @@ MonoBehaviour:
   lookTime: 1.5
   idleTime: 2
   keyCollected: 0
+  puzzleActivate: 0
   animator: {fileID: 982469335}
   knittingSoundClip:
   - {fileID: 8300000, guid: e04d28626b06c6b4a89a74705e320291, type: 3}
@@ -13156,6 +13161,35 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1560856060}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1187621312 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6820207685707162127, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
+  m_PrefabInstance: {fileID: 164528389}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1187621315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187621312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 100, y: 100}
+  m_Spacing: {x: 210, y: 27}
+  m_Constraint: 0
+  m_ConstraintCount: 2
 --- !u!1 &1196171756
 GameObject:
   m_ObjectHideFlags: 0

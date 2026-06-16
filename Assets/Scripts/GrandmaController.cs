@@ -10,6 +10,8 @@ public class GrandmaController : MonoBehaviour
     public float idleTime = 3f;      // hvor lenge hun strikker
 
     public bool keyCollected = false;
+    public bool puzzleActivate;
+
     private float timer;
     public Animator animator;
     [SerializeField] private AudioClip[] knittingSoundClip;
