@@ -108,6 +108,12 @@ public class LadderMover : MonoBehaviour
             if (interactIndicator != null)
                 interactIndicator.SetActive(true);
         }
+
+        if (other.CompareTag("Player"))
+        {
+            Debug.Log("Entered trigger");
+        }
+
     }
 
     private void OnTriggerExit2D(Collider2D other)
