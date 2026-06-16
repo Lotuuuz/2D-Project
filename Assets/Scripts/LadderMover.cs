@@ -4,6 +4,9 @@ using System.Collections;
 
 public class LadderMover : MonoBehaviour
 {
+    [SerializeField] private AudioClip[] ladderSoundClip;
+
+
     [Header("Ladder Setup")]
     public GameObject ladder;
     public Transform secondFloorSpawn;
@@ -13,7 +16,7 @@ public class LadderMover : MonoBehaviour
 
     [Header("UI")]
     public Image fadeScreen;
-    public GameObject interactIndicator;
+    public SpriteRenderer interactIndicator;
 
     private bool playerInRange = false;
     private bool activated = false;
@@ -24,7 +27,7 @@ public class LadderMover : MonoBehaviour
             ladder.SetActive(false);
 
         if (interactIndicator != null)
-            interactIndicator.SetActive(false);
+            interactIndicator.enabled = false;
     }
 
     private void Update()
@@ -35,9 +38,6 @@ public class LadderMover : MonoBehaviour
             HasAtticRod())
         {
             activated = true;
-
-            if (interactIndicator != null)
-                interactIndicator.SetActive(false);
 
             StartCoroutine(ActivateLadder());
         }
@@ -51,6 +51,8 @@ public class LadderMover : MonoBehaviour
 
     IEnumerator ActivateLadder()
     {
+        SoundFXManager.Instance.PlayRandomSoundFXClip(ladderSoundClip, transform, 1f);
+
         // Fade to black
         yield return StartCoroutine(Fade(0f, 1f));
 
@@ -99,6 +101,8 @@ public class LadderMover : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+
+
         if (other.CompareTag("Player") &&
             !activated &&
             HasAtticRod())
@@ -106,7 +110,7 @@ public class LadderMover : MonoBehaviour
             playerInRange = true;
 
             if (interactIndicator != null)
-                interactIndicator.SetActive(true);
+                interactIndicator.enabled = true;
         }
 
         if (other.CompareTag("Player"))
@@ -123,7 +127,7 @@ public class LadderMover : MonoBehaviour
             playerInRange = false;
 
             if (interactIndicator != null)
-                interactIndicator.SetActive(false);
+                interactIndicator.enabled = false;
         }
     }
 }
