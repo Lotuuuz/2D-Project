@@ -1158,7 +1158,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &101138351
 Transform:
   m_ObjectHideFlags: 0
@@ -3138,7 +3138,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: bc2202e13efa7f9479948d236eb6be34, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.24705882}
   m_FlipX: 0
@@ -3168,7 +3168,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &345495305
 Transform:
   m_ObjectHideFlags: 0
@@ -5362,7 +5362,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &535305512
 Transform:
   m_ObjectHideFlags: 0
@@ -9956,7 +9956,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &896382534
 Transform:
   m_ObjectHideFlags: 0
@@ -12368,7 +12368,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1106269544
 Transform:
   m_ObjectHideFlags: 0
@@ -14920,7 +14920,7 @@ MonoBehaviour:
     completed: 0
   - text: Go to the basement
     completed: 0
-  - text: 'Wait for night time to arrive '
+  - text: Wait for night in bed
     completed: 0
   activeObjectives: []
 --- !u!1 &1355242704
@@ -17194,7 +17194,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5761533885813291336, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 230
+      value: -16
       objectReference: {fileID: 0}
     - target: {fileID: 6513692637400991358, guid: ec5d398ea393e5d46863349a9451e738, type: 3}
       propertyPath: m_IsActive
@@ -18450,7 +18450,7 @@ MonoBehaviour:
   typingSpeed: 0.02
   movementPlayer: {fileID: 2106205422}
   speaker:
-  - LIttle Girl
+  - Little Girl
   - Grandpa
   - Little Girl
   - Grandpa

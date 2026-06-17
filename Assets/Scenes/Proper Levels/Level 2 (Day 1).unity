@@ -1157,7 +1157,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: bc2202e13efa7f9479948d236eb6be34, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.24705882}
   m_FlipX: 0
@@ -5636,7 +5636,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.20784315, g: 0.13725491, b: 0.1137255, a: 1}
   m_FlipX: 0
@@ -11358,7 +11358,7 @@ Transform:
   m_GameObject: {fileID: 1017556957}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 50.94, y: 59.69, z: 0}
+  m_LocalPosition: {x: 44.73, y: 59.69, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22138,8 +22138,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2043735836}
   - component: {fileID: 2043735837}
-  - component: {fileID: 2043735839}
   - component: {fileID: 2043735838}
+  - component: {fileID: 2043735840}
+  - component: {fileID: 2043735839}
   m_Layer: 0
   m_Name: DialogueHandler
   m_TagString: Untagged
@@ -22286,11 +22287,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 2043735835}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0f0c5fe2c8bfca49a38bc02dff92a58, type: 3}
+  m_Script: {fileID: 11500000, guid: 24dcf332153300949bc1f393d1344d2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectsToToggle:
+  objectsToDeactivate:
   - {fileID: 89195415}
+--- !u!114 &2043735840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2043735835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 620a9245efa2aa34b98dd1430cfc12d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToActivate:
   - {fileID: 430993402}
 --- !u!1 &2044681483
 GameObject:
