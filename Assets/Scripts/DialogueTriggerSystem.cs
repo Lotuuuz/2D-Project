@@ -2,7 +2,6 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using System.Runtime.CompilerServices;
-using UnityEditor.Tilemaps;
 using System.Collections;
 
 public class DialogueTriggerSystem : MonoBehaviour
