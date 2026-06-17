@@ -3545,7 +3545,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &275269829
 Transform:
   m_ObjectHideFlags: 0
@@ -6734,7 +6734,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &628261608
 Transform:
   m_ObjectHideFlags: 0
@@ -9393,6 +9393,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8234695876096435492, guid: 178782b7de22c284a91896df7d63e97c, type: 3}
+      propertyPath: collectedKeys.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8234695876096435492, guid: 178782b7de22c284a91896df7d63e97c, type: 3}
+      propertyPath: 'collectedKeys.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 5b02b7aacc583ee4fa2336faa28075a3, type: 2}
     - target: {fileID: 8295496274636695689, guid: 178782b7de22c284a91896df7d63e97c, type: 3}
       propertyPath: m_Name
       value: KeyInventory
@@ -13757,7 +13765,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1241694000
 Transform:
   m_ObjectHideFlags: 0
@@ -17175,7 +17183,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1504299993
 Transform:
   m_ObjectHideFlags: 0
@@ -21058,7 +21066,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e025de75d22bdd341bc8424461d559f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredKey: Key6
+  requiredKey: MasterBedroomKey
   teleportPoint: {fileID: 1339077284}
   eIndicator: {fileID: 277016504}
 --- !u!61 &1937415642
@@ -21156,8 +21164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac4eee88c461484448a5f14f3cb69b5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectedKeys:
-  - {fileID: 11400000, guid: 4bb83b66e2ab92449a1cb6a99a2898d4, type: 2}
+  collectedKeys: []
 --- !u!4 &1937804041
 Transform:
   m_ObjectHideFlags: 0
@@ -23125,7 +23132,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2077649203
 Transform:
   m_ObjectHideFlags: 0
