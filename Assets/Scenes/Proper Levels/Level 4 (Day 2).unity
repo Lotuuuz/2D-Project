@@ -2288,7 +2288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 000c0a7734c0b79448a6039460d38aec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  journalManager: {fileID: 0}
+  journalManager: {fileID: 852846622}
   dialogueCanvas: {fileID: 685421502}
   speakerText: {fileID: 143588686}
   dialogueText: {fileID: 1546816593}
@@ -14087,7 +14087,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 000c0a7734c0b79448a6039460d38aec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  journalManager: {fileID: 0}
+  journalManager: {fileID: 852846622}
   dialogueCanvas: {fileID: 685421502}
   speakerText: {fileID: 143588686}
   dialogueText: {fileID: 1546816593}
@@ -17324,7 +17324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 000c0a7734c0b79448a6039460d38aec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  journalManager: {fileID: 0}
+  journalManager: {fileID: 852846622}
   dialogueCanvas: {fileID: 685421502}
   speakerText: {fileID: 143588686}
   dialogueText: {fileID: 1546816593}
@@ -18957,7 +18957,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 000c0a7734c0b79448a6039460d38aec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  journalManager: {fileID: 0}
+  journalManager: {fileID: 852846622}
   dialogueCanvas: {fileID: 685421502}
   speakerText: {fileID: 143588686}
   dialogueText: {fileID: 1546816593}
@@ -22740,7 +22740,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 000c0a7734c0b79448a6039460d38aec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  journalManager: {fileID: 0}
+  journalManager: {fileID: 852846622}
   dialogueCanvas: {fileID: 685421502}
   speakerText: {fileID: 143588686}
   dialogueText: {fileID: 1546816593}
@@ -23038,7 +23038,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 000c0a7734c0b79448a6039460d38aec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  journalManager: {fileID: 0}
+  journalManager: {fileID: 852846622}
   dialogueCanvas: {fileID: 685421502}
   speakerText: {fileID: 143588686}
   dialogueText: {fileID: 1546816593}
